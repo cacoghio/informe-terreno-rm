@@ -1,0 +1,365 @@
+{
+  "dato": {
+    "sello": "dato",
+    "n_sitios": 24,
+    "n_por_nivel": {
+      "A": 8,
+      "B": 9,
+      "C": 7
+    },
+    "rmse_medio_m": {
+      "B": 5.4,
+      "A": 1.98,
+      "C": 7.58
+    },
+    "rmse_mediana_m": {
+      "B": 3.15,
+      "A": 1.71,
+      "C": 6.91
+    },
+    "ordenado": true,
+    "suficiente": true,
+    "spearman": 0.73,
+    "discrimina": true
+  },
+  "lote": {
+    "sello": "lote",
+    "n_sitios": 24,
+    "n_por_nivel": {
+      "A": 13,
+      "B": 4,
+      "C": 7
+    },
+    "rmse_medio_m": {
+      "C": 2.38,
+      "B": 3.08,
+      "A": 6.81
+    },
+    "rmse_mediana_m": {
+      "C": 2.03,
+      "B": 2.52,
+      "A": 6.68
+    },
+    "ordenado": false,
+    "suficiente": true,
+    "spearman": -0.51,
+    "discrimina": false
+  },
+  "nivel_final": {
+    "sello": "level",
+    "n_sitios": 24,
+    "n_por_nivel": {
+      "A": 2,
+      "B": 8,
+      "C": 14
+    },
+    "rmse_medio_m": {
+      "C": 4.98,
+      "B": 5.72,
+      "A": 1.04
+    },
+    "rmse_mediana_m": {
+      "C": 4.21,
+      "B": 3.89,
+      "A": 1.04
+    },
+    "ordenado": false,
+    "suficiente": false,
+    "spearman": 0.17,
+    "discrimina": false
+  },
+  "regla": {
+    "min_por_nivel": 3,
+    "rho_min": 0.5
+  },
+  "sitios": [
+    {
+      "grupo": "piloto",
+      "site": "rm01_plano_urbano",
+      "level": "C",
+      "lote": "C",
+      "dato": "B",
+      "rmse": 3.148572,
+      "n": 579,
+      "slope_pct": null,
+      "canopy_pct": 100.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm02_plano_periurbano",
+      "level": "C",
+      "lote": "C",
+      "dato": "B",
+      "rmse": 2.518725,
+      "n": 690,
+      "slope_pct": 3.077034,
+      "canopy_pct": 57.84313725490196,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm03_piedemonte_oriente",
+      "level": "B",
+      "lote": "B",
+      "dato": "B",
+      "rmse": 2.731792,
+      "n": 379,
+      "slope_pct": 15.593385,
+      "canopy_pct": 98.34710743801652,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm04_piedemonte_alto",
+      "level": "B",
+      "lote": "A",
+      "dato": "B",
+      "rmse": 10.590654,
+      "n": 520,
+      "slope_pct": 21.089191,
+      "canopy_pct": 49.146341463414636,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm05_piedemonte_sur",
+      "level": "B",
+      "lote": "B",
+      "dato": "A",
+      "rmse": 5.040798,
+      "n": 303,
+      "slope_pct": 19.193985,
+      "canopy_pct": 5.836575875486381,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm06_cerro_isla_urbano",
+      "level": "C",
+      "lote": "C",
+      "dato": "B",
+      "rmse": 4.491852,
+      "n": 579,
+      "slope_pct": null,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm07_lomaje_norte",
+      "level": "B",
+      "lote": "A",
+      "dato": "B",
+      "rmse": 6.682069,
+      "n": 642,
+      "slope_pct": 8.515949,
+      "canopy_pct": 26.5158371040724,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "piloto",
+      "site": "rm08_precordillera",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 8.665916,
+      "n": 729,
+      "slope_pct": 51.967437,
+      "canopy_pct": 78.70182555780933,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v01_llano_pudahuel",
+      "level": "C",
+      "lote": "C",
+      "dato": "A",
+      "rmse": 1.046161,
+      "n": 906,
+      "slope_pct": 0.637212,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v02_llano_lampa",
+      "level": "A",
+      "lote": "A",
+      "dato": "A",
+      "rmse": 0.907805,
+      "n": 644,
+      "slope_pct": 9.19126,
+      "canopy_pct": 6.470588235294118,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v03_llano_padre_hurtado",
+      "level": "B",
+      "lote": "B",
+      "dato": "A",
+      "rmse": 2.254543,
+      "n": 625,
+      "slope_pct": 1.855051,
+      "canopy_pct": 8.807339449541285,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v04_llano_buin",
+      "level": "C",
+      "lote": "C",
+      "dato": "A",
+      "rmse": 2.025599,
+      "n": 619,
+      "slope_pct": 1.528024,
+      "canopy_pct": 5.693430656934306,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v05_llano_paine",
+      "level": "C",
+      "lote": "C",
+      "dato": "A",
+      "rmse": 2.002079,
+      "n": 752,
+      "slope_pct": 0.879759,
+      "canopy_pct": 6.577344701583435,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v06_llano_talagante",
+      "level": "C",
+      "lote": "C",
+      "dato": "A",
+      "rmse": 1.415382,
+      "n": 731,
+      "slope_pct": 1.40834,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v07_media_colina",
+      "level": "A",
+      "lote": "A",
+      "dato": "A",
+      "rmse": 1.164224,
+      "n": 719,
+      "slope_pct": 12.709699,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v08_media_pirque",
+      "level": "B",
+      "lote": "A",
+      "dato": "B",
+      "rmse": 2.202327,
+      "n": 785,
+      "slope_pct": 12.966534,
+      "canopy_pct": 14.5,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v09_media_la_florida",
+      "level": "B",
+      "lote": "B",
+      "dato": "B",
+      "rmse": 2.307828,
+      "n": 523,
+      "slope_pct": 12.164817,
+      "canopy_pct": 24.555160142348754,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v10_media_san_jose",
+      "level": "B",
+      "lote": "A",
+      "dato": "B",
+      "rmse": 13.931617,
+      "n": 320,
+      "slope_pct": 20.892426,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v11_cerro_lo_barnechea",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 4.864932,
+      "n": 271,
+      "slope_pct": 50.125003,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v12_cerro_las_condes",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 12.826046,
+      "n": 571,
+      "slope_pct": 58.879832,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v13_cerro_san_jose",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 6.5203,
+      "n": 471,
+      "slope_pct": 33.971113,
+      "canopy_pct": 0.0,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v14_cerro_pirque",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 6.911361,
+      "n": 602,
+      "slope_pct": 54.250623,
+      "canopy_pct": 9.134615384615385,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v15_cerro_penalolen",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 9.310201,
+      "n": 327,
+      "slope_pct": 56.732962,
+      "canopy_pct": 15.763546798029557,
+      "aw3d30": "ejecutado"
+    },
+    {
+      "grupo": "validacion",
+      "site": "v16_cerro_til_til",
+      "level": "C",
+      "lote": "A",
+      "dato": "C",
+      "rmse": 3.931817,
+      "n": 604,
+      "slope_pct": 31.085626,
+      "canopy_pct": 0.2466091245376079,
+      "aw3d30": "ejecutado"
+    }
+  ]
+}

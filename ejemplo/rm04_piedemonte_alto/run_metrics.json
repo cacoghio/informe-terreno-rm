@@ -1,0 +1,181 @@
+{
+  "site": "rm04_piedemonte_alto",
+  "live": true,
+  "sources": [
+    "glo30",
+    "aw3d30"
+  ],
+  "status": "ok",
+  "reason": null,
+  "stage": null,
+  "result_hash": "230f5809ed04f3808689063cda6cd0b5863c035f412c6272d40f18f97697fd92",
+  "level": "B",
+  "human_review_required": false,
+  "omit_point_slope": false,
+  "factors": {
+    "pixels": "A",
+    "elev_range_m": "A",
+    "slope_mean_pct": "B",
+    "disagreement_rms_m": "A",
+    "canopy_pct": "B",
+    "void_water_pct": "A",
+    "hem_p90_m": "A"
+  },
+  "factor_values": {
+    "pixels": 72.0,
+    "elev_range_m": 54.98785400390625,
+    "slope_mean_pct": 21.089190549320644,
+    "disagreement_rms_m": 0.618236057500621,
+    "canopy_pct": 49.146341463414636,
+    "void_water_pct": 0.0,
+    "hem_p90_m": 0.7866044402122496
+  },
+  "limiting_factors": [
+    "slope_mean_pct",
+    "canopy_pct"
+  ],
+  "by_section": {
+    "elevacion": "B",
+    "pendiente": "B",
+    "orientacion": "B",
+    "comparacion_fuentes": "A"
+  },
+  "seals": {
+    "medibilidad_lote": "A",
+    "confianza_dato": "B"
+  },
+  "canopy_context_pct": 62.590482,
+  "n_pixels": 72,
+  "inconclusive": false,
+  "elev_min": 809.780762,
+  "elev_max": 864.768616,
+  "elev_range_m": 54.987854,
+  "slope_mean_pct": 21.089191,
+  "stages_s": {
+    "build_glb": 1.541,
+    "render_pdf": 0.929,
+    "publish_viewer": 0.022,
+    "total": 18.081,
+    "validar_poligono": 0.0,
+    "fetch_dem": 5.611,
+    "reproject": 0.031,
+    "compute_terrain": 0.331,
+    "solar": 0.006,
+    "fetch_aw3d30": 0.003,
+    "reproject_aw3d30": 0.017,
+    "compare_sources": 1.065,
+    "aux_layers": 3.343,
+    "worldcover": 1.728,
+    "context": 0.056,
+    "ground_truth": 3.082,
+    "reference_aw3d30": 0.199,
+    "validate": 0.006,
+    "score_confidence": 0.0
+  },
+  "peak_rss_mb": 301.8,
+  "glb_bytes": 661988,
+  "pdf_bytes": 613479,
+  "pdf_pages": 9,
+  "published": true,
+  "context_status": "ok",
+  "aw3d30": {
+    "status": "ejecutado",
+    "rms_diff_m": 0.794866,
+    "mean_diff_m": 0.499596,
+    "slope_diff_mean_pct": 1.009041,
+    "datum_aligned": true,
+    "stats_scope": "poligono",
+    "n_pixels": 72,
+    "detail": ""
+  },
+  "truth": {
+    "status": "ok",
+    "n_footprints": 2179,
+    "n": 520,
+    "bias_m": 1.67474,
+    "mae_m": 5.140194,
+    "rmse_m": 10.590654,
+    "n_excluded_quality": 1659,
+    "n_outside_raster": 0,
+    "by_source": {
+      "atl08": {
+        "n": 49,
+        "status": "ok",
+        "bias_m": 2.026098,
+        "mae_m": 2.731953,
+        "rmse_m": 3.831212
+      },
+      "gedi": {
+        "n": 471,
+        "status": "ok",
+        "bias_m": 1.638187,
+        "mae_m": 5.390733,
+        "rmse_m": 11.059095
+      }
+    },
+    "by_slope": {
+      "<15": {
+        "n": 357,
+        "status": "ok",
+        "bias_m": 1.46284,
+        "mae_m": 3.07826,
+        "rmse_m": 6.53292
+      },
+      ">=15": {
+        "n": 163,
+        "status": "ok",
+        "bias_m": 2.138841,
+        "mae_m": 9.656209,
+        "rmse_m": 16.258607
+      }
+    },
+    "detail": "",
+    "aw3d30": {
+      "status": "ok",
+      "n": 520,
+      "bias_m": 2.18303,
+      "mae_m": 5.428801,
+      "rmse_m": 10.514218,
+      "datum_aligned": true,
+      "by_slope": {
+        "<15": {
+          "n": 351,
+          "status": "ok",
+          "bias_m": 1.97544,
+          "mae_m": 3.398714,
+          "rmse_m": 6.407286
+        },
+        ">=15": {
+          "n": 169,
+          "status": "ok",
+          "bias_m": 2.614178,
+          "mae_m": 9.645137,
+          "rmse_m": 15.965134
+        }
+      },
+      "same_footprints_as_glo30": true
+    },
+    "reference_slope": {
+      "n": 520,
+      "truth_pct": 2.9728042988582204,
+      "context_pct": 19.36139403257051,
+      "report_lot_slope_pct": 21.089191
+    }
+  },
+  "tier2": {
+    "status": "ok",
+    "n_usable": 520,
+    "n_train": 255,
+    "n_test": 265,
+    "split_method": "por_traza",
+    "bias_fitted_m": 1.5559178826786138,
+    "rmse_raw_m": 14.295313624548104,
+    "rmse_corrected_m": 14.183587216325716,
+    "reduction_pct": 0.7815596856198401,
+    "mae_raw_m": 7.2682366244602425,
+    "mae_corrected_m": 7.13018628983243,
+    "bias_test_raw_m": 1.8004582874399058,
+    "bias_test_corrected_m": 0.24455008431490877,
+    "correction_model": "desplazamiento vertical constante = mediana(DEM - verdad) en las huellas de entrenamiento"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "site": "rm06_cerro_isla_urbano",
+  "source": "spot",
+  "referencia": {
+    "titulo": "Survey over Santiago, Chile from 2014 SPOT imagery",
+    "doi": "10.5069/G97M064K",
+    "opentopography_id": "OTDS.022021.32719.2",
+    "epoca": "2014",
+    "sensor": "SPOT-6 estereo",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 25.0730136447483,
+    "ondulacion_egm2008_m": 27.100417395823094,
+    "residual_si_elipsoidal_m": -2.027403751074793,
+    "residual_si_ortometrica_m": 25.0730136447483,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 10.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 8658,
+      "bias_m": 2.4274857155797913,
+      "mae_m": 2.7257546239901993,
+      "rmse_m": 6.819682315703199,
+      "nmad_m": 1.4489812601725274,
+      "p90_abs_m": 4.169944254557288,
+      "mediana_m": 2.0037773980034785,
+      "slope": {
+        "n": 5124,
+        "mae_deg": 0.9763718684458071,
+        "bias_deg": -0.410962726780246,
+        "rmse_deg": 1.571728543953049
+      },
+      "nativo": {
+        "n": 70862,
+        "bias_m": 2.852451417593571,
+        "mae_m": 3.4798729754884494,
+        "rmse_m": 10.76723537248508,
+        "nmad_m": 1.8224379089355467,
+        "p90_abs_m": 4.872497558593751,
+        "mediana_m": 2.015167236328125,
+        "res_m": 10.0,
+        "slope": {
+          "n": 29807,
+          "mae_deg": 3.1369924523162656,
+          "bias_deg": -2.0628362599382286,
+          "rmse_deg": 4.8634560693896685
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 3.9014510077174593,
+      "pixeles_dem_ventana": 10201,
+      "cobertura_ref": 0.8487403195765121,
+      "by_slope_class": {
+        "<5": {
+          "n": 2231,
+          "bias_m": 1.500780158002095,
+          "mae_m": 1.6823921500043264,
+          "rmse_m": 1.9454939942268452,
+          "nmad_m": 1.0454192097981958,
+          "p90_abs_m": 2.899261474609375,
+          "mediana_m": 1.5725979275173358
+        },
+        "5-15": {
+          "n": 1033,
+          "bias_m": 1.3944332622038682,
+          "mae_m": 1.9769834261311736,
+          "rmse_m": 2.2787916041830765,
+          "nmad_m": 1.367880745442771,
+          "p90_abs_m": 3.35574558803013,
+          "mediana_m": 1.7566441127232224
+        },
+        "15-30": {
+          "n": 543,
+          "bias_m": 2.587929304908467,
+          "mae_m": 2.684357568119223,
+          "rmse_m": 2.9503876533746545,
+          "nmad_m": 1.081003609212154,
+          "p90_abs_m": 4.1772115071614735,
+          "mediana_m": 2.6894269670758604
+        },
+        ">30": {
+          "n": 1317,
+          "bias_m": 2.2319127503611047,
+          "mae_m": 2.492467005692975,
+          "rmse_m": 2.9500386465633643,
+          "nmad_m": 1.6223593302407622,
+          "p90_abs_m": 4.3865668402777835,
+          "mediana_m": 2.2578473772321104
+        }
+      }
+    },
+    "lote": null,
+    "lote_n_pixeles": 1
+  },
+  "png_glo30": "AUDITORIA\\diff_rm06_cerro_isla_urbano_spot_glo30.png",
+  "aw3d30_meta": {
+    "estado": "no_disponible",
+    "razon": "OpenTopography devolvio HTTP 401: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><error>Error: API maximum rate limit reached. (50 API calls/24hrs)</error>"
+  }
+}

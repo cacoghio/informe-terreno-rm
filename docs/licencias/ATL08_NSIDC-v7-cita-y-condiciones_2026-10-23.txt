@@ -1,0 +1,392 @@
+FUENTE: https://nsidc.org/data/atl08/versions/7
+FECHA DE OBTENCION: 2026-10-23
+NOTA: texto extraido automaticamente; archivo de referencia, sin interpretacion legal.
+
+ATLAS/ICESat-2 L3A Land and Vegetation Height, Version 7 | National Snow and Ice Data Center 
+ Menu 
+ National Snow and Ice Data Center
+ NSIDC
+ a part of CIRES at the University of Colorado Boulder
+ Skip to main content 
+ Main navigation
+ News & Analyses News & Stories 
+ Sea Ice Today 
+ Ice Sheets Today 
+ Snow Today 
+ About our Analyses 
+ Multimedia 
+ Data Explore Data 
+ Visualize Data 
+ Submit Data 
+ User Resources Get Started with Data 
+ Data Announcements 
+ Help Center 
+ Data Tools 
+ Documents 
+ Levels of Service 
+ NASA Earthdata Forum 
+ Data Programs About our Programs 
+ NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC) 
+ NOAA at NSIDC 
+ Exchange for Observations and Local Knowledge of the Arctic (ELOKA) 
+ Data Policies 
+ Our Research 
+ Learn What is the Cryosphere? 
+ Parts of the Cryosphere Arctic Weather & Climate 
+ Frozen Ground & Permafrost 
+ Glaciers 
+ Ice Sheets 
+ Ice Shelves 
+ Sea Ice 
+ Snow 
+ Ask a Scientist 
+ Cryosphere glossary 
+ About About NSIDC What We Do 
+ Our People 
+ Published Research 
+ Our History 
+ Careers 
+ 50th Anniversary 
+ For the Media 
+ Contact Us 
+ Citation Policies 
+ Protecting Your Privacy 
+ Land Acknowledgement 
+ Search 
+ News & Analyses News & Stories 
+ Sea Ice Today 
+ Ice Sheets Today 
+ Snow Today 
+ About our Analyses 
+ Multimedia 
+ Data Explore Data 
+ Visualize Data 
+ Submit Data 
+ User Resources Get Started with Data 
+ Data Announcements 
+ Help Center 
+ Data Tools 
+ Documents 
+ Levels of Service 
+ NASA Earthdata Forum 
+ Data Programs About our Programs 
+ NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC) 
+ NOAA at NSIDC 
+ Exchange for Observations and Local Knowledge of the Arctic (ELOKA) 
+ Data Policies 
+ Our Research 
+ Learn What is the Cryosphere? 
+ Parts of the Cryosphere Arctic Weather & Climate 
+ Frozen Ground & Permafrost 
+ Glaciers 
+ Ice Sheets 
+ Ice Shelves 
+ Sea Ice 
+ Snow 
+ Ask a Scientist 
+ Cryosphere glossary 
+ About About NSIDC What We Do 
+ Our People 
+ Published Research 
+ Our History 
+ Careers 
+ 50th Anniversary 
+ For the Media 
+ Contact Us 
+ Citation Policies 
+ Protecting Your Privacy 
+ Land Acknowledgement 
+ Home 
+ Data 
+ ATLAS/ICESat-2 L3A Land and Vegetation Height, Version 7
+ ATLAS/ICESat-2 L3A Land and Vegetation Height, Version 7
+ Data set id: ATL08
+ DOI: 10.5067/ATLAS/ATL08.007
+ User Guide
+ Citation
+ Data Citation and Acknowledgment 
+ As a condition of using these data, you must cite the use of this data set. Such a practice gives credit to data set producers and advances principles of transparency and reproducibility.
+ Neuenschwander, A. L., Pitts, K. L., Jelley, B. P., Robbins, J., Markel, J., Popescu, S. C., Nelson, R. F., Harding, D., Pederson, D., Klotz, B. & Sheridan, R. (2025). ATLAS/ICESat-2 L3A Land and Vegetation Height . (ATL08, Version 7). [Data Set]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/ATLAS/ATL08.007 . [ describe subset used if applicable ]. Date Accessed 10-23-2026.
+ Copied COPY 
+ RIS BIBTEX 
+ Other standard citation formats may be found on the DOI Citation Formatter website (paste 10.5067/ATLAS/ATL08.007 into the top form field).
+ Describing subset: When applicable, include the information a reader would need to extract the same subset at the end of your citation. If multiple or complex steps were incolved, it may be more appropriate to include this information in the paper itself.
+ See our Citation Policies for more details about how to structure your data citation.
+ Subscribe
+ Subscribe here to receive email updates of the data set ATL08
+ - Select - United States Canada Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua & Barbuda Argentina Armenia Aruba Ascension Island Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia & Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canary Islands Cape Verde Caribbean Netherlands Cayman Islands Central African Republic Ceuta & Melilla Chad Chile China Christmas Island Clipperton Island Cocos (Keeling) Islands Colombia Comoros Congo - Brazzaville Congo - Kinshasa Cook Islands Costa Rica Croatia Cuba Curaçao Cyprus Czechia Côte d’Ivoire Denmark Diego Garcia Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard & McDonald Islands Honduras Hong Kong SAR China Hungary Iceland India Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao SAR China Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar (Burma) Namibia Nauru Nepal Netherlands Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea North Macedonia Norway Oman Outlying Oceania Pakistan Palau Palestinian Territories Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Islands Poland Portugal Puerto Rico Qatar Romania Russia Rwanda Réunion Samoa San Marino Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia & South Sandwich Islands South Korea South Sudan Spain Sri Lanka St. Barthélemy St. Helena St. Kitts & Nevis St. Lucia St. Martin St. Pierre & Miquelon St. Vincent & Grenadines Sudan Suriname Svalbard & Jan Mayen Sweden Switzerland Syria São Tomé & Príncipe Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad & Tobago Tristan da Cunha Tunisia Turkey Turkmenistan Turks & Caicos Islands Tuvalu U.S. Outlying Islands U.S. Virgin Islands Uganda Ukraine United Arab Emirates United Kingdom Uruguay Uzbekistan Vanuatu Vatican City Venezuela Vietnam Wallis & Futuna Western Sahara Yemen Zambia Zimbabwe Åland Islands 
+ Submit 
+ Leave this field blank 
+ Service
+ COMPREHENSIVE Level of Service 
+ Data:  Data integrity and usability verified; data customization services available for select data
+ Documentation:  Key metadata and comprehensive user guide available
+ User Support:  Assistance with data access and usage; guidance on use of data in tools and data customization services
+ See All Level of Service Details 
+ This is the most recent version of these data. Version Summary Removed canopy finding flag in ATL08 regions 7, 8, 9, 10, and 11; Incorporated the CAB delineation of a ground surface to remove noise bands from the ATL03 data product prior to DRAGANN; Aligned the weak beam to the strong beam from ATL09 based on along-track distance for CAB profile cloud filtering; Updated description for MSW flag; Incorporated a single surface search to improve ground finding; Updated parameters on the quality_ph flag to allow certain photons as input into ATL08; Added a terrain and canopy quality score; Added steps for identifying whether photons are from a single surface or multi-surface; Added ground finding correction based on a priori DEM bias; Added extension of nighttime canopy photons, above FINALGROUND surface; Added steps to reject photons in the presence of fog or low-lying clouds.
+ In this section
+ Rendering Links ...
+ Rendering Links ...
+ Overview
+ ATL08 contains along-track estimates of terrain height, canopy height, and canopy cover, as well as beam and reference parameters. Data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the ICESat-2 observatory.
+ Parameter(s):
+ TERRAIN ELEVATION
+ VEGETATION HEIGHT
+ Platform(s):
+ ICESat-2
+ Sensor(s):
+ ATLAS
+ Data Format(s):
+ HDF5
+ Temporal Coverage:
+ 14 October 2018 to present
+ Temporal Resolution:
+ 91 day
+ Spatial Resolution:
+ Not Specified
+ Spatial Reference System(s):
+ WGS 84
+ EPSG:4326
+ Spatial Coverage:
+ Northern latitude
+ 88
+ Southern latitude
+ -88
+ Eastern longitude
+ 180
+ Western longitude
+ -180
+ Blue outlined yellow areas on the map below indicate the spatial coverage for this data set.
+ View Metadata Record 
+ Data Access & Tools
+ A free NASA Earthdata Login account is required to access these data. Learn More 
+ Data Access Tool 
+ Filter files before downloading based on date, spatial area, or file name. Choose from various download options, such as Python script. Export bounding boxes as a GeoJSON.
+ Search & Discover
+ Get Data
+ Related Help Resources
+ How to filter and order from a data set web page 
+ How to use Earthdata Download 
+ Type: Web Application
+ Last updated: April 2025 
+ View Metadata 
+ OpenAltimetry 
+ Discover, access, and visualize data from NASA's ICESat and ICESat-2 missions.
+ Visualize
+ Get Data
+ Search & Discover
+ Customize
+ Supported software languages: Python
+ Related Help Resources
+ How to use OpenAltimetry 
+ Type: Web Application
+ View Metadata 
+ Customization Capabilities: spatial subsetting
+ temporal subsetting
+ NASA Earthdata Search 
+ Search and order data from all NASA DAACs using spatial and temporal filters in a map interface. Reformatting, reprojecting, and subsetting options are available for some data sets.
+ Visualize
+ Search & Discover
+ Get Data
+ Related Help Resources
+ How to search, order, and customize data with NASA Earthdata Search 
+ Type: Web Application
+ HTTPS File System 
+ Get Data
+ Quickly download a few files using a web browser, or access data through a command-line utility such as WGET.
+ Related Help Resources
+ NASA Earthdata Cloud Data Access Guide 
+ Type: service
+ earthaccess 
+ earthaccess is a python library to search and access NASA Earth science data with just a few lines of code.
+ Get Data
+ Search & Discover
+ Supported software languages: Python
+ Related Help Resources
+ GitHub Repository 
+ Type: Downloadable Software
+ Last updated: May 2026 
+ View Metadata 
+ Harmony Transformation Services 
+ Customize
+ Get Data
+ Prepare analysis ready data and reduce time-to-science. Achieve seamless access to data across different NASA data centers. Customization options, which vary by data set, can include spatial, temporal, and variable subsetting, as well as regridding and reformatting.
+ Related Help Resources
+ NASA Earthdata Harmony documentation 
+ Search, order and customize NSIDC DAAC data using NASA Earthdata Search 
+ Subsetting NASA Earthdata using Harmony (harmony-py) 
+ Harmony API Quickstart Guide: Customizing NASA NSIDC DAAC data in Earthdata Cloud 
+ Type: service
+ NASA Earthdata Cloud (AWS S3) 
+ Get Data
+ Access data directly from the NASA Earthdata Cloud via Amazon Web Services Simple Storage Service (AWS S3). This access option is only available when working within the us-west-2 region and requires additional AWS S3 credentials.
+ Related Help Resources
+ NASA Earthdata Cloud Data Access Guide 
+ AWS S3 Credentials 
+ Type: service
+ View Metadata 
+ SlideRule Earth 
+ Process Earth science data on demand via a web service and gain low-latency access to customized data products using parameters supplied at the time of request.
+ Analyze
+ Visualize
+ Customize
+ Get Data
+ Type: Downloadable Software
+ Customization Capabilities: data reformatting
+ Panoply Data Viewer 
+ Visualize georeferenced arrays in NetCDF, HDF and GRIB formats. Plot data on global or regional maps, choosing from multiple map projections. Overlay continent outlines or masks.
+ Visualize
+ Analyze
+ Type: Downloadable Software
+ PhoREAL 
+ Use this toolbox to read, process, analyze, and output ICESat-2 ATL03 and ATL08 data in these formats: figures, .las, .csv, .kml.
+ Analyze
+ Visualize
+ Customize
+ Supported software languages: Python
+ Type: Downloadable Software
+ Customization Capabilities: data reformatting
+ spatial subsetting
+ temporal subsetting
+ variable subsetting
+ icepyx 
+ Access ICESat-2 data with as few as three lines of code. This Python software library wraps around APIs supported by the NSIDC DAAC.
+ Visualize
+ Get Data
+ Search & Discover
+ Customize
+ Supported software languages: Python
+ Related Help Resources
+ Icepyx documentation 
+ Type: Downloadable Software
+ View Metadata 
+ Customization Capabilities: spatial subsetting
+ temporal subsetting
+ variable subsetting
+ Documentation
+ User Guide
+ ATLAS/ICESat-2 L3A Land and Vegetation Height, Version 7 User Guide 
+ ATBDs
+ Algorithm Theoretical Basis Document (ATBD for ATL08 | V07) 
+ General Resources
+ ATL03/ICESat-2 Data Gaps (applies to all ICESat-2 products) 
+ ATL08 Known Issues (V07) 
+ ICESat-2 Major Activities (includes yaw flips) 
+ Product Specification Documents
+ ATL08 Data Dictionary (V07) 
+ Help Articles
+ General Questions & FAQs
+ FAQs About NSIDC DAAC's Earthdata Cloud Migration 
+ This article covers frequently asked questions about the NASA NSIDC DAAC's Earthdata cloud migration project and what it means to data users.
+ Read More 
+ What subsetting and reformatting services are available for ICESat-2 data? 
+ This short article describes the customization services available for ICESat-2 data using Earthdata Search.
+ Read More 
+ How to Articles
+ Filter and order from a data set web page using the Data Access Tool 
+ Many NSIDC DAAC data sets can be accessed using NSIDC DAAC's Data Access Tool. This tool provides the ability to search and filter data with spatial and temporal constraints using a map-based interface.Users have the option to:
+ Read More 
+ Harmony API Quickstart Guide: Customizing NASA NSIDC DAAC data in Earthdata Cloud 
+ This quickstart guide will walk you through the essential steps to start using the Harmony API to request subsetted files with specific spatial and temporal filters applied for select data sets.
+ Read More 
+ How do I convert an HDF5/HDF-EOS5 file into binary format? 
+ To convert HDF5 files into binary format you will need to use the h5dump utility, which is part of the HDF5 distribution available from the HDF Group. How you install HDF5 depends on your operating system.
+ Read More 
+ How to use OpenAltimetry for ICESat-2 data products 
+ Learn the basic steps for using OpenAltimetry to browse and download ICESat-2 data products.
+ Read More 
+ NASA Earthdata Cloud Data Access Guide 
+ The NASA Earthdata Cloud is the NASA cloud-based archive of Earth observations. It is hosted by Amazon Web Services (AWS). Learn how to find and access NSIDC DAAC data directly in the cloud.
+ Read More 
+ Search, order, and customize NSIDC DAAC data with NASA Earthdata Search 
+ This article highlights the NSIDC DAAC data sets available with customization options and outlines a workflow for searching, ordering, and customizing data in NASA Earthdata Search. This approach is ideal for users who want to download data to their local machine.
+ Read More 
+ Subscribe to Our Newsletter 
+ Follow Us 
+ Footer
+ FOR THE PUBLIC News & Stories 
+ Learn About Snow & Ice 
+ Current Conditions & Analyses 
+ Featured Research 
+ Careers 
+ For the Media 
+ EDUCATORS/STUDENTS Current Conditions & Analyses 
+ Explore Data 
+ Help Center 
+ Our Research 
+ MOST POPULAR Snow, Ice & the Cryosphere 
+ Sea Ice Index 
+ Sea Ice Today - data & analyses 
+ Ice Sheets Today - data & analyses 
+ Snow Today - data & analyses 
+ Explore Data 
+ FOR RESEARCHERS Explore Data 
+ Citation Policies 
+ NSIDC Research 
+ Our Scientists 
+ Submit Data 
+ FOR THE PUBLIC News & Stories 
+ Learn About Snow & Ice 
+ Current Conditions & Analyses 
+ Featured Research 
+ Careers 
+ For the Media 
+ EDUCATORS/STUDENTS Current Conditions & Analyses 
+ Explore Data 
+ Help Center 
+ Our Research 
+ MOST POPULAR Snow, Ice & the Cryosphere 
+ Sea Ice Index 
+ Sea Ice Today - data & analyses 
+ Ice Sheets Today - data & analyses 
+ Snow Today - data & analyses 
+ Explore Data 
+ FOR RESEARCHERS Explore Data 
+ Citation Policies 
+ NSIDC Research 
+ Our Scientists 
+ Submit Data 
+ © 2026, National Snow and Ice Data Center - Advancing knowledge of Earth's frozen regions
+ News & Analyses News & Stories 
+ Sea Ice Today 
+ Ice Sheets Today 
+ Snow Today 
+ About our Analyses 
+ Multimedia 
+ Data Explore Data 
+ Visualize Data 
+ Submit Data 
+ User Resources Get Started with Data 
+ Data Announcements 
+ Help Center 
+ Data Tools 
+ Documents 
+ Levels of Service 
+ NASA Earthdata Forum 
+ Data Programs About our Programs 
+ NASA National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC) 
+ NOAA at NSIDC 
+ Exchange for Observations and Local Knowledge of the Arctic (ELOKA) 
+ Data Policies 
+ Our Research 
+ Learn What is the Cryosphere? 
+ Parts of the Cryosphere Arctic Weather & Climate 
+ Frozen Ground & Permafrost 
+ Glaciers 
+ Ice Sheets 
+ Ice Shelves 
+ Sea Ice 
+ Snow 
+ Ask a Scientist 
+ Cryosphere glossary 
+ About About NSIDC What We Do 
+ Our People 
+ Published Research 
+ Our History 
+ Careers 
+ 50th Anniversary 
+ For the Media 
+ Contact Us 
+ Citation Policies 
+ Protecting Your Privacy 
+ Land Acknowledgement

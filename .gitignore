@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+cache/
+out/
+viewer/node_modules/
+viewer/test-results/
+viewer/playwright-report/
+viewer/sample/_work_*/
+viewer/sample/video/
+out_run2/

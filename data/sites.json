@@ -1,0 +1,528 @@
+{
+  "rm01_plano_urbano": {
+    "nombre": "RM-01 Plano urbano consolidado",
+    "comuna_referencial": "Ñuñoa",
+    "tipo_terreno": "plano urbano consolidado",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.6032167,
+            -33.4522827
+          ],
+          [
+            -70.603212,
+            -33.4520277
+          ],
+          [
+            -70.6035163,
+            -33.4520237
+          ],
+          [
+            -70.6035209,
+            -33.4522787
+          ],
+          [
+            -70.6032167,
+            -33.4522827
+          ]
+        ]
+      ]
+    },
+    "area_m2": 800.2,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": false,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Ñuñoa",
+        "Providencia"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        0.0,
+        3.0
+      ],
+      "pendiente_media_ventana_pct": 2.65,
+      "ventana_m": 150.0,
+      "pendiente_media_lote_pct": null,
+      "n_pixeles_lote": 1,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 4145
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm02_plano_periurbano": {
+    "nombre": "RM-02 Plano periurbano poniente",
+    "comuna_referencial": "Maipú",
+    "tipo_terreno": "plano periurbano poniente",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.7836561,
+            -33.4706286
+          ],
+          [
+            -70.7836335,
+            -33.4695244
+          ],
+          [
+            -70.7849509,
+            -33.4695054
+          ],
+          [
+            -70.7849736,
+            -33.4706096
+          ],
+          [
+            -70.7836561,
+            -33.4706286
+          ]
+        ]
+      ]
+    },
+    "area_m2": 15002.5,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": false,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Maipú",
+        "Pudahuel"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        0.0,
+        3.0
+      ],
+      "pendiente_media_ventana_pct": 2.59,
+      "ventana_m": 150.0,
+      "pendiente_media_lote_pct": 3.01,
+      "n_pixeles_lote": 16,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 31950
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm03_piedemonte_oriente": {
+    "nombre": "RM-03 Piedemonte oriente",
+    "comuna_referencial": "Peñalolén",
+    "tipo_terreno": "piedemonte oriente",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.5194686,
+            -33.4680617
+          ],
+          [
+            -70.5194528,
+            -33.46716
+          ],
+          [
+            -70.5205286,
+            -33.4671468
+          ],
+          [
+            -70.5205444,
+            -33.4680485
+          ],
+          [
+            -70.5194686,
+            -33.4680617
+          ]
+        ]
+      ]
+    },
+    "area_m2": 10003.5,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": true,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Peñalolén",
+        "La Reina"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        10.0,
+        20.0
+      ],
+      "pendiente_media_ventana_pct": 14.85,
+      "ventana_m": 150.0,
+      "pendiente_media_lote_pct": 15.62,
+      "n_pixeles_lote": 9,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "pleiades",
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 1943
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm04_piedemonte_alto": {
+    "nombre": "RM-04 Piedemonte alto",
+    "comuna_referencial": "Lo Barnechea",
+    "tipo_terreno": "piedemonte alto",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.5310018,
+            -33.3678573
+          ],
+          [
+            -70.5309631,
+            -33.3656487
+          ],
+          [
+            -70.5335952,
+            -33.3656162
+          ],
+          [
+            -70.5336339,
+            -33.3678248
+          ],
+          [
+            -70.5310018,
+            -33.3678573
+          ]
+        ]
+      ]
+    },
+    "area_m2": 60016.8,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": true,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Lo Barnechea",
+        "Las Condes"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        20.0,
+        35.0
+      ],
+      "pendiente_media_ventana_pct": 20.93,
+      "ventana_m": 244.94897427831782,
+      "pendiente_media_lote_pct": 20.93,
+      "n_pixeles_lote": 72,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "pleiades",
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 1718
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm05_piedemonte_sur": {
+    "nombre": "RM-05 Piedemonte sur",
+    "comuna_referencial": "Puente Alto",
+    "tipo_terreno": "piedemonte sur",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.5283108,
+            -33.5527448
+          ],
+          [
+            -70.5282895,
+            -33.5515352
+          ],
+          [
+            -70.5297343,
+            -33.5515173
+          ],
+          [
+            -70.5297556,
+            -33.552727
+          ],
+          [
+            -70.5283108,
+            -33.5527448
+          ]
+        ]
+      ]
+    },
+    "area_m2": 18005.7,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": true,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Puente Alto",
+        "La Florida"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        8.0,
+        25.0
+      ],
+      "pendiente_media_ventana_pct": 18.27,
+      "ventana_m": 150.0,
+      "pendiente_media_lote_pct": 19.16,
+      "n_pixeles_lote": 20,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "pleiades",
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 4941
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm06_cerro_isla_urbano": {
+    "nombre": "RM-06 Cerro isla urbano",
+    "comuna_referencial": "Huechuraba",
+    "tipo_terreno": "cerro isla urbano",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.6508404,
+            -33.3616473
+          ],
+          [
+            -70.650835,
+            -33.3613622
+          ],
+          [
+            -70.6511748,
+            -33.3613576
+          ],
+          [
+            -70.6511802,
+            -33.3616428
+          ],
+          [
+            -70.6508404,
+            -33.3616473
+          ]
+        ]
+      ]
+    },
+    "area_m2": 1000.4,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": false,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Renca",
+        "Huechuraba"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        25.0,
+        50.0
+      ],
+      "pendiente_media_ventana_pct": 48.41,
+      "ventana_m": 150.0,
+      "pendiente_media_lote_pct": null,
+      "n_pixeles_lote": 1,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [
+        "spot"
+      ],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 3778
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm07_lomaje_norte": {
+    "nombre": "RM-07 Lomaje norte (Chicureo)",
+    "comuna_referencial": "Colina",
+    "tipo_terreno": "lomaje norte",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.6296182,
+            -33.288541
+          ],
+          [
+            -70.6295708,
+            -33.2859909
+          ],
+          [
+            -70.6326072,
+            -33.285951
+          ],
+          [
+            -70.6326547,
+            -33.2885012
+          ],
+          [
+            -70.6296182,
+            -33.288541
+          ]
+        ]
+      ]
+    },
+    "area_m2": 80017.7,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": false,
+      "pleiades": false,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Colina"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        8.0,
+        20.0
+      ],
+      "pendiente_media_ventana_pct": 8.51,
+      "ventana_m": 282.842712474619,
+      "pendiente_media_lote_pct": 8.51,
+      "n_pixeles_lote": 90,
+      "elev_media_ventana_m": null,
+      "referencias_exigidas": [],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 4762
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  },
+  "rm08_precordillera": {
+    "nombre": "RM-08 Precordillera con vegetación",
+    "comuna_referencial": "Pirque",
+    "tipo_terreno": "precordillera con vegetación",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.44884,
+            -33.6495046
+          ],
+          [
+            -70.4488001,
+            -33.6471191
+          ],
+          [
+            -70.4516524,
+            -33.6470856
+          ],
+          [
+            -70.4516924,
+            -33.6494712
+          ],
+          [
+            -70.44884,
+            -33.6495046
+          ]
+        ]
+      ]
+    },
+    "area_m2": 70024.4,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "cobertura_referencia": {
+      "spot": true,
+      "pleiades": false,
+      "icesat2_gedi": true
+    },
+    "seleccion": {
+      "regla": "tools/elegir_pilotos_rm.py (datos públicos: DPA 2023, GLO-30, huellas OpenTopography)",
+      "seed": 20261030,
+      "paso_grilla_m": 60.0,
+      "comunas_zona": [
+        "Pirque",
+        "San José de Maipo"
+      ],
+      "rango_pendiente_objetivo_pct": [
+        25.0,
+        55.0
+      ],
+      "pendiente_media_ventana_pct": 52.05,
+      "ventana_m": 264.5751311064591,
+      "pendiente_media_lote_pct": 52.05,
+      "n_pixeles_lote": 72,
+      "elev_media_ventana_m": 1465.2,
+      "referencias_exigidas": [],
+      "uso_referencia_de_respaldo": false,
+      "n_candidatos_validos": 32978
+    },
+    "verdad_de_terreno": {
+      "elevacion_medida": null,
+      "nota": "Lote de prueba estándar sin cotas propias; la elevación viene de DEM externo, ICESat-2/GEDI y, donde hay cobertura, de las nubes de referencia SPOT/Pléiades (solo validación interna)."
+    }
+  }
+}

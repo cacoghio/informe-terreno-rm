@@ -1,0 +1,1109 @@
+FUENTE: https://www.earthdata.nasa.gov/data/catalog/lpcloud-gedi02-a-002
+FECHA DE OBTENCION: 2026-10-23
+NOTA: texto extraido automaticamente; archivo de referencia, sin interpretacion legal.
+
+GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 | NASA Earthdata 
+ Skip to main content
+ Delivery of new Suomi NPP data ceases on Nov. 2, 2026. Users should transition to alternative products. 
+ Suomi NPP data announcement 
+ Migration to Consolidated Ingest and Archive will interrupt data ingestion at PO.DAAC, ASF DAAC, and GES DISC on Oct. 28-30, 2026. 
+ Read more 
+ Home 
+ Data 
+ Data Catalog 
+ Data Alerts and Outages 
+ Projects 
+ Land, Atmosphere Near real-time Capability for Earth observation (LANCE) 
+ Harmonized Landsat and Sentinel-2 (HLS) 
+ Applied Remote Sensing Training Program (ARSET) 
+ Observation Methods 
+ Platforms 
+ Instruments 
+ Space Geodesy Techniques 
+ Data Tools 
+ Earthdata Search 
+ Worldview 
+ Fire Information for Resource Management System (FIRMS) 
+ Vertex 
+ Giovanni 
+ Application for Extracting and Exploring Analysis Ready Samples (AppEEARS) 
+ Visualization, Exploration, and Data Analysis (VEDA) 
+ Ocean Color Level 3 and 4 Browser 
+ Topics 
+ Atmosphere 
+ Biosphere 
+ Climate Indicators 
+ Cryosphere 
+ Human Dimensions 
+ Land Surface 
+ Ocean 
+ Solid Earth 
+ Sun-Earth Interactions 
+ Terrestrial Hydrosphere 
+ View All Topics 
+ Learn 
+ Earth Observation Data Basics 
+ GIS Resources 
+ Data in Action 
+ Data Recipes 
+ Trainings 
+ Tutorials 
+ Webinars 
+ Publications 
+ Centers 
+ Distributed Active Archive Centers (DAACs) 
+ Alaska Satellite Facility (ASF) DAAC 
+ Atmospheric Science Data Center (ASDC) 
+ Crustal Dynamics Data Information System (CDDIS) 
+ Global Hydrometeorology Resource Center (GHRC) DAAC 
+ Goddard Earth Sciences Data and Information Services Center (GES DISC) 
+ Land Processes (LP) DAAC 
+ Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC 
+ National Snow and Ice Data Center (NSIDC) DAAC 
+ Oak Ridge National Laboratory (ORNL) DAAC 
+ Ocean Biology DAAC (OB.DAAC) 
+ Physical Oceanography DAAC (PO.DAAC) 
+ Science Investigator-led Processing Systems (SIPS)
+ MODIS Adaptive Processing System (MODAPS) SIPS 
+ Ocean SIPS 
+ Microwave Limb Sounder (MLS) SIPS 
+ Ozone Monitoring Instrument (OMI) SIPS 
+ Atmosphere SIPS 
+ Land SIPS 
+ Ozone Mapping and Profiler Suite SIPS 
+ Sounder SIPS 
+ Suborbital Data Resource Center 
+ Engage 
+ Open Data, Services, and Software Policies 
+ Open Science and Data Management Plan 
+ For Researchers and Grantees 
+ Data Management Guidance 
+ Data Rights and Related Issues 
+ Data Use Guidance 
+ For Developers 
+ APIs 
+ Common Metadata Repository 
+ For Data Providers 
+ Adding New Data 
+ DOI Process 
+ Standards 
+ About 
+ ESDS Leadership 
+ Organizational Chart 
+ Multi-Mission Data Processing System Study 
+ Earth Science Data and Information System (ESDIS) Project 
+ ESDS Digital Strategy and User Development Team 
+ Earth Science Data Systems Geographic Information Systems Team (EGIST) 
+ Competitive Programs 
+ News & Events 
+ News 
+ Events 
+ Worldview Image of the Week 
+ Feature Articles 
+ Data User Stories 
+ Earthdata Blog 
+ Data Alerts System 
+ Subscribe to the Earthdata Newsletter 
+ Data
+ Toggle submenu 
+ Data 
+ Data Catalog
+ Data Alerts and Outages
+ Projects
+ Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+ Harmonized Landsat and Sentinel-2 (HLS)
+ Applied Remote Sensing Training Program (ARSET)
+ Observation Methods 
+ Platforms 
+ NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+ Instruments 
+ From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+ Space Geodesy Techniques 
+ These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+ Data Tools 
+ Earthdata Search
+ Worldview
+ Fire Information for Resource Management System (FIRMS)
+ Vertex
+ Giovanni
+ Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+ Visualization, Exploration, and Data Analysis (VEDA)
+ Ocean Color Level 3 and 4 Browser
+ ? 
+ Get help from experienced data users and managers on Earthdata Forum
+ Topics
+ Toggle submenu 
+ Data Pathfinders by Topic 
+ Atmosphere 
+ The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+ Biosphere 
+ The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+ Climate Indicators 
+ Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+ Cryosphere 
+ The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water. 
+ Human Dimensions 
+ The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+ Land Surface 
+ The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+ Ocean 
+ This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+ Solid Earth 
+ Processes occurring deep within Earth constantly are shaping landforms.
+ Sun-Earth Interactions 
+ The Sun influences physical and chemical processes in Earth’s atmosphere.
+ Terrestrial Hydrosphere 
+ The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+ Featured Data Pathfinders by Topic 
+ Air Quality
+ Agriculture Production
+ Natural Hazards
+ Water Quality
+ Climate Resilience
+ View all Topics 
+ Learn
+ Toggle submenu 
+ Learn 
+ Earth Observation Data Basics 
+ Learn key terms and concepts like remote sensing and processing levels.
+ GIS Resources 
+ Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+ Data Support 
+ Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+ Data in Action 
+ Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+ Data Recipes 
+ Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+ Trainings 
+ Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+ Tutorials 
+ Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+ Webinars 
+ Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+ Publications 
+ Access publications citing NASA Earth science data.
+ Centers
+ Toggle submenu 
+ Centers 
+ Distributed Active Archive Centers (DAACs) 
+ Science Investigator-led Processing Systems (SIPS) 
+ Alaska Satellite Facility (ASF) DAAC
+ Atmospheric Science Data Center (ASDC)
+ Crustal Dynamics Data Information System (CDDIS)
+ Global Hydrometeorology Resource Center (GHRC) DAAC
+ Goddard Earth Sciences Data and Information Services Center (GES DISC)
+ Land Processes (LP) DAAC
+ Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+ National Snow and Ice Data Center (NSIDC) DAAC
+ Oak Ridge National Laboratory (ORNL) DAAC
+ Ocean Biology DAAC (OB.DAAC)
+ Physical Oceanography DAAC (PO.DAAC)
+ MODIS Adaptive Processing System (MODAPS) SIPS
+ Ocean SIPS
+ Microwave Limb Sounder (MLS) SIPS
+ Ozone Monitoring Instrument (OMI) SIPS
+ Atmosphere SIPS
+ Land SIPS
+ Ozone Mapping and Profiler Suite SIPS
+ Sounder SIPS
+ Suborbital Data Resource Center 
+ All of the resources for the airborne and field data community within our program can be found here.
+ Engage
+ Toggle submenu 
+ Engage 
+ Open Data, Services, and Software Policies 
+ Open Science and Data Management Plan 
+ For Researchers and Grantees 
+ Data Management Guidance
+ Data Rights and Related Issues
+ Data Use Guidance
+ For Developers 
+ APIs
+ Common Metadata Repository
+ For Data Providers 
+ Adding New Data
+ DOI Process
+ Standards
+ About
+ Toggle submenu 
+ About 
+ ESDS Leadership 
+ Meet the Earth Science Data Systems Program leadership team.
+ Organizational Chart 
+ View the internal structure of the ESDS Program.
+ Multi-Mission Data Processing System Study 
+ We are considering the right data processing system for open-source data.
+ Contact Us 
+ Find the right contact for questions, feedback, or support related to NASA Earthdata.
+ Earth Science Data and Information System (ESDIS) Project
+ ESDS Digital Strategy and User Development Team
+ Earth Science Data Systems Geographic Information Systems Team (EGIST)
+ Competitive Programs
+ Program Performance and Metrics 
+ Access overall ingest, archive, and distribution metrics for the ESDS program.
+ News & Events
+ Toggle submenu 
+ News 
+ View the latest updates from Earthdata.
+ Events 
+ Sign up or watch a past recording of events covering Earth science data topics.
+ Worldview Image of the Week 
+ Learn about the Earth through the lens of NASA’s Worldview.
+ Data Alerts System 
+ Subscribe to the Earthdata Newsletter 
+ Feature Articles 
+ Read stories inspired by NASA Earth science data.
+ Data User Stories 
+ Discover how people are researching with NASA Earth science data.
+ Earthdata Blog 
+ Take a deeper dive into NASA Earth science data.
+ Latest News 
+ 2 MIN READ
+ Super Typhoon Champi 
+ Worldview Image of the Week 
+ Oct 23, 2026 
+ 2 MIN READ
+ Fires Causing Persistent Haze Across Southeast Asia 
+ Worldview Image of the Week 
+ Oct 16, 2026 
+ Search 
+ Home 
+ Find Data 
+ Data Catalog 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002
+ GEDI02_A
+ Version
+ 002
+ DOI
+ https://doi.org/10.5067/GEDI/GEDI02_A.002 
+ Citation 
+ Center/Project
+ Land Processes DAAC (LP DAAC) 
+ Data at a Glance
+ Cloud Enabled Dataset
+ CMR Concept ID:
+ c2142771958-lpcloud
+ Copy URL 
+ Copy CMR Metadata URL 
+ Share
+ Facebook 
+ Data Format
+ HDF5
+ Dataset Size
+ 1.4394 GB, 108.7314382 TB
+ Spatial Extent
+ N: 54 
+ S: -54 
+ E: 180 
+ W: -180 
+ Spatial Resolution
+ 25 Meters x 25 Meters
+ Location
+ GLOBAL LAND
+ Temporal Extent
+ 2019-04-04 to 2023-03-16
+ , 
+ 2024-04-26 to 2025-07-10
+ Temporal Resolution
+ Varies
+ Coordinate System
+ CARTESIAN
+ Granule Spatial Representation
+ GEODETIC
+ Data Access 
+ User Guide 
+ Overview
+ Documents and Resources
+ Publications
+ Variables
+ TABLE OF CONTENTS
+ Description
+ The Global Ecosystem Dynamics Investigation ( GEDI ) mission aims to characterize ecosystem structure and dynamics to enable radically improved quantification and understanding of the Earth’s carbon cycle and biodiversity. The GEDI instrument produces high resolution laser ranging observations of the 3-dimensional structure of the Earth. GEDI is attached to the International Space Station (ISS) and collects data globally between 51.6° N and 51.6° S latitudes at the highest resolution and densest sampling of any light detection and ranging (lidar) instrument in orbit to date. Each GEDI Version 2 granule encompasses one-fourth of an ISS orbit and includes georeferenced metadata to allow for spatial querying and subsetting.
+ The GEDI instrument was removed from the ISS and placed into storage on March 17, 2023. No data were acquired during the hibernation period from March 17, 2023, to April 24, 2024. GEDI has since been reinstalled on the ISS and resumed operations as of April 26, 2024.
+ The purpose of the GEDI Level 2A Geolocated Elevation and Height Metrics product (GEDI02_A) is to provide waveform interpretation and extracted products from each GEDI01_B received waveform, including ground elevation, canopy top height, and relative height (RH) metrics. The methodology for generating the GEDI02_A product datasets is adapted from the Land, Vegetation, and Ice Sensor (LVIS) algorithm. The GEDI02_A product is provided in HDF5 format and has a spatial resolution (average footprint) of 25 meters.
+ The GEDI02_A data product contains 548 layers for each of the eight beams, including ground elevation, canopy top height, relative return energy metrics (e.g., canopy vertical structure), and many other interpreted products from the return waveforms. Additional information for the layers can be found in the GEDI Level 2A Dictionary.
+ Known Issues
+ Data acquisition gaps: GEDI data acquisitions were suspended on December 19, 2019 (2019 Day 353) and resumed on January 8, 2020 (2020 Day 8).
+ Incorrect Reference Ground Track (RGT) number in the filename for select GEDI files: GEDI Science Data Products for six orbits on August 7, 2020, and November 12, 2021, had the incorrect RGT number in the filename. There is no impact to the science data, but users should reference this document for the correct RGT numbers.
+ Known Issues: Section 8 of the User Guide provides additional information on known issues.
+ Version Description
+ The following changes and improvements were implemented for GEDI Version 2 data products: (1) Reduced granule size from one full ISS orbit (~7.99 GB) to four segments per orbit (~2.00 GB), (2) Modified file name to include segment number and dataset version, (3) Improved geolocation for orbital segments, (4) Added elevation from the SRTM digital elevation model for comparison, (5) Modified the method to predict an optimum algorithm setting group per laser shot, (6) Added additional land cover datasets related to phenology, urban infrastructure, and water persistence, (7) Added selected_mode_flag dataset to root beam group using selected algorithm, and (8) Removed shots when the laser is not firing.
+ Product Summary
+ Platforms
+ ISS 
+ Instruments
+ GEDI 
+ Projects
+ GEDI 
+ Spatial Extent
+ N: 54 
+ S: -54 
+ E: 180 
+ W: -180 
+ Spatial Resolution
+ 25 Meters x 25 Meters
+ Location
+ GLOBAL LAND
+ Coordinate System
+ CARTESIAN
+ Granule Spatial Representation
+ GEODETIC
+ Temporal Extent
+ 2019-04-04 to 2023-03-16
+ , 
+ 2024-04-26 to 2025-07-10
+ Temporal Resolution
+ Varies
+ Data Partner
+ Land Processes Distributed Active Archive Center (LP DAAC)
+ , 
+ Global Ecosystem Dynamics Investigation, Goddard Space Flight Center, NASA (NASA/GSFC/GEDI)
+ Concept ID
+ C2142771958-LPCLOUD
+ Data State
+ COMPLETE
+ Number of Files/Granules
+ 95770
+ Processing Level
+ 2A
+ Published
+ 2021-04-16 
+ Updated
+ 2025-07-10 
+ Science Keywords
+ Plant Phenology
+ , 
+ Canopy Characteristics
+ , 
+ Vegetation Cover
+ , 
+ Lidar
+ , 
+ Topography 
+ , 
+ Vegetation Height
+ Citation
+ Citation is critically important for dataset documentation and discovery. This dataset is openly shared, without restriction, in accordance with the EOSDIS Data Use and Citation Guidance .
+ Copy Citation
+ Select a Citation Style: 
+ APA 
+ BibTeX 
+ Chicago 
+ MLA 
+ Copy 
+ Citation Copied 
+ Dubayah, R., Hofton, M., Blair, J., Armston, J., Tang, H., & Luthcke, S. (2021). GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 [Dataset]. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/GEDI/GEDI02_A.002 Date Accessed: 2026-10-23
+ Los datos satelitales de origen (Sentinel-1, Sentinel-2, GEDI L4A) son de acceso público:- **Sentinel-2:** https://scihub.copernicus.eu/- **Sentinel-1:** https://scihub.copernicus.eu/- **GEDI L4A v2.1:** https://doi.org/10.5067/GEDI/GEDI02_A.002
+ Dubayah, R., Hofton, M., Blair, J., Armston, J., Tang, H., & Luthcke, S. (2021). GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 [Dataset]. NASA Land Processes Distributed Active Archive Center. https://doi.org/10.5067/GEDI/GEDI02_A.002 Date Accessed: 2026-10-23
+ Dubayah, Ralph, et al. “GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002.” NASA Land Processes Distributed Active Archive Center, 2021, https://doi.org/10.5067/GEDI/GEDI02_A.002. Date Accessed: 2026-10-23
+ File Naming Convention
+ GEDI02_A_2024333190440_O33777_03_T03689_02_004_02_V002.h5
+The file name begins with the Product Short Name (GEDI02_A), followed by the Julian Date and Time of Acquisition designated as YYYYDDDHHMMSS (2024333190440), the Orbit Number starting with the letter O (O33777), the Sub-Orbit Granule Number (03), Track Number (T03689), the Positioning and Pointing Determination System type where 00 is predict, 01 rapid, 02 and higher is final (02), the Product Generation Executables Version (004), the Granule Production Version (02), the Version Number (V002), and the Data Format (h5).
+ TABLE OF CONTENTS
+ Documents
+ USER'S GUIDE
+ The technical information in the User's Guide enables users to interpret and use the data products.
+ ALGORITHM THEORETICAL BASIS DOCUMENT (ATBD)
+ The Waveform Processing ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products.
+ The Geolocation ATBD provides physical theory and mathematical procedures for the calculations used to produce the data products.
+ GENERAL DOCUMENTATION
+ The data dictionary provides additional information on the Science Dataset (SDS) layers.
+ GEDI Spatial Querying and Subsetting Quick Guide
+ Dataset Resources
+ View All Learning Resources 
+ View All News & Events 
+ Filters 
+ Status (1)
+ Current
+ Archived
+ Copy Link 
+ BibTeX 
+ Items 
+ 4 8 12 16 
+ Apply 
+ Clear All 
+ No Results
+ Items 
+ 4 8 12 16 
+ Get Help
+ QUESTIONS & SUPPORT
+ Have a question?
+ Get help with NASA Earth science data, datasets, tools, services, and metadata on the Earthdata Forum. Experienced staff in the data user community review and answer questions.
+ Get help on Earthdata Forum 
+ Earthdata
+ Forum 
+ Publications Citing This Dataset
+ Filters 
+ Copy Link 
+ BibTeX 
+ Topic 
+ Atmosphere (2)
+ Cryosphere (1)
+ Human Dimensions (1)
+ Terrestrial Hydrosphere (2)
+ Article Type 
+ journal_article (127)
+ proceedings_article (4)
+ monograph (1)
+ Journal 
+ American Geophysical Union (AGU) (5)
+ Copernicus GmbH (4)
+ CRC Press (1)
+ Elsevier BV (40)
+ Erdkunde (2)
+ Frontiers Media SA (4)
+ IEEE (3)
+ Informa UK Limited (12)
+ Institute of Electrical and Electronics Engineers (IEEE) (8)
+ IOP Publishing (9)
+ Maximum Academic Press (1)
+ MDPI AG (16)
+ Proceedings of the National Academy of Sciences (1)
+ SPIE (1)
+ Springer Science and Business Media LLC (18)
+ The Korean Society of Remote Sensing (1)
+ The Open Journal (1)
+ Wiley (5)
+ Year 
+ 2026 (22)
+ 2025 (28)
+ 2024 (37)
+ 2023 (13)
+ 2022 (13)
+ 2021 (14)
+ 2020 (5)
+ Apply 
+ Clear All 
+ Title 
+ Authors 
+ Year 
+ Sort ascending
+ Referenced Datasets 
+ Baseline maps of US mature and old-growth forests for conservation and management 
+ Bruening, Jamis M, May, Paul B, Dubayah, Ralph O, Wertis, Luke, Quinn, Colin, Pederson, Neil, Armstrong, Amanda H, Poulter, Ben
+ 2026 
+ NASA Shuttle Radar Topography Mission Global 3 arc second V003 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI-FIA Fusion: Training Lidar Models to Estimate Forest Attributes 
+ Mature and Old-growth Forest Probability Maps for the Conterminous United States 
+ GlyphTrack: Detection of Anomalies Under Canopy Using Remote Sensing, Geomorphometry, and Environmental Niche Modeling 
+ Ersoy, Pnar, Ersahin, Mustafa, Unal, Ece, Arslan, Dorukhan, Karamustafa, Ebubekir
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Global Gridded Soil Phosphorus Distribution Maps at 0.5-degree Resolution 
+ LiDAR Surveys over Selected Forest Research Sites, Brazilian Amazon, 2008-2018 
+ Managed rainforests support higher carbon density and sequestration in the Congo Basin 
+ Sagang, Le Bienfaiteur, Dalagnol, Ricardo, White, Lee, George-Chacon, Stephanie, Favrichon, Samuel, Li, Shuang, Wagner, Fabien, Liu, Zhihua, Zhang, Dafeng, Ngomanda, Alfred, Medjibe, Vincent, Sonke, Bonaventure, Barbier, Nicolas, Ordway, Elsa M., Saatchi, Sassan
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L4A Footprint Level Aboveground Biomass Density, Version 2.1 
+ GEDI L4B Gridded Aboveground Biomass Density, Version 2 
+ AfriSAR: Gridded Forest Biomass and Canopy Metrics Derived from LVIS, Gabon, 2016 
+ Enhanced retrieval of forest parameters for vegetated areas in Guangxi province of China through synergistic integration of GEDI and Landsat 8 
+ Zhang, Bo, Zhang, Li, North, Peter, Huang, Cheng, Li, Mingzhe, Dian, Yuanyong, Zhang, Wangfei, Zhou, Jingjing, Yan, Min, Chen, Bowei
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDICorrect: A scalable python tool for orbit-, beam-, and footprint-level GEDI geolocation correction 
+ Corado, Leonel, Godinho, Sergio, Silva, Carlos Alberto, Pascual, Adrian, Guerra-Hernandez, Juan, Valerio, Francesco, Goncalves, Teresa, Salgueiro, Pedro
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Gridded GEDI Vegetation Structure Metrics and Biomass Density at Multiple Resolutions 
+ Global Vegetation Height Metrics from GEDI and ICESat2 
+ GEDI L4B Gridded Aboveground Biomass Density, Version 2 
+ GEDI-Guided Deep Learning for Forest Canopy Height Completion Using 
+ Tran, Quoc Khanh, Bui Quoc, Bao, Phuong, Hoa Nguyen Thi, Bindu, G., Chandu, P. J., Kamel, Nidal
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI observations of foliar height diversity track regrowth trends in the humid tropical forests of the Democratic Republic of Congo 
+ Kashongwe, Herve B, Roy, David P, Cho, Myung Sik, Hakkenberg, Christopher R, Bwangoy, Jean-Robert
+ 2026 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Optimized latin hypercube sampling for national-scale forest canopy 
+ Zhang, Shaoyu, Shu, Yanming, Yu, Jun, Qi, Shuhua, Xu, Hanzeyu, Song, Bin
+ 2026 
+ MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 1km SIN Grid V061 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L4D Imputed Waveforms, Version 2 
+ MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 1km SIN Grid V006 
+ Mangrove Canopy Height Estimation in the Sundarbans by Fusing X-band DEM and GEDI LiDAR Data 
+ Kim, Ye-Young, Ha, Su-Bin, Ueno, Ik-Joon, Lee, Seung-Kuk
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ High-resolution L-band VOD retrieval using GNSS-Tcalibrated multi-sensor fusion and self-supervised learning 
+ Hashemi, Mahya G.Z., Bolten, John D., Konings, Alexandra G., Holmes, Thomas R., Humphrey, Vincent, Feldman, Andrew F., Yao, Yitong, Niederberger, Michael, Damm, Alexander
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Local prediction of temperate forest structure in Eastern North America using LiDAR, radar, and optical data 
+ Wei, Chenyang, Sweeney, Colin, Roberts, Trevor, Keebler, Hikaru, Fink, Daniel, Zuckerberg, Benjamin, Jarzyna, Marta A, Zhao, Kaiguang
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ Modeling structural attributes of Hyrcanian forests using spaceborne 
+ Sohrabi, Hormoz, Akhavan, Reza
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ Leveraging GEDI LiDAR and SRTM DSM for estimating temporal changes in tree canopy height 
+ Ali, Yaqub, Rahman, M. Mahmudur, Hossain, Mohammad Mosharraf
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Integrating species distribution models (SDM) in spatially explicit GIS-tools to support nature-sensitive urban planning 
+ Buhrs, Malte, Rienow, Andreas, Zepp, Harald
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Mapping the structural diversity of Central African and Western US forests using GEDI 
+ Schneider, Fabian D., Dean, Morgan, Ordway, Elsa M., Libalah, Moses B., Ferraz, Antonio
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ Declining grassland canopy height in China under asymmetric biomass allocation 
+ Li, Huaqiang, Hu, Xinmiao, Li, Fei, Zhang, Yingjun, Lin, Kejian, Wang, Jie, Wang, Jiating
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid V006 
+ MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid V061 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061 
+ MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V006 
+ Correcting Laser Footprint Geolocation Errors in Mountainous Forests by 
+ Yang, Xiaomeng, Xie, Junfeng, Liu, Ren, Mo, Fan, Zhao, Huakai, Ai, Bo, Tang, Xinming
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Enhancing aboveground biomass estimation in tropical dry forests with GEDI, Sentinel-1/2 and national Forest inventory data 
+ Reyes-Palomeque, Gabriela, Andres-Mauricio, Juan, Hernandez-Martinez, Luis A., Pena-Lara, Victor, Tun-Dzul, Fernando, Hernandez-Stefanoni, Jose Luis
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ Comprehensive uncrewed aerial system data for Amazon rainforest at Tiputini Biodiversity Station, Ecuador 
+ Jung, Minyoung, Chang, Anjin, Cannon, Charles H., Rivas-Torres, Gonzalo, Jung, Jinha
+ 2026 
+ ASTER Global Digital Elevation Model V003 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ ASTER Global Digital Elevation Model V002 
+ A 10 m High-precision Canopy Height Product for Nanping City, Fujian Province, China 
+ Yi, Ling, Yao, Xiaojing, Yang, Aixia, Zhang, Liqiang, Wang, Dacheng, Jiao, Yue, Chen, Yaoliang, Liu, Shufu, Chen, Gang, Liu, Yalan
+ 2026 
+ ASTER Global Digital Elevation Model V003 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ ASTER Global Digital Elevation Model V002 
+ Assessment of spaceborne and airborne lidar metrics using Fay-Herriot 
+ Gonzalez Mesquida, Bernardo, Pascual, Adrian, Rodriguez-Puerta, Francisco, Guerra-Hernandez, Juan, Perroy, Ryan L., Garcia-Gomez, Rodrigo, Mauro, Francisco
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ A novel light use efficiency model incorporating stand age to improve monitoring of mangrove productivity and biomass accumulation 
+ Li, Shihua, Wei, Xu, Lin, Wei, Li, Peng
+ 2026 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Improving aboveground biomass density mapping of arid and semi-arid vegetation by combining GEDI LiDAR, Sentinel-1/2 imagery and field data 
+ Hernandez-Martinez, Luis A., Dupuy-Rada, Juan Manuel, Medel-Narvaez, Alfonso, Portillo-Quintero, Carlos, Hernandez-Stefanoni, Jose Luis
+ 2025 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L2B Canopy Cover and Vertical Profile Metrics Data Global Footprint Level V002 
+ Integrating PolInSAR and GEDI data with machine learning for forest canopy height predicting in Pongara National Park, Gabon 
+ Benhalima, N., Ouarzeddine, M., Souissi, B., Bengusmia, D.
+ 2025 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ Integrating GEDI, Sentinel-2, and Sentinel-1 imagery for tree crops 
+ Adrah, Esmaeel, Wong, Jesse Pan, Yin, He
+ 2025 
+ GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002 
+ GEDI L4A Footprint Level Aboveground Biomass Density, Version 2.1 
+ You're viewing 25 of 132
+ Load More 
+ Variables
+ The table below lists the variables contained within a single granule for this
+dataset. Variables often contain observed or derived geophysical measurements
+collected from a variety of sources, including remote sensing instruments on
+satellite and airborne platforms, field campaigns, in situ measurements, and
+model outputs. The terms variable, parameter, scientific data set, layer, and band
+have been used across NASA’s Earth science disciplines; however, variable is the
+designated nomenclature in NASA’s Common Metadata Repository (CMR).
+Variable metadata attributes such as Name, Description, Units, Data Type, Fill
+Value, Valid Range, and Scale Factor allow users to efficiently process and analyze
+the data. The full range of attributes may not be applicable to all variables.
+Additional information on variable attributes is typically available in the data,
+user guide, and/or other product documentation.
+ For questions on a specific variable, please use the Earthdata Forum. 
+ Copy Link 
+ BibTeX 
+ Apply 
+ Clear All 
+ Name 
+ Sort descending
+ Description 
+ Units 
+ Data Type 
+ Fill Value 
+ Valid Range 
+ Scale Factor 
+ Offset 
+ /BEAM0000/ancillary/l2a_alg_count 
+ Number of L2A algorithm runs present in file 
+ N/A 
+ uint8 
+ N/A 
+ 0 to 10 
+ N/A 
+ N/A 
+ /BEAM0000/beam 
+ Beam identifier 
+ N/A 
+ uint16 
+ N/A 
+ 0 to 12 
+ N/A 
+ N/A 
+ /BEAM0000/channel 
+ Channel identifier 
+ N/A 
+ uint8 
+ N/A 
+ 0 to 6 
+ N/A 
+ N/A 
+ /BEAM0000/degrade_flag 
+ Non-zero values indicate the shot occured during a degraded period. A non-zero tens digit indicates degraded attitude, a non-zero ones digit indicates a degraded trajectory. 3X=ADF CHU solution unavailable (ST-2); 4X=Platform attitude; 5X=Poor solution (filter covariance large); 6X=Data outage (platform attitude gap also); 7X=ST 1+2 unavailable (similar boresight FOV); 8X=ST 1+2+3 unavailable; 9X=ST 1+2+3 and ISS unavailable; X1=Maneuver; X2=GPS data gap; X3=ST blinding; X4=Other; X5=GPS receiver clock drift; X6=X5+X1; X7=X5+X2; X8=X5+X3; X9=X5+X4. 
+ N/A 
+ uint8 
+ N/A 
+ 0 to 99 
+ N/A 
+ N/A 
+ /BEAM0000/delta_time 
+ Transmit time of the shot, measured in seconds from the master_time_epoch. By adding the offset contained within /BEAMXXXX/ancillary/master_time_epoch to delta_time, the time in GPS seconds relative to the GPS epoch can be computed. Equivalent to /BEAMXXXX/master_int+/BEAMXXXX/master_frac. 
+ seconds since 2018-01-01 
+ float64 
+ N/A 
+ N/A 
+ N/A 
+ N/A 
+ /BEAM0000/digital_elevation_model 
+ TanDEM-X elevation at GEDI footprint location 
+ m 
+ float32 
+ N/A 
+ N/A 
+ N/A 
+ N/A 
+ /BEAM0000/digital_elevation_model_srtm 
+ SRTM elevation at GEDI footprint location 
+ m 
+ float32 
+ N/A 
+ N/A 
+ N/A 
+ N/A 
+ /BEAM0000/elevation_bias_flag 
+ Elevations potentially affected by 4bin (~60cm) ranging error 
+ N/A 
+ uint8 
+ N/A 
+ 0 to 1 
+ N/A 
+ N/A 
+ /BEAM0000/elevation_bin0_error 
+ Error in elevation of bin 0 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/elev_highestreturn 
+ elevation of highest detected return relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/elev_lowestmode 
+ elevation of center of lowest mode relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/energy_total 
+ Integrated counts in the return waveform relative to the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevation_1gfit 
+ Elevation corresponding to the center of a single gaussian fit to the waveform, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a1 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a2 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a3 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a4 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a5 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elevs_allmodes_a6 
+ Elevations of all modes detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a1 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a2 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a3 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a4 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a5 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_highestreturn_a6 
+ Elevation of the highest return detected using algorithm N, relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a1 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a2 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a3 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a4 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a5 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestmode_a6 
+ Elevation of the center of the lowest mode detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a1 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a2 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a3 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a4 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a5 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/elev_lowestreturn_a6 
+ Elevation of lowest return detected using algorithm N,relative to reference ellipsoid 
+ m 
+ float32 
+ N/A 
+ -1000 to 25000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a1 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a2 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a3 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a4 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a5 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/energy_lowestmode_a6 
+ Energy of lowest mode, detected using algorithm N, in the waveform above the mean noise level 
+ counts 
+ float32 
+ N/A 
+ -5000 to 5000000 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/latitude_1gfit 
+ Latitude corresponding to the center of a single gaussian fit to the waveform 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a1 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a2 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a3 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a4 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a5 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ /BEAM0000/geolocation/lats_allmodes_a6 
+ Latitudes of all modes detected using algorithm N 
+ degrees 
+ float64 
+ N/A 
+ -55 to 55 
+ N/A 
+ N/A 
+ You're viewing 50 of 4384
+ Load More 
+ Footer
+ Find Data 
+ Data Catalog 
+ Data Tools 
+ Platforms 
+ Instruments 
+ Space Geodesy Techniques 
+ Projects 
+ Data Alerts and Outages 
+ Earthdata Login 
+ Data Pathfinders by Topic 
+ Atmosphere 
+ Biosphere 
+ Climate Indicators 
+ Cryosphere 
+ Human Dimensions 
+ Land Surface 
+ Ocean 
+ Solid Earth 
+ Sun-Earth Interactions 
+ Terrestrial Hydrosphere 
+ Learn 
+ Earth Observation Data Basics 
+ Earthdata Forum 
+ Webinars 
+ Trainings 
+ Tutorials 
+ Data in Action 
+ Data Recipes 
+ GIS Resources 
+ StoryMaps 
+ Publications 
+ Centers 
+ ASF DAAC 
+ ASDC 
+ CDDIS 
+ GHRC DAAC 
+ GES DISC 
+ LP DAAC 
+ LAADS DAAC 
+ NSIDC DAAC 
+ ORNL DAAC 
+ OB.DAAC 
+ PO.DAAC 
+ Sea Level Change Portal 
+ Suborbital Data Resource Center 
+ Engage 
+ Data Management Guidance for ESD-funded Researchers 
+ Open Data, Services, and Software Policies 
+ Public and Private Partnerships 
+ Memberships and Affiliations 
+ News 
+ Events 
+ Newsletter 
+ Contact 
+ Footer Submenu
+ Web Privacy Policy 
+ Data and Information Guidance 
+ Communications Policy 
+ FOIA 
+ Accessibility 
+ Sitemap 
+ USA.gov 
+ Site last Updated: Oct. 21, 2026
+ NASA Official: Katie Baynes

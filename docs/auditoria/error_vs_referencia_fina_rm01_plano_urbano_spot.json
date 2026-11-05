@@ -1,0 +1,109 @@
+{
+  "site": "rm01_plano_urbano",
+  "source": "spot",
+  "referencia": {
+    "titulo": "Survey over Santiago, Chile from 2014 SPOT imagery",
+    "doi": "10.5069/G97M064K",
+    "opentopography_id": "OTDS.022021.32719.2",
+    "epoca": "2014",
+    "sensor": "SPOT-6 estereo",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 25.247195773654482,
+    "ondulacion_egm2008_m": 27.13129819661905,
+    "residual_si_elipsoidal_m": -1.8841024229645669,
+    "residual_si_ortometrica_m": 25.247195773654482,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 10.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 9950,
+      "bias_m": 1.3327620124241815,
+      "mae_m": 2.652339124786822,
+      "rmse_m": 3.913030583043625,
+      "nmad_m": 1.3973146484374557,
+      "p90_abs_m": 4.365921020507836,
+      "mediana_m": 1.8996107313368498,
+      "slope": {
+        "n": 8401,
+        "mae_deg": 1.9775712518810504,
+        "bias_deg": -1.5695381901860082,
+        "rmse_deg": 3.528080877513975
+      },
+      "nativo": {
+        "n": 82901,
+        "bias_m": 1.4057620029392175,
+        "mae_m": 3.18400296774824,
+        "rmse_m": 5.008634918503102,
+        "nmad_m": 1.7959693725585937,
+        "p90_abs_m": 5.31951904296875,
+        "mediana_m": 2.124267578125,
+        "res_m": 10.0,
+        "slope": {
+          "n": 50443,
+          "mae_deg": 4.934965414403482,
+          "bias_deg": -4.546118926025679,
+          "rmse_deg": 8.337042731861697
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 3.2699100634359706,
+      "pixeles_dem_ventana": 10201,
+      "cobertura_ref": 0.9753945691598863,
+      "by_slope_class": {
+        "<5": {
+          "n": 5412,
+          "bias_m": 1.8249030779312032,
+          "mae_m": 2.137189310869314,
+          "rmse_m": 2.6055096497318773,
+          "nmad_m": 1.084715434519431,
+          "p90_abs_m": 3.5317955017089857,
+          "mediana_m": 1.9336636861165175
+        },
+        "5-15": {
+          "n": 2340,
+          "bias_m": 1.0613532607032368,
+          "mae_m": 2.7764271791546373,
+          "rmse_m": 4.055020242320083,
+          "nmad_m": 1.8648789555866976,
+          "p90_abs_m": 4.756659698486327,
+          "mediana_m": 1.7927735343811833
+        },
+        "15-30": {
+          "n": 531,
+          "bias_m": -0.5346681461374719,
+          "mae_m": 4.288340798139294,
+          "rmse_m": 6.4674481066254765,
+          "nmad_m": 3.0877244384765623,
+          "p90_abs_m": 8.882184709821445,
+          "mediana_m": 1.4520263671875
+        },
+        ">30": {
+          "n": 118,
+          "bias_m": -2.8550025905047787,
+          "mae_m": 6.234507891039453,
+          "rmse_m": 9.56819814584678,
+          "nmad_m": 4.866807236735035,
+          "p90_abs_m": 15.9067229546441,
+          "mediana_m": -0.22063446044921875
+        }
+      }
+    },
+    "lote": null,
+    "lote_n_pixeles": 1
+  },
+  "png_glo30": "AUDITORIA\\diff_rm01_plano_urbano_spot_glo30.png",
+  "aw3d30_meta": {
+    "estado": "no_disponible",
+    "razon": "OpenTopography devolvio HTTP 401: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><error>Error: API maximum rate limit reached. (50 API calls/24hrs)</error>"
+  }
+}

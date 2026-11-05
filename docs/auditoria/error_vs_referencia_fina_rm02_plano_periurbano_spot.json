@@ -1,0 +1,140 @@
+{
+  "site": "rm02_plano_periurbano",
+  "source": "spot",
+  "referencia": {
+    "titulo": "Survey over Santiago, Chile from 2014 SPOT imagery",
+    "doi": "10.5069/G97M064K",
+    "opentopography_id": "OTDS.022021.32719.2",
+    "epoca": "2014",
+    "sensor": "SPOT-6 estereo",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 24.514187282986086,
+    "ondulacion_egm2008_m": 26.07010222675127,
+    "residual_si_elipsoidal_m": -1.5559149437651847,
+    "residual_si_ortometrica_m": 24.514187282986086,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 10.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 8037,
+      "bias_m": 1.3473675623741326,
+      "mae_m": 1.9981952433403602,
+      "rmse_m": 2.4884944775715865,
+      "nmad_m": 0.9590213968912332,
+      "p90_abs_m": 3.4614067925347305,
+      "mediana_m": 1.557176378038207,
+      "slope": {
+        "n": 4636,
+        "mae_deg": 1.0304299379862516,
+        "bias_deg": -0.6271455458551034,
+        "rmse_deg": 1.740193480134136
+      },
+      "nativo": {
+        "n": 69547,
+        "bias_m": 1.4806554255870243,
+        "mae_m": 2.52954667884359,
+        "rmse_m": 3.8921611745367657,
+        "nmad_m": 1.2488624633789063,
+        "p90_abs_m": 4.485607910156251,
+        "mediana_m": 1.594635009765625,
+        "res_m": 10.0,
+        "slope": {
+          "n": 30232,
+          "mae_deg": 2.931019631461964,
+          "bias_deg": -2.1239636096528374,
+          "rmse_deg": 5.026537017884967
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 1.9981635082981,
+      "pixeles_dem_ventana": 10816,
+      "cobertura_ref": 0.7430658284023669,
+      "by_slope_class": {
+        "<5": {
+          "n": 2783,
+          "bias_m": 1.3073362716868797,
+          "mae_m": 1.7099909281495271,
+          "rmse_m": 1.9821553907978462,
+          "nmad_m": 0.70487425231936,
+          "p90_abs_m": 2.705902099609365,
+          "mediana_m": 1.5258963448660552
+        },
+        "5-15": {
+          "n": 1579,
+          "bias_m": 0.7845952299735385,
+          "mae_m": 1.9731606275184446,
+          "rmse_m": 2.426329270708156,
+          "nmad_m": 1.1535240234375481,
+          "p90_abs_m": 3.5014404296874777,
+          "mediana_m": 1.3481009347098052
+        },
+        "15-30": {
+          "n": 263,
+          "bias_m": 1.237794541780213,
+          "mae_m": 2.5136452548641577,
+          "rmse_m": 3.274290756580879,
+          "nmad_m": 2.103451820882124,
+          "p90_abs_m": 5.147859700520851,
+          "mediana_m": 1.52337646484375
+        },
+        ">30": {
+          "n": 11,
+          "bias_m": 2.289434215551151,
+          "mae_m": 2.9293846581749365,
+          "rmse_m": 4.230640741968539,
+          "nmad_m": 2.260139918518078,
+          "p90_abs_m": 8.55176798502606,
+          "mediana_m": 0.8822402954101562
+        }
+      }
+    },
+    "lote": {
+      "n": 16,
+      "bias_m": 1.5204729254283613,
+      "mae_m": 1.5534563238658627,
+      "rmse_m": 1.6588591569053246,
+      "nmad_m": 0.5854523529052734,
+      "p90_abs_m": 2.2037270863851006,
+      "mediana_m": 1.6380829584030892,
+      "slope": {
+        "n": 12,
+        "mae_deg": 0.5067535747860313,
+        "bias_deg": -0.12199776728873575,
+        "rmse_deg": 0.608573546802057
+      },
+      "nativo": {
+        "n": 128,
+        "bias_m": 1.662992238998413,
+        "mae_m": 1.7784526348114014,
+        "rmse_m": 1.9698268116424622,
+        "nmad_m": 0.8362473907470702,
+        "p90_abs_m": 2.959722900390625,
+        "mediana_m": 1.7084197998046875,
+        "res_m": 10.0,
+        "slope": {
+          "n": 42,
+          "mae_deg": 1.8495902310003112,
+          "bias_deg": -1.6667094987353064,
+          "rmse_deg": 2.4111210039429687
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 0.8196142510041331
+    },
+    "lote_n_pixeles": 16
+  },
+  "png_glo30": "AUDITORIA\\diff_rm02_plano_periurbano_spot_glo30.png",
+  "aw3d30_meta": {
+    "estado": "no_disponible",
+    "razon": "OpenTopography devolvio HTTP 401: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><error>Error: API maximum rate limit reached. (50 API calls/24hrs)</error>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "site": "rm02_plano_periurbano",
+  "source": "pleiades",
+  "referencia": {
+    "titulo": "Survey of the San Ramon Fault, Santiago, Chile with 2016 Pleiades imagery",
+    "doi": "10.5069/G9CC0XWZ",
+    "opentopography_id": "OTDS.022021.32719.1",
+    "epoca": "2016",
+    "sensor": "Pleiades tri-stereo 0,5 m",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "fuera_de_huella"
+}

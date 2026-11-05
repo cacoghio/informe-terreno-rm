@@ -1,0 +1,174 @@
+FUENTE: https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d30/aw3d30_e.htm
+FECHA DE OBTENCION: 2026-10-23
+NOTA: texto extraido automaticamente; archivo de referencia, sin interpretacion legal.
+
+Dataset｜ALOS@EORC 
+ Dataset
+ Home 
+ Precise Global Digital 3D Map "ALOS World 3D" 
+ ALOS Global Digital Surface Model "ALOS World 3D - 30m (AW3D30)"
+ ALOS Global Digital Surface Model "ALOS World 3D - 30m (AW3D30)"
+ Black is no-data due to clouds, snow and ice. White is a place without tiles.
+ 1. Overview
+ This data set is a global digital surface model (DSM) with horizontal resolution of approximately 30 meters (basically 1 arcsecond) by the Panchromatic Remote-sensing Instrument for Stereo Mapping (PRISM), which was an optical sensor on board the Advanced Land Observing Satellite "ALOS".
+ Any of the commercial and non-commercial purposes can be used free of charge under the conditions of the " 5. Terms of Use " below.
+ We hope that this dataset will be widely used in scientific research, education, and new services that use geospatial information.
+ The latest version consists of the following three versions (see image below). The latest version can be downloaded from this website.
+ Fig : Version map of AW3D30
+ Version 4.1 : Global except Japan area and Antarctica
+ Version 4.0 : Part of Antarctica
+ Version 3.1 : Japan area, most of Antarctica
+ The list showing the tile names and versions of the AW3D30 globe (23,993 tiles) can be obtained from the link below.
+ List of all tiles in AW3D30 
+ The ratio of AW3D30's source datum is shown in the table below.
+ Table : Percentage of AW3D30 data sources (DSM)
+ 2. Release History
+ • Click here for the global tile list of AW3D30 (23,933 tiles)
+ March 2025: Updated files for 2 tiles in the Anterctic region (Version 4.0)
+ Fixed the file size error for Anterctic 2 tiles(S070E073,S070E074)
+ April 2024: Improved version, Global (except Anterctic and Japanese regions), 19,051 tiles released (Version 4.1)
+ New supplementary data for void filling
+ Correction of partial anomaly for AW3D30v3.1,3.2 and re-filling of voids
+ *For updated tile details in version 4.1, please select v4.1 only on map tiles, or refer to the latest format description.
+ April 2023: Improved version, low and mid latitude region and Southern region from 60 degrees south , 1,886 tiles released (Version 4.0)
+ New supplementary data for void filling
+ Correction of partial anomaly and re-filling of voids. (2 tiles)
+ Corrected and updated the coastline of Southern region from 60 degrees south (44 tiles)
+ Disable Caspian Sea water mask and supplemented with elevation data (54 tiles)
+ New partial anomaly areas in South America were extracted and corrected. (1,786 tiles)
+ *For updated tile details in version 4.0, please select v4.0 only on map tiles, or refer to the latest format description.
+ February 2022: Improved version, low and mid latitude region, 5 tiles released (Version 3.2)
+ Corrected partial anomaly and replaced version 3.1
+ January 2022: Improved version, low and mid latitude region, 7 tiles released (Version 3.2)
+ Corrected partial anomaly and replaced version 3.1
+ March 2021: Improved version, northern region over 60 degrees north, 2 tiles released (Version 3.2)
+ Corrected sea mask and replaced version 3.1
+ January 2021: Improved version, low latitude region, 19 tiles released (Version 3.2)
+ Corrected partial anomaly and replaced version 3.1
+ New supplementary data for correction
+ January 2021: Improved version, southern region over 60 degrees south, 4,814 tiles released (Version 3.1)
+ The rest of version 3.1
+ Latitude dependent pixel spacing at high latitude area
+ Alteration of coastline data
+ New supplementary data for void filling
+ April 2020: Northern region from 60 degrees south, 19,183 tiles released (Version 3.1)
+ Latitude dependent pixel spacing at high latitude area
+ Alteration of coastline data
+ New supplementary data for void filling
+ Use of AW3D third edition as a source data (Japan area)
+ Southern from 60 degrees south will be created soon (now ver. 1.0 is available)
+ April 2019: Improved version, northern region over 60 degrees north, 4,448 tiles released (Version 2.2)
+ Complement missing tiles in land area with existing DEMs
+ Complement "Cloud and snow" pixel and "Land water and low correlation" pixel by existing DEMs
+ Update coastline data
+ N/A range: version 2.1 and version 1.0 are available
+ April 2018: Improved version, within 60 degrees of north and south (and part of arctic), 14,535 tiles released (Version 2.1)
+ Use AW3D second edition as source data
+ Correct absolute offset errors from the ICESat reference
+ Correct relative striping errors along satellite orbits by updated calibration
+ Complement "Cloud and snow" pixel and "Land water and low correlation" pixel by existing DEMs
+ Update coastline in Japan area
+ N/A range: version 1.0 is available
+ March 2017: Complemented version, within 60 degrees of north and south, approximately 10,300 tiles released (Version 1.1)
+ Complement "Cloud and snow" pixel by existing DEMs
+ N/A range: version 1.0 is available
+ May 2016: Global land area (within about 82 degrees of latitude), approximately 22,100 tiles released (Version 1.0)
+ April 2016: Revised version, Japan and a part of individual continent, 7,278 tiles released (Version 1.0)
+ May/October 2015: Japan and a part of individual continent, 7,279 tiles released (beta version)
+ 3. Data set details
+ Product: 
+ ALOS World 3D - 30m (AW3D30) 
+ Resolution: 
+ 1 arcsecond (approximately 30 meters), latitude dependent 
+ File Unit: 
+ 1 × 1 degree Latitude/Longitude Tile 
+ File Composition: 
+ DSM file: Height above sea level (averaged from source AW3D) 
+ MSK file: Mask information (Cloud and snow, Sea, DEM information for complement processing) 
+ STK file: Stack number of DSM scenes used to produce source AW3D DSM 
+ QAI file: Quality assurance Information. 
+ HDR file: Meta data about the product 
+ LST file: List of Scene IDs used to produce source AW3D DSM 
+ AW3D30 Version 4.1 Product Description (PDF file, 819KB) - Latest version
+ AW3D30 Version 4.0 Product Description (PDF file, 671KB) - Previous version
+ AW3D30 Version 3.2/3.1 Product Description (PDF file, 510KB) - Previous version
+ Validation result of height accuracy: Please refer to " 8.References ".
+ 4. Download
+ The dataset is downloadable from following;
+ https://www.eorc.jaxa.jp/ALOS/en/aw3d30/data/index.htm 
+ To download the data files, you are kindly requested to make your account in the AW3D30 homepage.
+ If you forget your password, please register again.
+ User Registration
+ Please fill the form in the following URL and send it. Especially please check your email address again.
+ https://www.eorc.jaxa.jp/ALOS/en/aw3d30/registration.htm 
+ The notification of registration completion will be sent to your email address.
+ Please access to the URL described in the email and then your account will be activated.
+ After the account activation, we will send your account information to your email address.
+ JAXA will not use personal information that you registered for any purpose other than "ALOS World 3D"(AW3D).
+ Recommend to use Microsoft Edge, Google Chrome, Mozilla Firefox, Apple Safari.
+ However, it may not be available depending on the version.
+ Depending on your network environment, the downloaded compressed file may be automatically uncompressed.
+ Depending on the time, it may take time to display the page or download the dataset.
+ 5. Terms of Use for ALOS Global Digital Surface Model (AW3D30)
+ This dataset is available to use with no charge under the "Terms for Use" .
+ 6. Notes
+ (1) Access to the data download page
+ When access to the data download page, you are requested ID and password which are sent by email after completion of user registration. 
+ Please make your account in the user registration form. 
+ Username: <ID notified by email>
+ Password: <password notified by email> (character string excluding blanks only)
+ Please note that there are a lot of input errors. We recommend that you copy and paste ID and password notified by email.
+ Be careful not to include blank characters when copying and pacing.
+ If you make a mistake several times, your web session will be locked. If the session is locked, please wait for more than 20 minutes and try again. 
+ The lock will be automatically canceled after 20 minutes. Also, if the notification mail does not arrive or lost, 
+ please register again and the latest password will be effective.
+ (2) Data file
+ After login to the download page, please click the required data location on the map, you can download data file 
+ divided into 1 × 1 degree unit or 5 × 5 degree unit in latitude and longitude.
+ The downloaded file is compressed into one file by zip. Software may be required 
+ for this decompression. For example, 7-Zip is available as free software.
+ (3) Data Display
+ The format of DSM data file is GeoTIFF. To display and process the data, 
+ software such as image processing, remote sensing, GIS, etc. is required.
+ (4) Data conversion
+ Sample script for format conversion from AW3D30 DSM GeoTIFF to SRTM HGT format
+ (Update:March 15,2019) 
+ Download : aw3d30_srtmhgt.zip 
+ This is a sample script to convert AW3D30 DSM file (GeoTIFF) to SRTM HGT format. The sample script use the GDAL for format conversion. 
+ Please prepare an environment which can use GDAL. For usage, please refer to 
+ "readme-en.txt" composed in the zip file.
+ (a) System requirements
+ This sample script operates with Linux system, and requires "GDAL", "bash", and "awk". 
+ We also confirmed that the script works on the following environment except for Linux system.
+ Windows10 + Cygwin 2.8.2 ( https://www.cygwin.com/ )
+ Windows10 + OSgeo4W ( https://trac.osgeo.org/osgeo4w/ )
+ (b) Note: Usage of script
+ To perform resampling of the edge portion of the tile accurately, 
+ AW3D30 for input is needed the tile which is not only the tile you want to convert but also surrounding tiles. 
+ Please prepare the AW3D30 data for larger areas than your interest.
+ (c) Disclaimers
+ Regardless of the reason, JAXA shall not be made liable for any damage or loss as a result of the use of this sample script.
+ 7. Contact
+ ALOS Science Project
+ Earth Observation Research Center (EORC)
+ Japan Aerospace Exploration Agency (JAXA)
+ E-mail: aproject jaxa.jp 
+ Please refer to FAQ before sending email.
+ Please contact us in English or Japanese.
+ 8. Reference
+ J. Takaku, T. Tadono, M. Doutsu, F. Ohgushi, and H. Kai, : “Updates of 'AW3D30' ALOS Global Digital Surface Model in Anterctica with Other Open Access Datasets”, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2021, 401-408, 2021. 
+ PDF file 
+ T. Tadono, H. Ishida, F. Oda, S. Naito, K. Minakawa, and H. Iwamoto, “Precise Global DEM Generation by ALOS PRISM”, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.II-4, pp.71-76, 2014.
+ PDF file 
+ J. Takaku, T. Tadono, and K. Tsutsui, “Generation of High Resolution Global DSM from ALOS PRISM”, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS, Vol.XL-4, pp.243-248, 2014.
+ PDF file 
+ J. Takaku, T. Tadono, K. Tsutsui, and M. Ichikawa, “Validation of 'AW3D' Global DSM Generated from ALOS PRISM”, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Vol.III-4, pp.25-31, 2016.
+ PDF file 
+ T. Tadono, H. Nagai, H. Ishida, F. Oda, S. Naito, K. Minakawa, and H. Iwamoto, “Initial Validation of the 30 m-mesh Global Digital Surface Model Generated by ALOS PRISM”, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS, Vol.XLI-B4, pp.157-162, 2016.
+ PDF file 
+ J. Takaku and T. Tadono, “Quality updates of ‘AW3D’ global DSM generated from ALOS PRISM”, Proc. IGARSS2017, IEEE, Fort Worth, TX, USA., pp.5666-5669, 2017.
+ Web page 
+ J. Takaku, T. Tadono, K. Tsutsui, and M. Ichikawa, “Quality Improvements of ‘AW3D’ Global DSM Derived from ALOS PRISM”, Proc. IGARSS2018, IEEE, Valencia, Spain, pp.1612-1615, 2018.
+ Web page 
+ J. Takaku, T. Tadono, M. Doutsu, F. Ohgushi, and H. Kai, “Updates of ‘AW3D30’ ALOS Global Digital Surface Model with Other Open Access Datasets”, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS, Vol.XLIII-B4-2020, pp.183–189, 2020.
+ PDF file

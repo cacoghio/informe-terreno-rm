@@ -1,0 +1,245 @@
+{
+  "n_sitios": 8,
+  "n_huellas": 4421,
+  "por_sitio": {
+    "rm01_plano_urbano": {
+      "arbolado": {
+        "n": 64,
+        "bias_m": 2.91,
+        "rmse_m": 3.62
+      },
+      "construido": {
+        "n": 501,
+        "bias_m": 2.01,
+        "rmse_m": 3.07
+      },
+      "otro": {
+        "n": 14,
+        "bias_m": 2.89,
+        "rmse_m": 3.58
+      },
+      "todas": {
+        "n": 579,
+        "bias_m": 2.13,
+        "rmse_m": 3.15
+      }
+    },
+    "rm02_plano_periurbano": {
+      "arbolado": {
+        "n": 102,
+        "bias_m": 1.68,
+        "rmse_m": 2.26
+      },
+      "construido": {
+        "n": 119,
+        "bias_m": -0.01,
+        "rmse_m": 2.54
+      },
+      "otro": {
+        "n": 469,
+        "bias_m": 0.59,
+        "rmse_m": 2.57
+      },
+      "todas": {
+        "n": 690,
+        "bias_m": 0.65,
+        "rmse_m": 2.52
+      }
+    },
+    "rm03_piedemonte_oriente": {
+      "arbolado": {
+        "n": 87,
+        "bias_m": -0.15,
+        "rmse_m": 2.5
+      },
+      "construido": {
+        "n": 182,
+        "bias_m": 0.02,
+        "rmse_m": 2.15
+      },
+      "otro": {
+        "n": 110,
+        "bias_m": 0.11,
+        "rmse_m": 3.62
+      },
+      "todas": {
+        "n": 379,
+        "bias_m": 0.01,
+        "rmse_m": 2.73
+      }
+    },
+    "rm04_piedemonte_alto": {
+      "arbolado": {
+        "n": 254,
+        "bias_m": 2.76,
+        "rmse_m": 6.02
+      },
+      "construido": {
+        "n": 110,
+        "bias_m": -0.34,
+        "rmse_m": 10.8
+      },
+      "otro": {
+        "n": 156,
+        "bias_m": 1.34,
+        "rmse_m": 15.25
+      },
+      "todas": {
+        "n": 520,
+        "bias_m": 1.67,
+        "rmse_m": 10.59
+      }
+    },
+    "rm05_piedemonte_sur": {
+      "arbolado": {
+        "n": 78,
+        "bias_m": 3.7,
+        "rmse_m": 5.5
+      },
+      "construido": {
+        "n": 10,
+        "bias_m": 1.79,
+        "rmse_m": 3.11
+      },
+      "otro": {
+        "n": 215,
+        "bias_m": 1.35,
+        "rmse_m": 4.94
+      },
+      "todas": {
+        "n": 303,
+        "bias_m": 1.97,
+        "rmse_m": 5.04
+      }
+    },
+    "rm06_cerro_isla_urbano": {
+      "arbolado": {
+        "n": 63,
+        "bias_m": 1.93,
+        "rmse_m": 2.72
+      },
+      "construido": {
+        "n": 41,
+        "bias_m": 0.95,
+        "rmse_m": 2.53
+      },
+      "otro": {
+        "n": 475,
+        "bias_m": 1.91,
+        "rmse_m": 4.8
+      },
+      "todas": {
+        "n": 579,
+        "bias_m": 1.85,
+        "rmse_m": 4.49
+      }
+    },
+    "rm07_lomaje_norte": {
+      "arbolado": {
+        "n": 116,
+        "bias_m": 0.06,
+        "rmse_m": 1.65
+      },
+      "construido": {
+        "n": 131,
+        "bias_m": -0.22,
+        "rmse_m": 1.78
+      },
+      "otro": {
+        "n": 395,
+        "bias_m": -1.33,
+        "rmse_m": 8.41
+      },
+      "todas": {
+        "n": 642,
+        "bias_m": -0.85,
+        "rmse_m": 6.68
+      }
+    },
+    "rm08_precordillera": {
+      "arbolado": {
+        "n": 99,
+        "bias_m": 4.5,
+        "rmse_m": 8.64
+      },
+      "construido": {
+        "n": 0,
+        "bias_m": null,
+        "rmse_m": null
+      },
+      "otro": {
+        "n": 630,
+        "bias_m": 4.15,
+        "rmse_m": 8.67
+      },
+      "todas": {
+        "n": 729,
+        "bias_m": 4.19,
+        "rmse_m": 8.67
+      }
+    }
+  },
+  "agrupado": {
+    "arbolado": {
+      "todas": {
+        "n": 863,
+        "bias_m": 2.21,
+        "rmse_m": 5.01
+      },
+      "pendiente<15": {
+        "n": 635,
+        "bias_m": 1.7,
+        "rmse_m": 3.03
+      },
+      "pendiente>=15": {
+        "n": 228,
+        "bias_m": 3.63,
+        "rmse_m": 8.33
+      }
+    },
+    "construido": {
+      "todas": {
+        "n": 1094,
+        "bias_m": 0.91,
+        "rmse_m": 4.27
+      },
+      "pendiente<15": {
+        "n": 1047,
+        "bias_m": 1.0,
+        "rmse_m": 4.12
+      },
+      "pendiente>=15": {
+        "n": 47,
+        "bias_m": -0.98,
+        "rmse_m": 6.71
+      }
+    },
+    "otro": {
+      "todas": {
+        "n": 2464,
+        "bias_m": 1.55,
+        "rmse_m": 7.33
+      },
+      "pendiente<15": {
+        "n": 997,
+        "bias_m": 0.36,
+        "rmse_m": 2.5
+      },
+      "pendiente>=15": {
+        "n": 1467,
+        "bias_m": 2.37,
+        "rmse_m": 9.28
+      }
+    }
+  },
+  "rmse_dosel_menos_otro_por_sitio": {
+    "rm01_plano_urbano": -0.44,
+    "rm02_plano_periurbano": -0.15,
+    "rm03_piedemonte_oriente": -1.35,
+    "rm04_piedemonte_alto": -7.47,
+    "rm05_piedemonte_sur": 0.34,
+    "rm06_cerro_isla_urbano": -2.16,
+    "rm07_lomaje_norte": -6.69,
+    "rm08_precordillera": -0.03
+  }
+}

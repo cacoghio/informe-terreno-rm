@@ -1,0 +1,255 @@
+{
+  "site": "lo_barnechea",
+  "source": "pleiades",
+  "referencia": {
+    "titulo": "Survey of the San Ramon Fault, Santiago, Chile with 2016 Pleiades imagery",
+    "doi": "10.5069/G9CC0XWZ",
+    "opentopography_id": "OTDS.022021.32719.1",
+    "epoca": "2016",
+    "sensor": "Pleiades tri-stereo 0,5 m",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 28.24999468254316,
+    "ondulacion_egm2008_m": 28.348045261526554,
+    "residual_si_elipsoidal_m": -0.09805057898339342,
+    "residual_si_ortometrica_m": 28.24999468254316,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 5.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 5.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 5 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 11192,
+      "bias_m": -0.37367139795753934,
+      "mae_m": 1.7628540459866275,
+      "rmse_m": 3.2568560221762066,
+      "nmad_m": 1.6145917161305932,
+      "p90_abs_m": 3.433122931586387,
+      "mediana_m": 0.10734795464412628,
+      "slope": {
+        "n": 9457,
+        "mae_deg": 1.5051281243708028,
+        "bias_deg": -1.0318632325018957,
+        "rmse_deg": 2.555769289545734
+      },
+      "nativo": {
+        "n": 368328,
+        "bias_m": -0.35048700277419176,
+        "mae_m": 2.839503272630284,
+        "rmse_m": 4.615734901048775,
+        "nmad_m": 2.729290686035156,
+        "p90_abs_m": 5.625079345703124,
+        "mediana_m": 0.508544921875,
+        "res_m": 5.0,
+        "slope": {
+          "n": 228743,
+          "mae_deg": 11.85024740770547,
+          "bias_deg": -11.08883557755171,
+          "rmse_deg": 16.18547700321357
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 3.3151026257115714,
+      "pixeles_dem_ventana": 12100,
+      "cobertura_ref": 0.9249586776859504,
+      "by_slope_class": {
+        "<5": {
+          "n": 4380,
+          "bias_m": -0.08978743842413711,
+          "mae_m": 1.1126808336126517,
+          "rmse_m": 1.6527140897169454,
+          "nmad_m": 1.2066747327590541,
+          "p90_abs_m": 2.2413681624771695,
+          "mediana_m": 0.04005308825560405
+        },
+        "5-15": {
+          "n": 3046,
+          "bias_m": -0.42580930071862794,
+          "mae_m": 1.905245377967041,
+          "rmse_m": 3.0036422238090847,
+          "nmad_m": 1.8095391288110818,
+          "p90_abs_m": 3.9905464418473002,
+          "mediana_m": 0.14827444789801802
+        },
+        "15-30": {
+          "n": 1071,
+          "bias_m": -0.6341657981259989,
+          "mae_m": 2.5301154084464748,
+          "rmse_m": 4.190591882306518,
+          "nmad_m": 2.413641030667128,
+          "p90_abs_m": 5.367176402698874,
+          "mediana_m": 0.26292370211695015
+        },
+        ">30": {
+          "n": 960,
+          "bias_m": 0.12692668589502507,
+          "mae_m": 1.7137359972186668,
+          "rmse_m": 2.7998990564997124,
+          "nmad_m": 1.7531904579671724,
+          "p90_abs_m": 3.153128487723188,
+          "mediana_m": 0.4644334581163321
+        }
+      }
+    },
+    "lote": {
+      "n": 98,
+      "bias_m": -1.1260770044934838,
+      "mae_m": 2.9442687917289128,
+      "rmse_m": 4.073331978195037,
+      "nmad_m": 3.2416636260772402,
+      "p90_abs_m": 7.06473166073066,
+      "mediana_m": -0.2747122648075333,
+      "slope": {
+        "n": 86,
+        "mae_deg": 2.8574892044488838,
+        "bias_deg": -2.2411613494882663,
+        "rmse_deg": 3.6883744341088156
+      },
+      "nativo": {
+        "n": 2963,
+        "bias_m": -1.0131654871342917,
+        "mae_m": 5.442892743412241,
+        "rmse_m": 7.43390910886743,
+        "nmad_m": 5.07906328125,
+        "p90_abs_m": 13.029956054687503,
+        "mediana_m": 0.87701416015625,
+        "res_m": 5.0,
+        "slope": {
+          "n": 1156,
+          "mae_deg": 17.882660252588,
+          "bias_deg": -17.583762667513135,
+          "rmse_deg": 23.340887523441026
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 6.21834255272139
+    },
+    "lote_n_pixeles": 98
+  },
+  "png_glo30": "AUDITORIA\\diff_lo_barnechea_pleiades_glo30.png",
+  "aw3d30_meta": {
+    "estado": "ejecutado",
+    "datum_alineado": true,
+    "nota_datum": "b convertido de EGM96 a EGM2008 con mallas de geoide",
+    "desfase_geoide_medio_m": -0.3807908674320451,
+    "rms_diff_vs_glo30_m": 3.817207656646886
+  },
+  "aw3d30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 5.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 5 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 11192,
+      "bias_m": 0.4943379334409345,
+      "mae_m": 1.9903122247724019,
+      "rmse_m": 3.11047649803839,
+      "nmad_m": 1.7465038462619928,
+      "p90_abs_m": 3.680134146554132,
+      "mediana_m": 0.9405983818901973,
+      "slope": {
+        "n": 9457,
+        "mae_deg": 1.4688633817808692,
+        "bias_deg": -0.8120340726483473,
+        "rmse_deg": 2.4634049791764756
+      },
+      "nativo": {
+        "n": 368328,
+        "bias_m": 0.5057603831046882,
+        "mae_m": 3.0590819575096257,
+        "rmse_m": 4.537978820396027,
+        "nmad_m": 2.7315529541015624,
+        "p90_abs_m": 5.81170654296875,
+        "mediana_m": 1.34893798828125,
+        "res_m": 5.0,
+        "slope": {
+          "n": 228743,
+          "mae_deg": 11.6883070130434,
+          "bias_deg": -10.864491659608978,
+          "rmse_deg": 15.99452697577389
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 3.3151026257115714,
+      "pixeles_dem_ventana": 12100,
+      "cobertura_ref": 0.9249586776859504,
+      "by_slope_class": {
+        "<5": {
+          "n": 4380,
+          "bias_m": 0.7848168224429076,
+          "mae_m": 1.4838345762872305,
+          "rmse_m": 1.9221079611828782,
+          "nmad_m": 1.3905784400431054,
+          "p90_abs_m": 2.884080485424943,
+          "mediana_m": 0.9497183597449066
+        },
+        "5-15": {
+          "n": 3046,
+          "bias_m": 0.5710904099033969,
+          "mae_m": 2.1023013688531047,
+          "rmse_m": 2.950795720498707,
+          "nmad_m": 1.8725342193603636,
+          "p90_abs_m": 4.092687161763536,
+          "mediana_m": 0.9956114712883277
+        },
+        "15-30": {
+          "n": 1071,
+          "bias_m": 0.253356552936822,
+          "mae_m": 2.498652255763618,
+          "rmse_m": 3.8496161192027576,
+          "nmad_m": 2.2835183044434153,
+          "p90_abs_m": 5.1649188417377445,
+          "mediana_m": 0.781646728515625
+        },
+        ">30": {
+          "n": 960,
+          "bias_m": 1.1140675957257542,
+          "mae_m": 2.0442031886073573,
+          "rmse_m": 2.777785329847963,
+          "nmad_m": 1.4872023045019165,
+          "p90_abs_m": 3.354217020670592,
+          "mediana_m": 1.5278160287552964
+        }
+      }
+    },
+    "lote": {
+      "n": 98,
+      "bias_m": 0.8506548992054956,
+      "mae_m": 3.528634781267556,
+      "rmse_m": 4.76590191537953,
+      "nmad_m": 3.437684878679372,
+      "p90_abs_m": 7.677217062245278,
+      "mediana_m": 0.860587624942525,
+      "slope": {
+        "n": 86,
+        "mae_deg": 3.1038918911126006,
+        "bias_deg": 0.06393162536092899,
+        "rmse_deg": 3.751428626467725
+      },
+      "nativo": {
+        "n": 2963,
+        "bias_m": 0.7296191604001434,
+        "mae_m": 5.8635363081521055,
+        "rmse_m": 7.673783852260938,
+        "nmad_m": 5.919993566894531,
+        "p90_abs_m": 13.021411132812501,
+        "mediana_m": 1.577880859375,
+        "res_m": 5.0,
+        "slope": {
+          "n": 1156,
+          "mae_deg": 16.500369260000856,
+          "bias_deg": -15.36258310672095,
+          "rmse_deg": 21.716692196443045
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 6.21834255272139
+    },
+    "lote_n_pixeles": 98
+  }
+}

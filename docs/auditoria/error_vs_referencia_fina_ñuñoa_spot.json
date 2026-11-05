@@ -1,0 +1,193 @@
+{
+  "site": "ñuñoa",
+  "source": "spot",
+  "referencia": {
+    "titulo": "Survey over Santiago, Chile from 2014 SPOT imagery",
+    "doi": "10.5069/G97M064K",
+    "opentopography_id": "OTDS.022021.32719.2",
+    "epoca": "2014",
+    "sensor": "SPOT-6 estereo",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 25.42791069878467,
+    "ondulacion_egm2008_m": 27.305795085786617,
+    "residual_si_elipsoidal_m": -1.877884387001945,
+    "residual_si_ortometrica_m": 25.42791069878467,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 10.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 10481,
+      "bias_m": 1.528549092652735,
+      "mae_m": 2.4239412439508343,
+      "rmse_m": 3.335979458942043,
+      "nmad_m": 1.1973531331380396,
+      "p90_abs_m": 4.040866427951414,
+      "mediana_m": 1.893690321180543,
+      "slope": {
+        "n": 9047,
+        "mae_deg": 1.4881785495502382,
+        "bias_deg": -1.0867204223902809,
+        "rmse_deg": 2.6466405444334153
+      },
+      "nativo": {
+        "n": 88127,
+        "bias_m": 1.5786192229092584,
+        "mae_m": 2.8439082043827284,
+        "rmse_m": 4.267084176619496,
+        "nmad_m": 1.5588836791992187,
+        "p90_abs_m": 4.827526855468752,
+        "mediana_m": 2.04351806640625,
+        "res_m": 10.0,
+        "slope": {
+          "n": 58223,
+          "mae_deg": 4.283248236215872,
+          "bias_deg": -3.977208844028698,
+          "rmse_deg": 7.234545421832779
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.7424698728986883,
+      "pixeles_dem_ventana": 10712,
+      "cobertura_ref": 0.9784353995519044,
+      "by_slope_class": {
+        "<5": {
+          "n": 6519,
+          "bias_m": 1.8388591834617498,
+          "mae_m": 2.030936235103651,
+          "rmse_m": 2.3485344903798047,
+          "nmad_m": 0.9632096450805102,
+          "p90_abs_m": 3.3261935763888912,
+          "mediana_m": 1.8876571655273438
+        },
+        "5-15": {
+          "n": 2092,
+          "bias_m": 1.2650706827501248,
+          "mae_m": 2.669254008954261,
+          "rmse_m": 3.7011426464158528,
+          "nmad_m": 1.7054239784240441,
+          "p90_abs_m": 4.595883178710916,
+          "mediana_m": 1.884148915608705
+        },
+        "15-30": {
+          "n": 391,
+          "bias_m": -0.23222184864732318,
+          "mae_m": 4.018117446289261,
+          "rmse_m": 5.698209777984627,
+          "nmad_m": 3.1804774291992186,
+          "p90_abs_m": 8.034080505371094,
+          "mediana_m": 1.5444675021701642
+        },
+        ">30": {
+          "n": 45,
+          "bias_m": -2.1799922312041895,
+          "mae_m": 5.552289692443085,
+          "rmse_m": 8.268373771850877,
+          "nmad_m": 5.474258889770508,
+          "p90_abs_m": 12.509353637695316,
+          "mediana_m": 0.3448638916015625
+        }
+      }
+    },
+    "lote": null,
+    "lote_n_pixeles": 4
+  },
+  "png_glo30": "AUDITORIA\\diff_ñuñoa_spot_glo30.png",
+  "aw3d30_meta": {
+    "estado": "ejecutado",
+    "datum_alineado": true,
+    "nota_datum": "b convertido de EGM96 a EGM2008 con mallas de geoide",
+    "desfase_geoide_medio_m": 0.07615057216795386,
+    "rms_diff_vs_glo30_m": 3.3486814361825687
+  },
+  "aw3d30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 10481,
+      "bias_m": 3.465189056579275,
+      "mae_m": 3.836299494798176,
+      "rmse_m": 4.440073630818351,
+      "nmad_m": 1.068534562174629,
+      "p90_abs_m": 5.472404479980469,
+      "mediana_m": 3.4637518988715783,
+      "slope": {
+        "n": 9047,
+        "mae_deg": 1.2090895542922053,
+        "bias_deg": -0.5225873920028711,
+        "rmse_deg": 2.133521978476052
+      },
+      "nativo": {
+        "n": 88127,
+        "bias_m": 3.4877389217441075,
+        "mae_m": 4.236180181909214,
+        "rmse_m": 5.170780440088464,
+        "nmad_m": 1.497078515625,
+        "p90_abs_m": 6.568188476562504,
+        "mediana_m": 3.5970458984375,
+        "res_m": 10.0,
+        "slope": {
+          "n": 58223,
+          "mae_deg": 4.19331264866086,
+          "bias_deg": -3.3609715166506993,
+          "rmse_deg": 6.934129960694797
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.7424698728986883,
+      "pixeles_dem_ventana": 10712,
+      "cobertura_ref": 0.9784353995519044,
+      "by_slope_class": {
+        "<5": {
+          "n": 6519,
+          "bias_m": 3.382632391614122,
+          "mae_m": 3.433848529210696,
+          "rmse_m": 3.5872187940584612,
+          "nmad_m": 0.8334258397419873,
+          "p90_abs_m": 4.563925509982619,
+          "mediana_m": 3.386867947048586
+        },
+        "5-15": {
+          "n": 2092,
+          "bias_m": 3.24078300853735,
+          "mae_m": 3.8849396430862493,
+          "rmse_m": 4.535591025724944,
+          "nmad_m": 1.4776732828775572,
+          "p90_abs_m": 5.887461286272355,
+          "mediana_m": 3.5891486273871465
+        },
+        "15-30": {
+          "n": 391,
+          "bias_m": 3.466252928067031,
+          "mae_m": 5.379162671494097,
+          "rmse_m": 6.400289908660328,
+          "nmad_m": 3.0868195312499997,
+          "p90_abs_m": 9.78580147879461,
+          "mediana_m": 4.231764051649293
+        },
+        ">30": {
+          "n": 45,
+          "bias_m": 3.9508929141951157,
+          "mae_m": 6.6242029422174635,
+          "rmse_m": 8.09255157498755,
+          "nmad_m": 7.730012701416119,
+          "p90_abs_m": 12.55103759765625,
+          "mediana_m": 4.12216622488836
+        }
+      }
+    },
+    "lote": null,
+    "lote_n_pixeles": 4
+  }
+}

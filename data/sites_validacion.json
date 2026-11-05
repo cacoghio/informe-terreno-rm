@@ -1,0 +1,854 @@
+{
+  "v01_llano_pudahuel": {
+    "nombre": "v01_llano_pudahuel",
+    "estrato": "A",
+    "comuna_referencial": "Pudahuel",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.8482283,
+            -33.4226715
+          ],
+          [
+            -70.8481901,
+            -33.4208685
+          ],
+          [
+            -70.8503402,
+            -33.4208365
+          ],
+          [
+            -70.8503784,
+            -33.4226395
+          ],
+          [
+            -70.8482283,
+            -33.4226715
+          ]
+        ]
+      ]
+    },
+    "area_m2": 40001.9,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Pudahuel"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 0.65,
+      "dosel_ventana_pct": 0.23,
+      "n_pixeles_lote": 49,
+      "n_candidatos_validos": 15907
+    }
+  },
+  "v02_llano_lampa": {
+    "nombre": "v02_llano_lampa",
+    "estrato": "A",
+    "comuna_referencial": "Lampa",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.8401283,
+            -33.2888022
+          ],
+          [
+            -70.8400859,
+            -33.2867863
+          ],
+          [
+            -70.8424862,
+            -33.2867508
+          ],
+          [
+            -70.8425285,
+            -33.2887666
+          ],
+          [
+            -70.8401283,
+            -33.2888022
+          ]
+        ]
+      ]
+    },
+    "area_m2": 50002.9,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Lampa"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 9.3,
+      "dosel_ventana_pct": 6.36,
+      "n_pixeles_lote": 56,
+      "n_candidatos_validos": 36810
+    }
+  },
+  "v03_llano_padre_hurtado": {
+    "nombre": "v03_llano_padre_hurtado",
+    "estrato": "A",
+    "comuna_referencial": "Padre Hurtado",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.886621,
+            -33.573602
+          ],
+          [
+            -70.8865817,
+            -33.5717991
+          ],
+          [
+            -70.8887355,
+            -33.5717662
+          ],
+          [
+            -70.8887748,
+            -33.5735691
+          ],
+          [
+            -70.886621,
+            -33.573602
+          ]
+        ]
+      ]
+    },
+    "area_m2": 40000.8,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Padre Hurtado",
+        "Peñaflor"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 1.86,
+      "dosel_ventana_pct": 7.7,
+      "n_pixeles_lote": 49,
+      "n_candidatos_validos": 7862
+    }
+  },
+  "v04_llano_buin": {
+    "nombre": "v04_llano_buin",
+    "estrato": "A",
+    "comuna_referencial": "Buin",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.7579721,
+            -33.7608009
+          ],
+          [
+            -70.7579309,
+            -33.7587851
+          ],
+          [
+            -70.7603443,
+            -33.7587507
+          ],
+          [
+            -70.7603855,
+            -33.7607665
+          ],
+          [
+            -70.7579721,
+            -33.7608009
+          ]
+        ]
+      ]
+    },
+    "area_m2": 50006.1,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Buin"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 1.53,
+      "dosel_ventana_pct": 5.9,
+      "n_pixeles_lote": 56,
+      "n_candidatos_validos": 18659
+    }
+  },
+  "v05_llano_paine": {
+    "nombre": "v05_llano_paine",
+    "estrato": "A",
+    "comuna_referencial": "Paine",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.7543382,
+            -33.8526408
+          ],
+          [
+            -70.7542931,
+            -33.8504326
+          ],
+          [
+            -70.7569396,
+            -33.8503949
+          ],
+          [
+            -70.7569849,
+            -33.8526031
+          ],
+          [
+            -70.7543382,
+            -33.8526408
+          ]
+        ]
+      ]
+    },
+    "area_m2": 60008.9,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Paine"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 0.89,
+      "dosel_ventana_pct": 5.68,
+      "n_pixeles_lote": 64,
+      "n_candidatos_validos": 24998
+    }
+  },
+  "v06_llano_talagante": {
+    "nombre": "v06_llano_talagante",
+    "estrato": "A",
+    "comuna_referencial": "Talagante",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.8544294,
+            -33.6575884
+          ],
+          [
+            -70.8543907,
+            -33.6557854
+          ],
+          [
+            -70.8565467,
+            -33.6557531
+          ],
+          [
+            -70.8565854,
+            -33.657556
+          ],
+          [
+            -70.8544294,
+            -33.6575884
+          ]
+        ]
+      ]
+    },
+    "area_m2": 40004.0,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Talagante",
+        "Calera de Tango"
+      ],
+      "rango_pendiente_pct": [
+        0,
+        12
+      ],
+      "rango_dosel_pct": [
+        0,
+        8
+      ],
+      "pendiente_ventana_pct": 1.41,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 49,
+      "n_candidatos_validos": 9758
+    }
+  },
+  "v07_media_colina": {
+    "nombre": "v07_media_colina",
+    "estrato": "B",
+    "comuna_referencial": "Colina",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.6740598,
+            -33.144394
+          ],
+          [
+            -70.6740255,
+            -33.1425908
+          ],
+          [
+            -70.676169,
+            -33.1425619
+          ],
+          [
+            -70.6762033,
+            -33.1443652
+          ],
+          [
+            -70.6740598,
+            -33.144394
+          ]
+        ]
+      ]
+    },
+    "area_m2": 40007.3,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Colina"
+      ],
+      "rango_pendiente_pct": [
+        12,
+        22
+      ],
+      "rango_dosel_pct": [
+        0,
+        50
+      ],
+      "pendiente_ventana_pct": 12.68,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 42,
+      "n_candidatos_validos": 11248
+    }
+  },
+  "v08_media_pirque": {
+    "nombre": "v08_media_pirque",
+    "estrato": "B",
+    "comuna_referencial": "Pirque",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.523732,
+            -33.7079555
+          ],
+          [
+            -70.5237044,
+            -33.7063938
+          ],
+          [
+            -70.5255729,
+            -33.7063707
+          ],
+          [
+            -70.5256006,
+            -33.7079324
+          ],
+          [
+            -70.523732,
+            -33.7079555
+          ]
+        ]
+      ]
+    },
+    "area_m2": 30010.9,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Pirque"
+      ],
+      "rango_pendiente_pct": [
+        12,
+        22
+      ],
+      "rango_dosel_pct": [
+        0,
+        50
+      ],
+      "pendiente_ventana_pct": 12.99,
+      "dosel_ventana_pct": 13.5,
+      "n_pixeles_lote": 36,
+      "n_candidatos_validos": 3883
+    }
+  },
+  "v09_media_la_florida": {
+    "nombre": "v09_media_la_florida",
+    "estrato": "B",
+    "comuna_referencial": "La Florida",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.519731,
+            -33.5116365
+          ],
+          [
+            -70.5197087,
+            -33.5103613
+          ],
+          [
+            -70.5212309,
+            -33.5103427
+          ],
+          [
+            -70.5212532,
+            -33.5116178
+          ],
+          [
+            -70.519731,
+            -33.5116365
+          ]
+        ]
+      ]
+    },
+    "area_m2": 20006.8,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "La Florida",
+        "Peñalolén"
+      ],
+      "rango_pendiente_pct": [
+        12,
+        22
+      ],
+      "rango_dosel_pct": [
+        0,
+        50
+      ],
+      "pendiente_ventana_pct": 12.22,
+      "dosel_ventana_pct": 22.88,
+      "n_pixeles_lote": 20,
+      "n_candidatos_validos": 1545
+    }
+  },
+  "v10_media_san_jose": {
+    "nombre": "v10_media_san_jose",
+    "estrato": "B",
+    "comuna_referencial": "San José de Maipo",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.187924,
+            -33.5704296
+          ],
+          [
+            -70.1879026,
+            -33.5688677
+          ],
+          [
+            -70.1897684,
+            -33.5688498
+          ],
+          [
+            -70.1897898,
+            -33.5704117
+          ],
+          [
+            -70.187924,
+            -33.5704296
+          ]
+        ]
+      ]
+    },
+    "area_m2": 30014.9,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "San José de Maipo"
+      ],
+      "rango_pendiente_pct": [
+        12,
+        22
+      ],
+      "rango_dosel_pct": [
+        0,
+        50
+      ],
+      "pendiente_ventana_pct": 20.76,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 30,
+      "n_candidatos_validos": 45844
+    }
+  },
+  "v11_cerro_lo_barnechea": {
+    "nombre": "v11_cerro_lo_barnechea",
+    "estrato": "C",
+    "comuna_referencial": "Lo Barnechea",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.3728735,
+            -33.296989
+          ],
+          [
+            -70.372842,
+            -33.2949727
+          ],
+          [
+            -70.375243,
+            -33.2949461
+          ],
+          [
+            -70.3752746,
+            -33.2969625
+          ],
+          [
+            -70.3728735,
+            -33.296989
+          ]
+        ]
+      ]
+    },
+    "area_m2": 50020.5,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Lo Barnechea"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 50.1,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 64,
+      "n_candidatos_validos": 145014
+    }
+  },
+  "v12_cerro_las_condes": {
+    "nombre": "v12_cerro_las_condes",
+    "estrato": "C",
+    "comuna_referencial": "Las Condes",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.4730057,
+            -33.4309703
+          ],
+          [
+            -70.4729716,
+            -33.4289541
+          ],
+          [
+            -70.4753762,
+            -33.4289256
+          ],
+          [
+            -70.4754103,
+            -33.4309418
+          ],
+          [
+            -70.4730057,
+            -33.4309703
+          ]
+        ]
+      ]
+    },
+    "area_m2": 50016.5,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Las Condes"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 58.91,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 49,
+      "n_candidatos_validos": 7734
+    }
+  },
+  "v13_cerro_san_jose": {
+    "nombre": "v13_cerro_san_jose",
+    "estrato": "C",
+    "comuna_referencial": "San José de Maipo",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.2122693,
+            -33.6431984
+          ],
+          [
+            -70.2122336,
+            -33.6406479
+          ],
+          [
+            -70.2152829,
+            -33.6406179
+          ],
+          [
+            -70.2153187,
+            -33.6431684
+          ],
+          [
+            -70.2122693,
+            -33.6431984
+          ]
+        ]
+      ]
+    },
+    "area_m2": 80038.1,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "San José de Maipo"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 33.8,
+      "dosel_ventana_pct": 0.0,
+      "n_pixeles_lote": 81,
+      "n_candidatos_validos": 335394
+    }
+  },
+  "v14_cerro_pirque": {
+    "nombre": "v14_cerro_pirque",
+    "estrato": "C",
+    "comuna_referencial": "Pirque",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.4830273,
+            -33.7352878
+          ],
+          [
+            -70.4829893,
+            -33.7330793
+          ],
+          [
+            -70.4856326,
+            -33.7330475
+          ],
+          [
+            -70.4856707,
+            -33.7352561
+          ],
+          [
+            -70.4830273,
+            -33.7352878
+          ]
+        ]
+      ]
+    },
+    "area_m2": 60020.4,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Pirque"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 54.26,
+      "dosel_ventana_pct": 9.46,
+      "n_pixeles_lote": 64,
+      "n_candidatos_validos": 50706
+    }
+  },
+  "v15_cerro_penalolen": {
+    "nombre": "v15_cerro_penalolen",
+    "estrato": "C",
+    "comuna_referencial": "Peñalolén",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.4948251,
+            -33.4756157
+          ],
+          [
+            -70.4947983,
+            -33.474054
+          ],
+          [
+            -70.4966618,
+            -33.4740315
+          ],
+          [
+            -70.4966886,
+            -33.4755932
+          ],
+          [
+            -70.4948251,
+            -33.4756157
+          ]
+        ]
+      ]
+    },
+    "area_m2": 30008.6,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Peñalolén",
+        "La Reina"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 56.76,
+      "dosel_ventana_pct": 14.66,
+      "n_pixeles_lote": 36,
+      "n_candidatos_validos": 2343
+    }
+  },
+  "v16_cerro_til_til": {
+    "nombre": "v16_cerro_til_til",
+    "estrato": "C",
+    "comuna_referencial": "Tiltil",
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -70.9105647,
+            -33.0941169
+          ],
+          [
+            -70.910517,
+            -33.0919086
+          ],
+          [
+            -70.9131404,
+            -33.0918684
+          ],
+          [
+            -70.9131882,
+            -33.0940766
+          ],
+          [
+            -70.9105647,
+            -33.0941169
+          ]
+        ]
+      ]
+    },
+    "area_m2": 60001.0,
+    "fuente_poligono": "lote de prueba estándar (datos públicos)",
+    "seleccion": {
+      "regla": "tools/elegir_sitios_validacion.py (DPA 2023, GLO-30, ESA WorldCover; sin capas privadas)",
+      "seed": 20261031,
+      "comunas_zona": [
+        "Tiltil"
+      ],
+      "rango_pendiente_pct": [
+        30,
+        60
+      ],
+      "rango_dosel_pct": [
+        0,
+        100
+      ],
+      "pendiente_ventana_pct": 31.21,
+      "dosel_ventana_pct": 0.26,
+      "n_pixeles_lote": 64,
+      "n_candidatos_validos": 37922
+    }
+  }
+}

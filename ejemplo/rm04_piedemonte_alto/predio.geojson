@@ -1,0 +1,37 @@
+{
+ "type": "Feature",
+ "properties": {
+  "units": "m",
+  "x": "este",
+  "y": "norte",
+  "origin": "centroide del predio",
+  "utm_epsg": 32719
+ },
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -122.47,
+     -122.497
+    ],
+    [
+     -122.448,
+     122.496
+    ],
+    [
+     122.492,
+     122.44
+    ],
+    [
+     122.462,
+     -122.442
+    ],
+    [
+     -122.47,
+     -122.497
+    ]
+   ]
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "_nota": "GENERADO por `python -m terreno.legend` desde terreno/palette.py (unica fuente de colores). No editar a mano: tests/test_legend.py compara esta leyenda con la paleta de las capas PNG.",
+  "pendiente": {"clases": ["<5 %", "5-15 %", "15-30 %", ">30 %"], "colores": ["#a6d96a", "#ffed6f", "#fd8d3c", "#bd0026"]},
+  "orientacion": {"sectores": ["N", "NE", "E", "SE", "S", "SO", "O", "NO"], "colores": ["#3b5bdb", "#1c9ac9", "#2f9e6d", "#8fbf3f", "#e6c229", "#f08c2a", "#e0452e", "#a23fb5"]},
+  "curvas": {"color": "#4a3018", "equidistancia_m": 10, "indice_cada": 5},
+  "sombreado": {"azimut_deg": 315, "altura_deg": 45}
+}

@@ -1,0 +1,83 @@
+ARCHIVO DE LICENCIA / AVISO DE USO: GEDTM30 (Global Ensemble Digital Terrain Model 30m)
+Fecha de obtencion: 2026-10-23 (consulta de https://zenodo.org/records/18887460 y de https://zenodo.org/api/records/18887460)
+Se transcribe lo que dice el registro, sin interpretacion legal. El texto del aviso va literal entre las lineas "=====".
+
+DATOS DEL REGISTRO (campos del API de Zenodo)
+- Titulo: Global Ensemble Digital Terrain Model 30m (GEDTM30)
+- Version: v1.2.0   Fecha de publicacion: 2026-03-06   Ultima actualizacion que muestra la pagina: April 8, 2026
+- DOI de esta version: 10.5281/zenodo.18887460   DOI del concepto (todas las versiones): 10.5281/zenodo.14900180
+- Autores: Ho, Yufeng (OpenGeoHub), Hengl, Tom (OpenGeoHub)
+- Campo "license" del registro: cc-by-4.0  -> la pagina lo muestra como "Creative Commons Attribution 4.0 International"
+- Campo "access_right": open
+- Descripcion de la licencia que muestra la pagina de Zenodo: Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.
+- Cita sugerida en el propio registro: Ho, Y. F., Grohmann, C. H., Lindsay, J., Reuter, H. I., Parente, L., Witjes, M., & Hengl, T. (2025). GEDTM30: global ensemble digital terrain model at 30 m and derived multiscale terrain variables. PeerJ, 13, e19673.
+- Financiamiento: European Commission, proyecto Open-Earth-Monitor Cyberinfrastructure (HORIZON 101059548).
+
+AVISO DEL REGISTRO (seccion "Disclaimer" de la descripcion; contiene la frase "Use for testing purposes only")
+====================================================================================================
+Disclaimer
+
+This is the first release of the Global Ensemble Digital Terrain Model (GEDTM30). Use for testing purposes only. A publication describing the methods used has been published in PeerJ (https://doi.org/10.7717/peerj.19673). This work was funded by the European Union. However, the views and opinions expressed are solely those of the author(s) and do not necessarily reflect those of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for them. The data is provided "as is." The Open-Earth-Monitor project consortium, along with its suppliers and licensors, hereby disclaims all warranties of any kind, express or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose, and non-infringement. Neither the Open-Earth-Monitor project consortium nor its suppliers and licensors make any warranty that the website will be error-free or that access to it will be continuous or uninterrupted. You understand that you download or otherwise obtain content or services from the website at your own discretion and risk.
+
+Description
+
+GEDTM30 is presented as a 1-arc-second (~30m) global Digital Terrain Model (DTM) generated using machine-learning-based data fusion. It was trained using a global-to-local Random Forest model with ICESat-2 and GEDI data, incorporating almost 30 billion high-quality points. To see the documentation, please visit our GEDTM30 Codeberg(https://codeberg.org/openlandmap/GEDTM30).
+
+This dataset covers the entire world and can be used for applications such as topography, hydrology, and geomorphometry analysis.
+
+Dataset Contents
+
+This dataset includes:
+
+GEDTM30
+Represents the predicted terrain height.
+
+Uncertainty of GEDTM30 prediction
+Provides an uncertainty map of the terrain prediction, derived from the standard deviation of individual tree predictions in the Random Forest model.
+
+Global-to-local pixel selection mask A mask that indicates which pixel comes from the global model or local model.
+
+Due to Zenodo's storage limitations, the zenodo files are in 240m resolution, and the original GEDTM30 dataset and its standard deviation map are provided via external links:
+
+GEDTM30 30m
+
+Uncertainty of GEDTM30 prediction 30m
+
+Global-to-local mask
+====================================================================================================
+
+DETALLES DE LOS DATOS (del mismo registro)
+Data Details
+
+Time period: static.
+
+Type of data: Digital Terrain Model
+
+How the data was collected or derived: Machine learning models.
+
+Statistical Methods used: Random Forest.
+
+Limitations or exclusions in the data: The dataset does not include data Antarctica.
+
+Coordinate reference system: EPSG:4326
+
+Bounding box (Xmin, Ymin, Xmax, Ymax): (-180.00125, -65.0009721, 180.0009719, 85.00125)
+
+Spatial resolution: 240m
+
+Image size: 162,001P x 67,501L
+
+File format: Cloud Optimized Geotiff (COG) format.
+
+ARCHIVOS DEL REGISTRO (nombre, bytes): estan en 240 m; el GEDTM30 de 30 m se da por enlaces externos que el registro no detalla aqui.
+- 00_preview_edtm.png  574776
+- gedtm_rf_std_240m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif  11123230093
+- gedtm_mask_c_240m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif  253560238
+- gedtm_rf_m_240m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif  10140517258
+
+LO QUE ESTE ARCHIVO REGISTRA SOLO COMO HECHO (para la revision de licencias, criterio 8 de la spec)
+1. La licencia declarada en los metadatos del registro es CC BY 4.0.
+2. El mismo registro contiene, en el aviso (Disclaimer), el texto literal "Use for testing purposes only" referido a esta primera version
+   ("This is the first release of the Global Ensemble Digital Terrain Model (GEDTM30). Use for testing purposes only.").
+3. El registro no explica como se relacionan 1 y 2. Esa lectura queda para el abogado antes de usar GEDTM30 en un entregable comercial;
+   el POC NO usa GEDTM30 en ningun calculo ni informe (la spec lo permite solo como capa de incertidumbre, Tier 2, "si la licencia se aclara").

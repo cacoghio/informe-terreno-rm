@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visor de terreno preliminar</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three/three.module.min.js",
+      "three/addons/": "./vendor/three/addons/",
+      "suncalc": "./vendor/suncalc/index.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="stage" aria-label="Terreno en 3D"></div>
+
+  <div id="chips" aria-live="polite">
+    <div id="compass" role="img" aria-label="Brújula: la flecha naranja apunta al norte">
+      <svg viewBox="-24 -24 48 48" width="46" height="46" aria-hidden="true">
+        <circle r="22" class="ring"/>
+        <g id="compass-needle"><path d="M0 -9 L4.5 7 L0 4 L-4.5 7 Z" fill="var(--stake)"/><text y="-12.5" text-anchor="middle">N</text></g>
+      </svg>
+    </div>
+    <div id="exag-chip" role="status">Exageración ×1,5</div>
+    <div class="seg" role="group" aria-label="Vista">
+      <button type="button" data-view="panorama">Panorama</button>
+      <button type="button" data-view="predio">Predio</button>
+    </div>
+  </div>
+
+  <header id="titulo" class="card">
+    <p class="kicker" id="muestra" hidden></p>
+    <h1 id="h-sitio">Terreno preliminar</h1>
+    <p class="meta" id="h-meta"></p>
+    <div class="share">
+      <label for="share-url" class="sr-only">Enlace de solo lectura</label>
+      <input id="share-url" type="text" readonly value="">
+      <button type="button" id="share-copy">Copiar enlace</button>
+    </div>
+  </header>
+
+  <aside id="controles" class="card" aria-label="Controles del visor">
+    <section>
+      <div class="row-label">
+        <label for="exag">Exageración vertical</label>
+        <output id="exag-out" for="exag">×1,5</output>
+      </div>
+      <input id="exag" type="range" min="1" max="5" step="0.5" value="1.5">
+      <p class="hint">Solo estira el relieve para verlo; las cotas del informe no cambian.</p>
+    </section>
+
+    <section>
+      <h2>Capas</h2>
+      <ul class="layers">
+        <li>
+          <label><input type="checkbox" id="capa-pendiente" data-layer="pendiente"><span class="box"></span><span>Pendiente por clases</span></label>
+          <p class="note" id="capa-pendiente-nota"></p>
+        </li>
+        <li>
+          <label><input type="checkbox" id="capa-orientacion" data-layer="orientacion"><span class="box"></span><span>Orientación</span></label>
+          <p class="note" id="capa-orientacion-nota"></p>
+        </li>
+        <li>
+          <label><input type="checkbox" id="capa-curvas" data-layer="curvas"><span class="box"></span><span>Curvas de nivel indicativas</span></label>
+          <p class="note" id="capa-curvas-nota"></p>
+        </li>
+        <li>
+          <label><input type="checkbox" id="capa-sombreado" data-layer="sombreado"><span class="box"></span><span>Sombreado</span></label>
+          <p class="note" id="capa-sombreado-nota"></p>
+        </li>
+      </ul>
+      <div id="leyenda" class="legend" hidden></div>
+    </section>
+
+    <section>
+      <h2>Sol y sombra</h2>
+      <div class="row-label"><label for="fecha">Fecha</label>
+        <input id="fecha" type="date" aria-label="Fecha">
+      </div>
+      <div class="seasons" role="group" aria-label="Fechas de referencia">
+        <button type="button" data-season="12-21">Verano</button>
+        <button type="button" data-season="03-20">Equinoccio</button>
+        <button type="button" data-season="06-21">Invierno</button>
+      </div>
+      <div class="row-label"><label for="hora">Hora local</label><output id="sol-lectura" for="hora"></output></div>
+      <input id="hora" type="range" min="0" max="1439" step="5" value="990">
+      <p class="hint" id="sol-nota">La sombra viene solo del relieve del dato de 30 m: no incluye edificios ni árboles.</p>
+    </section>
+
+  </aside>
+
+  <aside id="panel-fuente" class="card" aria-label="Fuente y límites">
+    <h2>Fuente y límites</h2>
+
+    <div class="plate-row">
+      <div class="plate" id="nivel-placa" data-level="">
+        <span id="nivel-letra">–</span>
+      </div>
+      <div>
+        <p class="plate-title">Nivel de confianza</p>
+        <p class="plate-text" id="nivel-texto"></p>
+      </div>
+    </div>
+    <p class="review" id="revision" hidden>Revisión humana obligatoria</p>
+    <p class="limits" id="limitantes"></p>
+
+    <dl class="facts">
+      <div><dt>Fuente</dt><dd id="f-fuente">Copernicus GLO-30 (DSM)</dd></div>
+      <div><dt>Resolución real</dt><dd id="f-resolucion"></dd></div>
+      <div><dt>Píxeles en el predio</dt><dd id="n-pixeles"></dd></div>
+      <div><dt>Datum vertical</dt><dd id="f-datum"></dd></div>
+      <div><dt>Error vertical</dt><dd id="f-error"></dd></div>
+      <div><dt>Descarga</dt><dd id="f-fecha"></dd></div>
+    </dl>
+
+    <dl class="facts" id="resultados"></dl>
+
+    <div class="legal">
+      <p id="t-disclaimer"></p>
+      <p id="t-deskscreen"></p>
+      <p id="t-resolucion"></p>
+      <p class="attrib" id="t-atribucion"></p>
+      <p class="attrib" id="t-aval"></p>
+    </div>
+  </aside>
+
+  <div id="error" role="alert" hidden></div>
+  <div id="cargando">Cargando terreno…</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

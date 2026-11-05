@@ -1,0 +1,140 @@
+{
+  "site": "rm05_piedemonte_sur",
+  "source": "spot",
+  "referencia": {
+    "titulo": "Survey over Santiago, Chile from 2014 SPOT imagery",
+    "doi": "10.5069/G97M064K",
+    "opentopography_id": "OTDS.022021.32719.2",
+    "epoca": "2014",
+    "sensor": "SPOT-6 estereo",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 25.193128797743043,
+    "ondulacion_egm2008_m": 27.57622914382603,
+    "residual_si_elipsoidal_m": -2.383100346082987,
+    "residual_si_ortometrica_m": 25.193128797743043,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 10.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 10.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 10 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 8985,
+      "bias_m": 2.534271155777366,
+      "mae_m": 2.708412028484858,
+      "rmse_m": 3.314155911893462,
+      "nmad_m": 1.4861668426514796,
+      "p90_abs_m": 4.805828179253467,
+      "mediana_m": 2.3661295572917425,
+      "slope": {
+        "n": 4130,
+        "mae_deg": 0.857734673518171,
+        "bias_deg": -0.07063578289674714,
+        "rmse_deg": 1.1869593197434989
+      },
+      "nativo": {
+        "n": 70660,
+        "bias_m": 2.5442510506062814,
+        "mae_m": 3.0607627361177756,
+        "rmse_m": 4.451590764596958,
+        "nmad_m": 1.853295245361328,
+        "p90_abs_m": 5.65235595703125,
+        "mediana_m": 2.342864990234375,
+        "res_m": 10.0,
+        "slope": {
+          "n": 18580,
+          "mae_deg": 2.7003917627585974,
+          "bias_deg": -0.264853141885168,
+          "rmse_deg": 3.946717289499984
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.695895138989596,
+      "pixeles_dem_ventana": 10920,
+      "cobertura_ref": 0.8228021978021978,
+      "by_slope_class": {
+        "<5": {
+          "n": 178,
+          "bias_m": 1.8078906730596032,
+          "mae_m": 1.858968243463716,
+          "rmse_m": 2.0606050399387,
+          "nmad_m": 0.7021627624511718,
+          "p90_abs_m": 3.1013868543836685,
+          "mediana_m": 1.7076076931423358
+        },
+        "5-15": {
+          "n": 1921,
+          "bias_m": 2.268354172275285,
+          "mae_m": 2.300916138827525,
+          "rmse_m": 2.5705871705780714,
+          "nmad_m": 1.0210168782551146,
+          "p90_abs_m": 3.6227951049804688,
+          "mediana_m": 2.2163492838541288
+        },
+        "15-30": {
+          "n": 1157,
+          "bias_m": 2.7491501993495238,
+          "mae_m": 2.7801289974690513,
+          "rmse_m": 3.080213488188747,
+          "nmad_m": 1.2704412689207538,
+          "p90_abs_m": 4.3317413330078125,
+          "mediana_m": 2.6985931396484375
+        },
+        ">30": {
+          "n": 874,
+          "bias_m": 2.4139833992987896,
+          "mae_m": 2.6520576272536123,
+          "rmse_m": 3.1346393359994287,
+          "nmad_m": 1.8163674896240514,
+          "p90_abs_m": 4.826500592912976,
+          "mediana_m": 2.449127197265625
+        }
+      }
+    },
+    "lote": {
+      "n": 20,
+      "bias_m": 2.533827267601373,
+      "mae_m": 2.992206631615045,
+      "rmse_m": 3.660504263726136,
+      "nmad_m": 1.3695770874023436,
+      "p90_abs_m": 5.685324532645078,
+      "mediana_m": 2.01760228474933,
+      "slope": {
+        "n": 18,
+        "mae_deg": 1.3139180363793774,
+        "bias_deg": -0.8333843434907188,
+        "rmse_deg": 1.6280911476778583
+      },
+      "nativo": {
+        "n": 135,
+        "bias_m": 2.5102543583622685,
+        "mae_m": 3.2111558702256944,
+        "rmse_m": 4.295145816592017,
+        "nmad_m": 2.1767543334960937,
+        "p90_abs_m": 8.80323486328125,
+        "mediana_m": 1.9852294921875,
+        "res_m": 10.0,
+        "slope": {
+          "n": 29,
+          "mae_deg": 2.691784409824603,
+          "bias_deg": 1.5124700513486529,
+          "rmse_deg": 3.436650252733378
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.4182203699390996
+    },
+    "lote_n_pixeles": 20
+  },
+  "png_glo30": "AUDITORIA\\diff_rm05_piedemonte_sur_spot_glo30.png",
+  "aw3d30_meta": {
+    "estado": "no_disponible",
+    "razon": "OpenTopography devolvio HTTP 401: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><error>Error: API maximum rate limit reached. (50 API calls/24hrs)</error>"
+  }
+}

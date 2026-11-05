@@ -1,0 +1,35 @@
+INDICE DE LICENCIAS ARCHIVADAS (obtenidas el 2026-10-23). Referencia, sin interpretacion legal.
+Los textos de licencia vigentes deben volver a leerse antes de mostrar el informe a terceros (el contrato aplicable
+a datos ya descargados es el vigente a la fecha de descarga; el POC registra la fecha de descarga en el manifiesto).
+
+GLO-30 (Copernicus DEM)
+- GLO30_licencia-COPDEM-30_*.pdf / GLO30_licencia-COPDEM-30-pdf_*.txt : "Licence for the use of the Copernicus WorldDEM-30"
+  (https://documentation.dataspace.copernicus.eu/.../License-COPDEM-30.pdf). Es el texto citado por la spec (atribuciones
+  y frase de no responsabilidad: arts. 6(a)-(c)).
+- GLO30_pagina-oficial-CDSE-licencia-y-citacion_*.txt : pagina oficial de COP-DEM en el Copernicus Data Space Ecosystem.
+  Repite las mismas atribuciones (DLR 2010-2014 / Airbus 2014-2018), da el DOI de cita https://doi.org/10.5270/ESA-c5d3d65
+  y enlaza ademas una licencia distinta (ver siguiente punto).
+- GLO30_licencia-ESA-CCM-COP-DEM-GLO-30-R_*.pdf/.txt : "ESA - User licence, Copernicus Contributing Mission Data Access"
+  (issue date 21/02/2025) + anexo "Licence for the use of Copernicus DEM instances COP-DEM-GLO-30-R and COP-DEM-EEA-10-R",
+  archivo enlazado desde la pagina oficial (copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf, 2025-06).
+  DIFERENCIA OBSERVADA (no interpretada): su formula de atribucion es "(c) DLR e.V. (2014-2018) and (c) Airbus Defence and
+  Space GmbH (year of production) ..." y exige la frase "EO data provided under COPERNICUS by the European Union and ESA"
+  en publicaciones; la licencia COPDEM-30 usa "2010-2014 / 2014-2018". Arts. 3.3.2: los datos ya obtenidos siguen la version
+  de licencia vigente a la fecha de descarga (registrar fecha).
+ATL08 (ICESat-2)
+- ATL08_NSIDC-v7-cita-y-condiciones_*.txt : pagina NSIDC ATL08 v7 (cita obligatoria, DOI 10.5067/ATLAS/ATL08.007). La pagina
+  no declara una licencia aparte. Requiere cuenta Earthdata para descargar.
+GEDI (L2A)
+- GEDI_L2A-v2-pagina-oficial-Earthdata_*.txt : catalogo Earthdata de GEDI02_A v2 (DOI 10.5067/GEDI/GEDI02_A.002).
+ATL08 y GEDI
+- EOSDIS_politica-uso-y-cita-datos_*.txt : "Data Use and Citation Guidance" de NASA ESDIS (sin restricciones salvo las
+  marcadas; CC0 por defecto; se pide citar el dataset).
+AW3D30 (JAXA)
+- AW3D30_JAXA-pagina-producto_*.txt, AW3D30_JAXA-descripcion-producto-v3.1_*.pdf : descripcion del producto (datum vertical
+  EGM96, ver LEDGER). Los "Terms for Use" completos estan en https://earth.jaxa.jp/policy/en.html, pagina que se carga con
+  JavaScript y NO pudo obtenerse en texto: PENDIENTE de lectura manual por el fundador.
+GEDTM30 (OpenGeoHub, registro de Zenodo 18887460, v1.2.0)
+- GEDTM30_zenodo-registro-18887460-licencia-y-aviso_2026-10-23.txt : metadatos del registro, aviso (Disclaimer) y datos del producto,
+  obtenidos el 2026-10-23. Lo que dice, sin interpretacion legal: el campo de licencia del registro es CC BY 4.0, y el aviso del mismo
+  registro contiene el texto literal "Use for testing purposes only" (referido a "the first release"). El registro no aclara la relacion
+  entre ambos; queda para el abogado. El POC no usa GEDTM30 en ningun calculo ni informe.

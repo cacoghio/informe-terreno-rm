@@ -1,0 +1,460 @@
+{
+  "confidence": {
+    "by_factor": {
+      "canopy_pct": "B",
+      "disagreement_rms_m": "A",
+      "elev_range_m": "A",
+      "hem_p90_m": "A",
+      "pixels": "A",
+      "slope_mean_pct": "B",
+      "void_water_pct": "A"
+    },
+    "by_seal": {
+      "confianza_dato": "B",
+      "medibilidad_lote": "A"
+    },
+    "by_section": {
+      "comparacion_fuentes": "A",
+      "elevacion": "B",
+      "orientacion": "B",
+      "pendiente": "B"
+    },
+    "human_review_required": false,
+    "hypothesis": true,
+    "limiting_factors": [
+      "slope_mean_pct",
+      "canopy_pct"
+    ],
+    "omit_point_slope": false,
+    "overall": "B",
+    "review_reason": "",
+    "rules_version": "0.3.0",
+    "unavailable_factors": [],
+    "values": {
+      "canopy_pct": 49.146341,
+      "disagreement_rms_m": 0.618236,
+      "elev_range_m": 54.987854,
+      "hem_p90_m": 0.786604,
+      "pixels": 72.0,
+      "slope_mean_pct": 21.089191,
+      "void_water_pct": 0.0
+    }
+  },
+  "grid": {
+    "crs": "EPSG:32719",
+    "epsg": 32719,
+    "horizontal_datum": "WGS 84 / UTM",
+    "pixel_m": 30.0,
+    "resampling": "bilinear",
+    "shape_rows_cols": [
+      12,
+      12
+    ],
+    "vertical_datum": "EGM2008 (m s. n. m.)"
+  },
+  "inputs": {
+    "centroid_lonlat": [
+      -70.532298,
+      -33.366737
+    ],
+    "datasets": [
+      {
+        "acquisition_epoch": "TanDEM-X 2011-2015",
+        "acquisition_epoch_note": "DLR/Airbus; segun el Copernicus DEM Product Handbook. La licencia cita 2010-2014 (DLR) y 2014-2018 (Airbus): son anos de produccion.",
+        "array_sha256": "ada9f2e80be05f7b50e35bf8583fe22b82bbe3a278b12831d194167552bcabe4",
+        "name": "Copernicus DEM GLO-30 (DSM, 30 m)",
+        "native_crs": "EPSG:4326",
+        "nodata_fraction": 0.0,
+        "role": "base",
+        "source": "glo30",
+        "tile_urls": [
+          "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_S34_00_W071_00_DEM/Copernicus_DSM_COG_10_S34_00_W071_00_DEM.tif"
+        ],
+        "tiles": [
+          "Copernicus_DSM_COG_10_S34_00_W071_00_DEM"
+        ],
+        "url": "https://copernicus-dem-30m.s3.amazonaws.com",
+        "version": "COG_10 (nombre de tile del bucket copernicus-dem-30m; el tile no declara release)",
+        "vertical_datum": "EGM2008"
+      },
+      {
+        "acquisition_epoch": "ALOS PRISM 2006-2011",
+        "acquisition_epoch_note": "JAXA, AW3D30 Product Description.",
+        "array_sha256": "2ff268e281aa9594cc6ee6f4dcd89e82d8435d803da7cb1222b70047b0195392",
+        "name": "ALOS World 3D 30 m (AW3D30, JAXA)",
+        "native_crs": "EPSG:4326",
+        "nodata_fraction": 0.0,
+        "role": "comparison",
+        "source": "aw3d30",
+        "tile_urls": [],
+        "tiles": [
+          "AW3D30 (JAXA) via OpenTopography globaldem"
+        ],
+        "url": "https://portal.opentopography.org/API/globaldem?demtype=AW3D30",
+        "version": "v3.2 (enero de 2021; JAXA, DOI 10.5069/G94M92HB; servido por OpenTopography globaldem)",
+        "vertical_datum": "EGM96"
+      }
+    ],
+    "hash": "e25f4aa9144d6596c140025e12dbd01083f582b31372c6275ffc45407ee8c7b2",
+    "polygon": {
+      "coordinates": [
+        [
+          [
+            -70.531002,
+            -33.367857
+          ],
+          [
+            -70.530963,
+            -33.365649
+          ],
+          [
+            -70.533595,
+            -33.365616
+          ],
+          [
+            -70.533634,
+            -33.367825
+          ],
+          [
+            -70.531002,
+            -33.367857
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "polygon_area_m2": 60016.809,
+    "utm_zone_rule": "lon < -72 -> EPSG:32718, lon >= -72 -> EPSG:32719, zona del centroide (por codigo, no por el agente)"
+  },
+  "recipe": {
+    "confidence_rules_hash": "bf8ad043c6f2dd2e147321f1dbb319fd577a352ef8468125c6685c46fe33feb9",
+    "hash": "3c79ed21208860b6bbabad0c69477deb31340c1b8edede9abbdd42407b30fe88",
+    "hypotheses": [
+      "agrupacion de factores por seccion del informe",
+      "cortes de clases de pendiente <5, 5-15, 15-30, >30 %",
+      "equidistancia de curvas de 10 m",
+      "horizonte y horas de sol directo solo con el relieve de la ventana de trabajo (sec. 3 #7)",
+      "puntaje de complejidad del relieve 1-7 (score = 1 + (a + b + 1) // 2, con a = n.o de cortes [3.0, 8.0, 15.0, 25.0, 35.0, 50.0] superados por la pendiente media (%) y b = n.o de cortes [8.0, 20.0, 40.0, 80.0, 150.0, 300.0] superados por el rango de elevacion (m); monotona en ambos, entera, 1-7)",
+      "regla de confianza A/B/C y sus umbrales (spec sec. 4)",
+      "umbral de 'sin orientacion predominante' < 3 %"
+    ],
+    "tools": {
+      "gdal_cli": "GDAL 3.8.4, released 2024/02/08",
+      "gdal_rasterio_wheel": "3.12.2",
+      "numpy": "2.5.4",
+      "pyproj": "3.8.0",
+      "python": "3.14.4",
+      "rasterio": "1.5.2",
+      "shapely": "2.2.0"
+    },
+    "version": "0.1.0"
+  },
+  "result_hash": "230f5809ed04f3808689063cda6cd0b5863c035f412c6272d40f18f97697fd92",
+  "results": {
+    "aux_layers": {
+      "available": true,
+      "counts": {
+        "filled": 0,
+        "flattened": 0,
+        "union": 0,
+        "void": 0,
+        "water": 0
+      },
+      "hem_p90_m": 0.786604,
+      "n_hem_valid": 93,
+      "n_pixels": 93,
+      "note": "",
+      "status": "ok",
+      "tiles": [
+        "Copernicus_DSM_COG_10_S34_00_W071_00_DEM"
+      ],
+      "unavailable": [],
+      "void_water_fill_pct": 0.0
+    },
+    "comparison": {
+      "datum_a": "EGM2008",
+      "datum_aligned": true,
+      "datum_b": "EGM96",
+      "datum_note": "b convertido de EGM96 a EGM2008 con mallas de geoide",
+      "datum_penalty": false,
+      "datum_shift_mean_m": -0.338556,
+      "mean_diff_m": 0.499596,
+      "n_pixels": 72,
+      "rms_diff_m": 0.794866,
+      "sign_convention": "diferencia = b - a (AW3D30 - GLO-30)",
+      "slope_diff_mean_pct": 1.009041,
+      "slope_diff_signed_mean_pct": 0.324457,
+      "stats_scope": "poligono",
+      "status": "ok"
+    },
+    "ground_truth_validation": {
+      "aw3d30": {
+        "bias_m": 2.18303,
+        "by_slope": {
+          "<15": {
+            "bias_m": 1.97544,
+            "mae_m": 3.398714,
+            "n": 351,
+            "rmse_m": 6.407286,
+            "status": "ok"
+          },
+          ">=15": {
+            "bias_m": 2.614178,
+            "mae_m": 9.645137,
+            "n": 169,
+            "rmse_m": 15.965134,
+            "status": "ok"
+          }
+        },
+        "by_source": {
+          "atl08": {
+            "bias_m": 2.28948,
+            "mae_m": 3.156263,
+            "n": 49,
+            "rmse_m": 4.262645,
+            "status": "ok"
+          },
+          "gedi": {
+            "bias_m": 2.171955,
+            "mae_m": 5.665222,
+            "n": 471,
+            "rmse_m": 10.961719,
+            "status": "ok"
+          }
+        },
+        "datum_aligned": true,
+        "high_slope_threshold_pct": 15.0,
+        "mae_m": 5.428801,
+        "min_footprints": 10,
+        "n": 520,
+        "n_excluded_quality": 1659,
+        "n_footprints_total": 2179,
+        "n_outside_raster": 0,
+        "rmse_m": 10.514218,
+        "sign_convention": "sesgo = DEM - verdad (huellas)",
+        "status": "ok"
+      },
+      "bias_m": 1.67474,
+      "by_slope": {
+        "<15": {
+          "bias_m": 1.46284,
+          "mae_m": 3.07826,
+          "n": 357,
+          "rmse_m": 6.53292,
+          "status": "ok"
+        },
+        ">=15": {
+          "bias_m": 2.138841,
+          "mae_m": 9.656209,
+          "n": 163,
+          "rmse_m": 16.258607,
+          "status": "ok"
+        }
+      },
+      "by_source": {
+        "atl08": {
+          "bias_m": 2.026098,
+          "mae_m": 2.731953,
+          "n": 49,
+          "rmse_m": 3.831212,
+          "status": "ok"
+        },
+        "gedi": {
+          "bias_m": 1.638187,
+          "mae_m": 5.390733,
+          "n": 471,
+          "rmse_m": 11.059095,
+          "status": "ok"
+        }
+      },
+      "high_slope_threshold_pct": 15.0,
+      "mae_m": 5.140194,
+      "min_footprints": 10,
+      "n": 520,
+      "n_excluded_quality": 1659,
+      "n_footprints_total": 2179,
+      "n_outside_raster": 0,
+      "rmse_m": 10.590654,
+      "sign_convention": "sesgo = DEM - verdad (huellas)",
+      "status": "ok"
+    },
+    "solar": {
+      "dates": {
+        "2026-03-20": {
+          "day_length_h": 12.0,
+          "direct_sun_h": 11.67,
+          "label": "equinoccio de marzo",
+          "noon_elevation_deg": 57.09
+        },
+        "2026-06-21": {
+          "day_length_h": 9.83,
+          "direct_sun_h": 9.83,
+          "label": "solsticio de junio",
+          "noon_elevation_deg": 33.18
+        },
+        "2026-09-22": {
+          "day_length_h": 12.0,
+          "direct_sun_h": 11.67,
+          "label": "equinoccio de septiembre",
+          "noon_elevation_deg": 56.0
+        },
+        "2026-12-21": {
+          "day_length_h": 14.17,
+          "direct_sun_h": 13.17,
+          "label": "solsticio de diciembre",
+          "noon_elevation_deg": 80.05
+        }
+      },
+      "horizon_deg": [
+        -6.65,
+        -6.39,
+        -6.57,
+        -6.32,
+        -5.45,
+        -5.99,
+        -6.1,
+        -5.78,
+        -5.05,
+        -4.18,
+        -3.06,
+        -1.57,
+        1.71,
+        5.28,
+        8.62,
+        11.24,
+        13.03,
+        14.4,
+        14.87,
+        14.45,
+        13.22,
+        12.28,
+        13.25,
+        14.21,
+        12.5,
+        10.17,
+        7.56,
+        4.36,
+        2.69,
+        1.19,
+        -0.29,
+        -1.73,
+        -3.06,
+        -4.25,
+        -5.25,
+        -6.05
+      ],
+      "horizon_step_deg": 10,
+      "latitude": -33.36674,
+      "method": "horizonte por trazado de rayos sobre el DSM (rayos cada 10 grados, paso 15 m) y sol geometrico (Spencer 1971) muestreado cada 5 min en hora solar local; sin refraccion ni nubosidad",
+      "ray_length_m": {
+        "max": 222.2,
+        "min": 136.8
+      },
+      "scope": "solo el relieve que captura el DSM dentro de la ventana de trabajo alrededor del predio; sin cerros lejanos, sin edificios vecinos, sin nubosidad; no es un estudio de sombras de proyecto",
+      "status": "ok",
+      "viewpoint": "centroide del predio, a nivel del suelo (DSM)",
+      "viewpoint_elevation_m": 829.72
+    },
+    "terrain": {
+      "aspect_dominant": "N",
+      "aspect_rose": [
+        55.555556,
+        44.444444,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "aspect_status": "ok",
+      "contour_interval_m": 10,
+      "contours_indicative": true,
+      "elev_max": 864.768616,
+      "elev_mean": 831.761679,
+      "elev_min": 809.780762,
+      "elev_range": 54.987854,
+      "elevation_within_noise": false,
+      "inconclusive": false,
+      "min_pixels_for_slope": 9,
+      "n_pixels": 72,
+      "n_slope_pixels": 72,
+      "pixel_m": 30.0,
+      "relief_score": 4,
+      "relief_score_hypothesis": {
+        "formula": "score = 1 + (a + b + 1) // 2, con a = n.o de cortes [3.0, 8.0, 15.0, 25.0, 35.0, 50.0] superados por la pendiente media (%) y b = n.o de cortes [8.0, 20.0, 40.0, 80.0, 150.0, 300.0] superados por el rango de elevacion (m); monotona en ambos, entera, 1-7",
+        "is_hypothesis": true
+      },
+      "slope_classes_pct": {
+        "15-30": 40.277778,
+        "5-15": 40.277778,
+        "<5": 0.0,
+        ">30": 19.444444
+      },
+      "slope_mean_deg": 11.908714,
+      "slope_mean_pct": 21.089191
+    },
+    "worldcover": {
+      "available": true,
+      "built_pct": 5.365854,
+      "canopy_pct": 49.146341,
+      "context_pct": 62.590482,
+      "n_pixels": 820,
+      "note": "",
+      "source": "ESA WorldCover 10 m v200 (2021), CC BY 4.0",
+      "status": "ok",
+      "tiles": [
+        "S36W072"
+      ],
+      "tree_pct": 43.780488
+    }
+  },
+  "schema_version": "1",
+  "volatile": {
+    "acquired": {
+      "aw3d30": "2026-10-30",
+      "glo30": "2026-10-31"
+    },
+    "context": {
+      "fetch_accepts_margin": true,
+      "fetch_margin_px": 63,
+      "margin_px": 50,
+      "requested_m": 1500.0,
+      "shape_rows_cols": [
+        109,
+        109
+      ],
+      "status": "ok"
+    },
+    "elapsed_s": {
+      "aux_layers": 3.343,
+      "compare_sources": 1.065,
+      "compute_terrain": 0.331,
+      "context": 0.056,
+      "fetch_aw3d30": 0.003,
+      "fetch_dem": 5.611,
+      "ground_truth": 3.082,
+      "reference_aw3d30": 0.199,
+      "reproject": 0.031,
+      "reproject_aw3d30": 0.017,
+      "score_confidence": 0.0,
+      "solar": 0.006,
+      "validar_poligono": 0.0,
+      "validate": 0.006,
+      "worldcover": 1.728
+    },
+    "generated_at": "2026-10-31T18:44:59+00:00",
+    "paths": {
+      "aspect": "out\\rm04_piedemonte_alto\\work\\glo30_0fcb25019ace4c89_utm32719_aspect.tif",
+      "context_raster_utm": "out\\rm04_piedemonte_alto\\cache\\context\\mosaics\\glo30_a5bc7a1b12062276_utm32719.tif",
+      "contours": "out\\rm04_piedemonte_alto\\work\\glo30_0fcb25019ace4c89_utm32719_contours.gpkg",
+      "dem": "out\\rm04_piedemonte_alto\\cache\\mosaics\\glo30_0fcb25019ace4c89.tif",
+      "diff_map": "out\\rm04_piedemonte_alto\\work\\diff_aw3d30_ee2ac8b1e47dfcd0_utm32719_minus_glo30_0fcb25019ace4c89_utm32719.tif",
+      "hillshade": "out\\rm04_piedemonte_alto\\work\\glo30_0fcb25019ace4c89_utm32719_hillshade.tif",
+      "raster_utm": "out\\rm04_piedemonte_alto\\cache\\mosaics\\glo30_0fcb25019ace4c89_utm32719.tif",
+      "slope": "out\\rm04_piedemonte_alto\\work\\glo30_0fcb25019ace4c89_utm32719_slope.tif"
+    },
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python_executable": ".venv\\Scripts\\python.exe"
+  }
+}

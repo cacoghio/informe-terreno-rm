@@ -1,0 +1,12 @@
+[project]
+name = "terreno"
+version = "0.1.0"
+requires-python = ">=3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-m 'not network'"
+markers = [
+    "network: tests that hit the live network (excluded by default; run with -m network)",
+]

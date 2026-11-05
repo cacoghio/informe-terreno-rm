@@ -1,0 +1,81 @@
+{
+  "version": "0.3.0",
+  "calibration": "2026-10-31 (v0.3.0): el nivel se separa en dos sellos (medibilidad del lote / confianza del dato) y el dosel se mide con ESA WorldCover 10 m. v0.2.0, 8 pilotos RM: rango de elevacion 16/8 -> 8/4 m y desacuerdo sin desfase medio (AUDITORIA/error_vs_referencia_fina.md). Pendiente, pixeles y los otros factores sin cambio: los datos no alcanzan para moverlos.",
+  "hypothesis": true,
+  "source": "SPEC-PRODUCTO-v0.md sec. 4 (tabla literal de 7 factores). Todos los umbrales son HIPOTESIS a calibrar en la Fase E.",
+  "combination": "peor_factor",
+  "missing_factor_cap": "B",
+  "levels": ["A", "B", "C"],
+  "factors": {
+    "pixels": {
+      "label": "Pixeles de 30 m dentro del predio",
+      "unit": "px", "direction": "higher_better",
+      "A": {"op": ">=", "value": 25},
+      "B": {"op": ">=", "value": 9},
+      "origin": "3x3 pixeles, A3; 1 ha ~ 11 pixeles, A2. C (n < 9) = no concluyente en pendiente/aspecto"
+    },
+    "elev_range_m": {
+      "label": "Rango de elevacion del predio frente al error relativo medido (~2 m)",
+      "unit": "m", "direction": "higher_better",
+      "A": {"op": ">", "value": 8},
+      "B": {"op": ">=", "value": 4},
+      "origin": "Calibrado RM 2026-10-31 (antes 16/8 por 2xLE90): el desnivel compite con el error RELATIVO dentro del lote, no con el absoluto. GLO-30 vs Pleiades/SPOT en 5 lotes: error centrado 0,7-2,6 m, NMAD de entorno 1,0-1,8 m -> B >= 2x2 m, A = 2xB. n = 5 lotes: sigue siendo hipotesis"
+    },
+    "slope_mean_pct": {
+      "label": "Pendiente media en el predio y su entorno inmediato",
+      "unit": "%", "direction": "lower_better",
+      "A": {"op": "<", "value": 20},
+      "B": {"op": "<=", "value": 30},
+      "origin": "GLO-30 relativo <2 m hasta 20 % y <4 m sobre 20 %; INFORME: error se amplifica sobre ~12-15 grados"
+    },
+    "disagreement_rms_m": {
+      "label": "Desacuerdo GLO-30 vs AW3D30 (RMS sin el desfase medio, tras alinear datums)",
+      "unit": "m", "direction": "lower_better",
+      "A": {"op": "<", "value": 3},
+      "B": {"op": "<=", "value": 6},
+      "origin": "Orden del RMSE 3,5-4 m de ambos DEM vs ICESat-2 (Lund). Calibrado RM 2026-10-31: se quita la diferencia media, que en los 8 pilotos es el sesgo propio de AW3D30 frente a ICESat-2/GEDI (+0,5 a +4,5 m) y no afecta pendiente ni relieve"
+    },
+    "canopy_pct": {
+      "label": "Cobertura de dosel/construido",
+      "unit": "% del predio", "direction": "lower_better",
+      "A": {"op": "<", "value": 10},
+      "B": {"op": "<=", "value": 50},
+      "worst_level": "B",
+      "origin": "FABDEM/GEDTM30 cambian de regimen en 10 % y 50 % de cobertura arborea. Se mide con ESA WorldCover 10 m (clases 10 arbolado + 50 construido) desde v0.3.0. worst_level=B: con 4.421 huellas ICESat-2/GEDI de 8 sitios RM el error de GLO-30 bajo arbolado/construido es 0,5-1,6 m mayor que bajo otras clases en pendiente <15 % (RMSE 3,0 / 4,1 / 2,5 m) y no mayor en pendiente >=15 % (AUDITORIA/dosel_vs_error_huellas.md): el dosel puede bajar el nivel a B, no vetarlo con C"
+    },
+    "void_water_pct": {
+      "label": "Vacios, rellenos y agua (EDM/FLM/WBM)",
+      "unit": "% de pixeles", "direction": "lower_better",
+      "A": {"op": "<", "value": 2},
+      "B": {"op": "<=", "value": 10},
+      "origin": "A2 sec. 4 (parte de GLO-30 no proviene de TanDEM-X)"
+    },
+    "hem_p90_m": {
+      "label": "Incertidumbre propia (HEM, percentil 90 en el predio)",
+      "unit": "m", "direction": "lower_better",
+      "A": {"op": "<", "value": 3},
+      "B": {"op": "<=", "value": 6},
+      "origin": "HEM = desviacion estandar por pixel [hipotesis de corte]"
+    }
+  },
+  "sections": {
+    "elevacion": ["void_water_pct", "hem_p90_m", "canopy_pct", "disagreement_rms_m"],
+    "pendiente": ["pixels", "elev_range_m", "slope_mean_pct", "void_water_pct", "hem_p90_m", "canopy_pct", "disagreement_rms_m"],
+    "orientacion": ["pixels", "elev_range_m", "slope_mean_pct", "void_water_pct", "hem_p90_m", "canopy_pct", "disagreement_rms_m"],
+    "comparacion_fuentes": ["disagreement_rms_m"]
+  },
+  "seals": {
+    "medibilidad_lote": {
+      "label": "Medibilidad del lote",
+      "question": "Se puede decir algo del lote con pixeles de 30 m?",
+      "factors": ["pixels", "elev_range_m"]
+    },
+    "confianza_dato": {
+      "label": "Confianza del dato",
+      "question": "Que tan bueno es el dato satelital en este lugar?",
+      "factors": ["slope_mean_pct", "disagreement_rms_m", "canopy_pct", "void_water_pct", "hem_p90_m"]
+    }
+  },
+  "seals_note": "v0.3.0: el nivel final (overall) sigue siendo el peor de los siete factores; los sellos solo separan la causa. Todo factor pertenece a exactamente un sello.",
+  "sections_note": "Agrupacion por seccion = hipotesis de este POC (la spec solo da el ejemplo pendiente C / elevacion B)."
+}

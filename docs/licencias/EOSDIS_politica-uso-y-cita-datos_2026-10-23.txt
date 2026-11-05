@@ -1,0 +1,371 @@
+FUENTE: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance (aplica a ATL08 y GEDI)
+FECHA DE OBTENCION: 2026-10-23
+NOTA: texto extraido automaticamente; archivo de referencia, sin interpretacion legal.
+
+Data Use and Citation Guidance | NASA Earthdata 
+ Skip to main content
+ Delivery of new Suomi NPP data ceases on Nov. 2, 2026. Users should transition to alternative products. 
+ Suomi NPP data announcement 
+ Migration to Consolidated Ingest and Archive will interrupt data ingestion at PO.DAAC, ASF DAAC, and GES DISC on Oct. 28-30, 2026. 
+ Read more 
+ Home 
+ Data 
+ Data Catalog 
+ Data Alerts and Outages 
+ Projects 
+ Land, Atmosphere Near real-time Capability for Earth observation (LANCE) 
+ Harmonized Landsat and Sentinel-2 (HLS) 
+ Applied Remote Sensing Training Program (ARSET) 
+ Observation Methods 
+ Platforms 
+ Instruments 
+ Space Geodesy Techniques 
+ Data Tools 
+ Earthdata Search 
+ Worldview 
+ Fire Information for Resource Management System (FIRMS) 
+ Vertex 
+ Giovanni 
+ Application for Extracting and Exploring Analysis Ready Samples (AppEEARS) 
+ Visualization, Exploration, and Data Analysis (VEDA) 
+ Ocean Color Level 3 and 4 Browser 
+ Topics 
+ Atmosphere 
+ Biosphere 
+ Climate Indicators 
+ Cryosphere 
+ Human Dimensions 
+ Land Surface 
+ Ocean 
+ Solid Earth 
+ Sun-Earth Interactions 
+ Terrestrial Hydrosphere 
+ View All Topics 
+ Learn 
+ Earth Observation Data Basics 
+ GIS Resources 
+ Data in Action 
+ Data Recipes 
+ Trainings 
+ Tutorials 
+ Webinars 
+ Publications 
+ Centers 
+ Distributed Active Archive Centers (DAACs) 
+ Alaska Satellite Facility (ASF) DAAC 
+ Atmospheric Science Data Center (ASDC) 
+ Crustal Dynamics Data Information System (CDDIS) 
+ Global Hydrometeorology Resource Center (GHRC) DAAC 
+ Goddard Earth Sciences Data and Information Services Center (GES DISC) 
+ Land Processes (LP) DAAC 
+ Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC 
+ National Snow and Ice Data Center (NSIDC) DAAC 
+ Oak Ridge National Laboratory (ORNL) DAAC 
+ Ocean Biology DAAC (OB.DAAC) 
+ Physical Oceanography DAAC (PO.DAAC) 
+ Science Investigator-led Processing Systems (SIPS)
+ MODIS Adaptive Processing System (MODAPS) SIPS 
+ Ocean SIPS 
+ Microwave Limb Sounder (MLS) SIPS 
+ Ozone Monitoring Instrument (OMI) SIPS 
+ Atmosphere SIPS 
+ Land SIPS 
+ Ozone Mapping and Profiler Suite SIPS 
+ Sounder SIPS 
+ Suborbital Data Resource Center 
+ Engage 
+ Open Data, Services, and Software Policies 
+ Open Science and Data Management Plan 
+ For Researchers and Grantees 
+ Data Management Guidance 
+ Data Rights and Related Issues 
+ Data Use Guidance 
+ For Developers 
+ APIs 
+ Common Metadata Repository 
+ For Data Providers 
+ Adding New Data 
+ DOI Process 
+ Standards 
+ About 
+ ESDS Leadership 
+ Organizational Chart 
+ Multi-Mission Data Processing System Study 
+ Earth Science Data and Information System (ESDIS) Project 
+ ESDS Digital Strategy and User Development Team 
+ Earth Science Data Systems Geographic Information Systems Team (EGIST) 
+ Competitive Programs 
+ News & Events 
+ News 
+ Events 
+ Worldview Image of the Week 
+ Feature Articles 
+ Data User Stories 
+ Earthdata Blog 
+ Data Alerts System 
+ Subscribe to the Earthdata Newsletter 
+ Data
+ Toggle submenu 
+ Data 
+ Data Catalog
+ Data Alerts and Outages
+ Projects
+ Land, Atmosphere Near real-time Capability for Earth observation (LANCE)
+ Harmonized Landsat and Sentinel-2 (HLS)
+ Applied Remote Sensing Training Program (ARSET)
+ Observation Methods 
+ Platforms 
+ NASA operates state-of-the-art platforms that collect critical information about our home planet. Drill down to the data and tools you need by exploring platforms on Earth and in the sky.
+ Instruments 
+ From the ground and into space, instruments aboard NASA platforms collect a vast array of Earth science data.
+ Space Geodesy Techniques 
+ These data are used to support scientific and societal applications Earth observations, positioning, navigation, and timing.
+ Data Tools 
+ Earthdata Search
+ Worldview
+ Fire Information for Resource Management System (FIRMS)
+ Vertex
+ Giovanni
+ Application for Extracting and Exploring Analysis Ready Samples (AppEEARS)
+ Visualization, Exploration, and Data Analysis (VEDA)
+ Ocean Color Level 3 and 4 Browser
+ ? 
+ Get help from experienced data users and managers on Earthdata Forum
+ Topics
+ Toggle submenu 
+ Data Pathfinders by Topic 
+ Atmosphere 
+ The atmosphere is a gaseous envelope surrounding and protecting our planet from the intense radiation of the Sun.
+ Biosphere 
+ The biosphere encompasses all life on Earth and extends from root systems to mountaintops and all depths of the ocean.
+ Climate Indicators 
+ Climate Indicators hold key information for the most relevant domains of climate change: temperature and energy, atmospheric composition, ocean and water as well as the cryosphere.
+ Cryosphere 
+ The cryosphere encompasses the frozen parts of Earth, including glaciers and ice sheets, sea ice, and any other frozen body of water. 
+ Human Dimensions 
+ The human dimensions discipline includes ways humans interact with the environment and how these interactions impact Earth’s systems.
+ Land Surface 
+ The land surface discipline includes research into areas such as shrinking forests, warming land, and eroding soils.
+ Ocean 
+ This vast, critical reservoir supports a diversity of life and helps regulate Earth’s climate.
+ Solid Earth 
+ Processes occurring deep within Earth constantly are shaping landforms.
+ Sun-Earth Interactions 
+ The Sun influences physical and chemical processes in Earth’s atmosphere.
+ Terrestrial Hydrosphere 
+ The terrestrial hydrosphere includes water on the land surface and underground in the form of lakes, rivers, and groundwater along with total water storage.
+ Featured Data Pathfinders by Topic 
+ Air Quality
+ Agriculture Production
+ Natural Hazards
+ Water Quality
+ Climate Resilience
+ View all Topics 
+ Learn
+ Toggle submenu 
+ Learn 
+ Earth Observation Data Basics 
+ Learn key terms and concepts like remote sensing and processing levels.
+ GIS Resources 
+ Explore resources for the Geographic Information Systems (GIS) community, including StoryMaps.
+ Data Support 
+ Connect with experienced data users and managers through the Earthdata Forum for help with datasets, tools, and services.
+ Data in Action 
+ Data in Action demonstrates Earth science data applications with interactive explanations as to how the work was accomplished.
+ Data Recipes 
+ Data Recipes are code-based instructions that help data scientists accomplish a specific task, such as converting data into a specific format for analysis or visualization.
+ Trainings 
+ Trainings are interactive opportunities to develop technical skills with NASA Earth science data.
+ Tutorials 
+ Tutorials are step by step “how to” content that cover a broad range of tasks, from data collection to visualization.
+ Webinars 
+ Webinars are video seminars featuring experts in various disciplines who share their knowledge in a particular subject area, from data in the cloud to specific data tools.
+ Publications 
+ Access publications citing NASA Earth science data.
+ Centers
+ Toggle submenu 
+ Centers 
+ Distributed Active Archive Centers (DAACs) 
+ Science Investigator-led Processing Systems (SIPS) 
+ Alaska Satellite Facility (ASF) DAAC
+ Atmospheric Science Data Center (ASDC)
+ Crustal Dynamics Data Information System (CDDIS)
+ Global Hydrometeorology Resource Center (GHRC) DAAC
+ Goddard Earth Sciences Data and Information Services Center (GES DISC)
+ Land Processes (LP) DAAC
+ Level 1 and Atmosphere Archive and Distribution System (LAADS) DAAC
+ National Snow and Ice Data Center (NSIDC) DAAC
+ Oak Ridge National Laboratory (ORNL) DAAC
+ Ocean Biology DAAC (OB.DAAC)
+ Physical Oceanography DAAC (PO.DAAC)
+ MODIS Adaptive Processing System (MODAPS) SIPS
+ Ocean SIPS
+ Microwave Limb Sounder (MLS) SIPS
+ Ozone Monitoring Instrument (OMI) SIPS
+ Atmosphere SIPS
+ Land SIPS
+ Ozone Mapping and Profiler Suite SIPS
+ Sounder SIPS
+ Suborbital Data Resource Center 
+ All of the resources for the airborne and field data community within our program can be found here.
+ Engage
+ Toggle submenu 
+ Engage 
+ Open Data, Services, and Software Policies 
+ Open Science and Data Management Plan 
+ For Researchers and Grantees 
+ Data Management Guidance
+ Data Rights and Related Issues
+ Data Use Guidance
+ For Developers 
+ APIs
+ Common Metadata Repository
+ For Data Providers 
+ Adding New Data
+ DOI Process
+ Standards
+ About
+ Toggle submenu 
+ About 
+ ESDS Leadership 
+ Meet the Earth Science Data Systems Program leadership team.
+ Organizational Chart 
+ View the internal structure of the ESDS Program.
+ Multi-Mission Data Processing System Study 
+ We are considering the right data processing system for open-source data.
+ Contact Us 
+ Find the right contact for questions, feedback, or support related to NASA Earthdata.
+ Earth Science Data and Information System (ESDIS) Project
+ ESDS Digital Strategy and User Development Team
+ Earth Science Data Systems Geographic Information Systems Team (EGIST)
+ Competitive Programs
+ Program Performance and Metrics 
+ Access overall ingest, archive, and distribution metrics for the ESDS program.
+ News & Events
+ Toggle submenu 
+ News 
+ View the latest updates from Earthdata.
+ Events 
+ Sign up or watch a past recording of events covering Earth science data topics.
+ Worldview Image of the Week 
+ Learn about the Earth through the lens of NASA’s Worldview.
+ Data Alerts System 
+ Subscribe to the Earthdata Newsletter 
+ Feature Articles 
+ Read stories inspired by NASA Earth science data.
+ Data User Stories 
+ Discover how people are researching with NASA Earth science data.
+ Earthdata Blog 
+ Take a deeper dive into NASA Earth science data.
+ Latest News 
+ 2 MIN READ
+ Super Typhoon Champi 
+ Worldview Image of the Week 
+ Oct 23, 2026 
+ 2 MIN READ
+ Fires Causing Persistent Haze Across Southeast Asia 
+ Worldview Image of the Week 
+ Oct 16, 2026 
+ Search 
+ Home 
+ Engage 
+ Open Data, Services, and Software Policies 
+ Data Use and Citation Guidance
+ Data Use and Citation Guidance
+ NASA provides guidance for data and information generated under NASA sponsorship.
+ TABLE OF CONTENTS
+ NASA's Earth Science Data and Information System ( ESDIS ) Project provides open access to data and information generated under NASA sponsorship. Non-NASA data available through the ESDIS project is subject to the license arrangements of the sponsoring organization. Users are encouraged to validate the source and associated use permissions.
+ NASA ESDIS content, including but not limited to images, audio, video, and computer files used in the rendition of 3D models, such as texture maps and polygon data in any format, observation data, metadata, products, information, algorithms, including scientific source code, documentation, models, images, and research results are generally not copyrighted. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations, and Internet webpages. This general permission extends to personal webpages.
+ NASA ESDIS content used in a factual manner that does not suggest or imply endorsement may be used without explicit permission. NASA should be acknowledged as the source of the material.
+ Licensing and Copyright
+ ESDIS content that is subject to usage restrictions, such as a license agreement, shall be labeled as such and the use of that data shall be in accordance with the designated license. Unless the content is marked with a use restriction or license, data provided from a NASA-led mission are licensed as Creative Commons Zero (CC0). While there are no restrictions on the use of these data, data users are very strongly urged to cite the data used in their work products.
+ NASA occasionally uses copyrighted material by permission on its website. NASA's use does not convey any rights to others to use the same material. Those wishing to use copyrighted material must contact the copyright holder directly.
+ NASA does not license the use of NASA materials or sign licensing agreements. The agency generally has no objection to the reproduction and use of these materials, subject to the following conditions:
+ NASA material may not be used to suggest or imply endorsement by NASA or by any NASA employee of a commercial product, service, or activity, or used in any manner that might mislead. Please see  NASA Advertising Guidelines and  Merchandising Guidelines for more information.
+ It is unlawful to falsely claim copyright or other rights in NASA material.
+ NASA shall in no way be liable for any costs, expenses, claims, or demands arising out of the use of NASA material by a recipient or a recipient's distributees.
+ NASA does not indemnify nor hold harmless users of NASA material, nor release such users from copyright infringement, nor grant exclusive use rights with respect to NASA material.
+ NASA material is not protected by copyright within the United States, unless noted. If copyrighted, permission should be obtained from the copyright owner prior to use. If not copyrighted, NASA material may be reproduced and distributed without further permission from NASA.
+ Citations and Acknowledgments
+ NASA should be acknowledged as the source of the material where applicable. Details of citation formats and practices vary by discipline and specific organizational practices (such as journal citation formats). 
+ NASA ESDIS provides open access to data and information generated under NASA sponsorship. NASA data are freely accessible; however, when you publish these data or works based on the data, we request that you cite the datasets within the text of the publication and include a reference to them in your reference list. References should follow the specific formats of the journal or governing style guide and have enough detail to provide readers of your publication with the ability to obtain the datasets and conduct their own studies based on your work. For complete provenance and understanding of specifically which parts of data were used and how, it also may be necessary to describe in detail, within the body of the publication, exactly how the data were used.
+ The Earth Science Information Partners (ESIP) provides a clear, concise guidelines document that may help you in determining the format of the dataset reference. 
+ NASA's Global Imagery Browse Services (GIBS) also provides guidance on data use and acknowledgments .
+ Open Data and the Importance of Data Citations
+ In addition to providing free and open access to data in accordance with NASA SMD Open Source Science Guidance , NASA's Earth Science Data Systems Program values transparency and reproducibility in scientific research, as do organizations with similar objectives such as the National Science Foundation ( NSF ), the Earth Science Information Partners ( ESIP ), the Coalition on Publishing Data in the Earth and Space Sciences ( COPDESS ), and the Global Earth Observation System of Systems ( GEOSS )
+ As such, NASA recognizes the importance of authors using NASA-provided datasets to clearly indicate which datasets were used and provide access to these datasets to readers. While there are several ways of accomplishing this objective, formally citing datasets and other research products is unambiguously among the best.
+ NASA's Science Mission Directorate (SMD) will continue to take steps proactively to improve its open data and data citation guidance to remain in line with the best practices of our community. Our overarching objectives are to ensure that data from NASA's Earth Science Data Systems Program can easily be accessed and that research based on  NASA-supported datasets clearly cites the sources of these data.
+ Find Data
+ By Platform 
+ Explore data collected by platforms in space, air, water, and land.
+ By Topic 
+ Browse by topic to find relevant data, tools, learning resources, news, and more.
+ Data Catalog 
+ Dive into one of the planet’s largest repositories of Earth science data.
+ Data Tools 
+ Access a range of tools that enable data discovery, analysis, and visualization.
+ Footer
+ Find Data 
+ Data Catalog 
+ Data Tools 
+ Platforms 
+ Instruments 
+ Space Geodesy Techniques 
+ Projects 
+ Data Alerts and Outages 
+ Earthdata Login 
+ Data Pathfinders by Topic 
+ Atmosphere 
+ Biosphere 
+ Climate Indicators 
+ Cryosphere 
+ Human Dimensions 
+ Land Surface 
+ Ocean 
+ Solid Earth 
+ Sun-Earth Interactions 
+ Terrestrial Hydrosphere 
+ Learn 
+ Earth Observation Data Basics 
+ Earthdata Forum 
+ Webinars 
+ Trainings 
+ Tutorials 
+ Data in Action 
+ Data Recipes 
+ GIS Resources 
+ StoryMaps 
+ Publications 
+ Centers 
+ ASF DAAC 
+ ASDC 
+ CDDIS 
+ GHRC DAAC 
+ GES DISC 
+ LP DAAC 
+ LAADS DAAC 
+ NSIDC DAAC 
+ ORNL DAAC 
+ OB.DAAC 
+ PO.DAAC 
+ Sea Level Change Portal 
+ Suborbital Data Resource Center 
+ Engage 
+ Data Management Guidance for ESD-funded Researchers 
+ Open Data, Services, and Software Policies 
+ Public and Private Partnerships 
+ Memberships and Affiliations 
+ News 
+ Events 
+ Newsletter 
+ Contact 
+ Footer Submenu
+ Web Privacy Policy 
+ Data and Information Guidance 
+ Communications Policy 
+ FOIA 
+ Accessibility 
+ Sitemap 
+ USA.gov 
+ Site last Updated: Oct. 21, 2026
+ NASA Official: Katie Baynes

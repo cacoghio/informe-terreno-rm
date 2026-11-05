@@ -1,0 +1,1337 @@
+FUENTE: https://dataspace.copernicus.eu/sites/default/files/media/files/2025-06/copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf (enlazado desde la pagina oficial CDSE de COP-DEM)
+FECHA DE OBTENCION: 2026-10-23
+NOTA: texto extraido automaticamente; archivo de referencia, sin interpretacion legal.
+
+         COPERNICUS CONTRIBUTING MISSION DATA ACCESS
+
+                     LICENCE BETWEEN ESA AND COPERNICUS USER
+                    FOR THE USE OF DATA SUBJECT TO RESTRICTIVE
+
+                                           LICENSING TERMS
+
+                                                              (Issue date: 21/02/2025)
+
+Licence entered into by and between the following parties (hereinafter referred as the "Parties"):
+
+The European Space Agency, hereinafter referred to as ESA or the Agency, and
+
+The User authorised to use Products from the Copernicus Contributing Missions in accordance
+with the Terms and Conditions granted under the present Licence and its User Category.
+
+Introduction
+
+The Agency, through the Space Programme Regulation (EU) 2021/696 of the European
+Parliament and of the Council, has been entrusted with the coordination of the Copernicus space
+component and of the implementation of the space component and its evolution, the design,
+development and construction of the Copernicus space infrastructure, including the operations
+of that infrastructure and related procurement and, where appropriate, the provision of access to
+third party space-based Earth observation data (Copernicus Contributing Mission data) necessary
+to generate Copernicus services or to be used by the European Union's institution, Agencies,
+decentralized services and, when possible, national or regional public bodies.
+
+The parties to this Licence wish to agree on the Terms and Conditions regarding the delivery
+and/or the use of identified sets of space-based observation data and related services (Copernicus
+Contributing Mission data).
+
+ESA secured with the Copernicus Contributing Mission Entity the right to provide to the Users
+the rights of use contained in this Licence.
+
+This Licence does not confer any right on the tasking and acquisition of new or archived
+Copernicus Contributing Mission data but concerns the use of Copernicus Contributing Mission
+data made available to the User under the terms of this Licence.
+
+This Licence defines the various categories of users and the scope of authorized usage. The
+documentation related to the Copernicus Contributing Mission data, available on the online web
+portals, specifies the permitted uses for each user category in accordance with this Licence.
+
+THE PARTIES AGREE AS FOLLOWS:
+
+1. Definition
+    1.1. "The Terms and Conditions" shall mean the present document.
+    1.2. "CCM" shall mean Copernicus Contributing Mission.
+    1.3. CCME or "Copernicus Contributing Mission Entity" shall mean CCM owner, the operator
+          of a CCM or the licensee of a CCME having the right to sublicense the data.
+1.4. "User" shall mean the natural or legal person accepting these Terms and Conditions in
+     order to obtain the right to use CCM data through the different access services.
+
+1.5. "User Category" shall mean the possible types of Users. The following definitions of User
+     Categories shall apply:
+
+    1.5.1. Copernicus Services and Union Institutional Users:
+         1.5.1.1. "Copernicus Services" as defined under the Union Space programme
+                 Regulation (EU) 2021/696;
+         1.5.1.2. The European Institutions, Agencies and other Union Bodies set up under
+                 the EU Treaties;
+         1.5.1.3. Their contractors.
+
+    1.5.2. Union research project:
+                 Any natural or legal person officially registered as participant of a project funded
+                 under EU framework programmes. Participants to activities closely linked to
+                 Copernicus may be eligible to this User Category on a case by case basis upon
+                 confirmation by the European Commission.
+
+    1.5.3. "National Public Authority":
+         1.5.3.1. Any government or other public administration of EU Member States or
+                 Copernicus Participating States including public advisory bodies, at national,
+                 regional or local level (e.g. national civil protection services);
+         1.5.3.2. Any natural or legal person from an EU Member State or Copernicus
+                 Participating State performing public administrative functions or services under
+                 national law, including specific duties, activities or services in relation to the
+                 environment;
+         1.5.3.3. Any natural or legal person having public responsibilities or functions, or
+                 providing public services relating to the environment under the control of a
+                 body or person falling within the above two sub-categories.
+         1.5.3.4. Any research and academic organisation registered in an EU Member State
+                 or Copernicus Participating State;
+         1.5.3.5. Their contractors.
+
+    1.5.4. "International Organisations":
+         1.5.4.1. International governmental organisation created by an international treaty
+                 which can be looked up in the United Nations (UN) online database of treaties.
+                 These International governmental organizations shall abide the Universal
+                 Declaration of Human Rights (United Nations, 1948) and UN treaties dealing
+                 with environmental policies. Specialised agencies of the UN are included;
+         1.5.4.2. International non-governmental organisation specialised in humanitarian
+                 development or environmental activities and duly recognized by a European
+                 Institution, Agency or other Union Body.
+
+    1.5.5. "Public (in general)" shall mean any natural or legal person.
+
+1.6. "EU Public Task" shall mean the development, implementation and monitoring of EU
+     policies and related activities as defined by the EU Treaties or secondary Union legislation.
+1.7. "EO spatial data" means any data with a direct or indirect reference to a specific location
+     or geographical area (Directive 2007/2/EC of 14 March 2007 establishing an
+     Infrastructure for Spatial Information in the European Community (INSPIRE)).
+
+1.8. "EO spatial dataset" means an identifiable collection of EO spatial data (Directive
+     2007/2/EC of 14 March 2007 establishing an Infrastructure for Spatial Information in the
+     European Community (INSPIRE)).
+
+1.9. "Metadata" shall mean information describing EO spatial datasets and EO spatial data
+     services and making it possible to discover, inventory and use them. In the case of EO
+     spatial data, metadata can include a preview of the full data.
+
+1.10. "Content" shall mean any information (such as data files, written text, computer
+     software, videos or other images) which the User may have access to as part of, or through
+     use of, the VIEWING/DOWNLOADING ACCESS services.
+
+1.11. "Intellectual Property Rights (IPRs)" shall mean the rights resulting from the
+     creation, use and exploitation of mental or creative labour.
+
+1.12. "Products" shall mean any of the below:
+
+    1.12.1. "Primary Products" shall mean any spatial datasets originating from a CCME and
+          provided by ESA/CCME to the User. A Primary Product is understood to include
+          spacecraft and instrument data and is comprised of single-mission Level 1 or Level 2
+          (with exceptional provision of higher-level products such as single- mission Level 3
+          on a case by case basis).
+
+    1.12.2. "Altered Products" shall mean products derived from Primary Products retaining
+          enough information to allow the retrieval of the Primary Products (e.g. the
+          information in the sensor pixel, not the delineation of the pixel) and do not contain a
+          significant intellectual or creative achievement made by the User. For the purpose of
+          these Terms and Conditions, Altered Products include but are not limited to histogram
+          stretched images, orthorectified images, re- sampled and re-scaled images, mosaics
+          and subsets of substantial size.
+
+    1.12.3. "Value Added Products" shall mean products derived from Primary Products or
+          Altered Products, which do not allow the retrieval of the Primary Product (e.g. the
+          information in the sensor pixel) and therefore do not allow the replication of the
+          Primary Product as such and which contain a significant intellectual or creative
+          achievement made by the User. For the purpose of these Terms and Conditions, Value
+          Added Products include but are not limited to land cover classifications and
+          vegetation indexes. The "Value Added Products" may use the pixel delineation of the
+          "Primary/Altered Products".
+
+    1.12.4. "DISCOVERY Service" enables the User to search for EO spatial datasets and
+          services on the basis of the Content of the corresponding Metadata and to display the
+          Content of the Metadata.
+    1.13. "VIEW Service" allows the User, as a minimum, to display, navigate, zoom in/out,
+         pan or overlay viewable datasets and to display legend information and any relevant
+         Content of Metadata;
+
+    1.14. "DOWNLOAD Service" shall enable the User to have full and direct access to the
+         complete Primary Products, including the right to download them and to make copies of
+         them;
+
+    1.15. "Mosaic" is a multi-scene or multi-image aggregation to cover a larger area than a
+          given scene/image. Can be applied to different sensors. A mosaic is generally mono
+          temporal (or made of scenes/images collected within a given time period that can range
+          from a few days to a season).
+
+2. Supply of CCM Data
+
+    2.1. ESA shall provide the amount and type of Primary Products or make available one or more
+          of the ACCESS Services (DISCOVERY/VIEWING/DOWNLOADING) to the User in
+          accordance with the data offer published on the respective web sites for access to CCM
+          data.
+
+    2.2. The User acknowledges and accepts data delivery performances and constraints, as
+          described in the relevant online web portals.
+
+    2.3. The User acknowledges that ESA may be obliged to suspend or terminate delivery of
+         Primary Products/Altered Products in the event of:
+         2.3.1. No longer assured funding from the European Commission; or
+         2.3.2. Suspension or termination of the ESA-EU Copernicus Agreement or successive
+               Agreements.
+
+    2.4. The User acknowledges that ESA may be obliged to review, modify, suspend or terminate
+         the delivery of Primary Products in case of total or partial failure of a CCM satellite/
+         instrument or its ground segment and substitution by other Primary Products under the
+         same conditions/ scheme not being possible. ESA shall not be held responsible, nor liable,
+         for any suspension or termination. Such a suspension or termination concerns only
+         Primary Products which have not been delivered yet but does not affect past cases. Re-use
+         of Primary Products supplied in the past is still possible within the scope of the present
+         Licence.
+
+    2.5. Access to Primary and Altered Products may be subject to restrictions imposed by
+         applicable regulations. ESA will comply with these restrictions by limiting, suspending or
+         terminating access to affected Primary and Altered Products, notifying Users of the
+         restrictions and their implications, and updating access rights accordingly. Users must
+         adhere to these restrictions, acknowledging that access to certain data may be revoked or
+         limited at any time and agree to comply without contest. Neither ESA nor CCMEs shall
+         be liable for consequences resulting from these restrictions. Violations by Users may result
+         in termination of data access and potential legal action.
+         Users shall ensure that neither the Primary Products, nor the Altered Products are (a)
+         provided to or the subject of any transaction or dealing, directly or indirectly, with or
+         related to a country or a person subject to restrictions imposed by applicable regulations;
+         (b) exported or reexported, directly or indirectly, in violation of any applicable laws or
+         regulations, or (c) used for any prohibited purpose.
+
+    2.6. The CCM data offer may be updated when and as necessary for future data supply.
+3. Data use, authorised and prohibited Uses of the CCM Data.
+
+    3.1. The User is granted by the Agency a limited, revocable, free of charge, non-exclusive,
+          non-transferable right on the Primary/Altered Products for the Usage Type(s) further
+          defined below.
+
+    3.2. The User may not assign any right on the Primary/Altered Products without prior written
+          approval by the CCME through ESA.
+
+    3.3. Authorised Usage Types according to User categories:
+         3.3.1. The User is, according to its User Category, authorised for DISCOVERY, VIEW,
+               or DOWNLOAD ACCESS per datasets. The respective available USER ACCESS
+               RIGHTS type and datasets are indicated in the online web portals.
+         3.3.2. CCM data, which the User already obtained, remain governed by the version of the
+               applicable licence from the date of downloading the data. It is the User's
+               responsibility to record the date of data downloads.
+
+    3.4. Purpose of Use
+
+         3.4.1. Copernicus Services and Union Institutional Users, National Public Authorities,
+               International Organisations Users and their contractors may only use the Primary
+               Products and Altered Products for activities whose purpose is related to EU Public
+               Tasks.
+
+         3.4.2. Participants to a research project financed under the Union research projects may
+               only use the Primary Products and Altered Products for the purpose of their project.
+
+         3.4.3. Any Users not falling under 3.4.1 or 3.4.2, may only use the Primary Products or
+               Altered Products derived from them for non-commercial activities.
+
+         3.4.4. Reselling data provided under this Licence is strictly prohibited.
+         3.4.5. These restrictions do not apply where such datasets are otherwise legally available
+
+               to the User without the present restrictions.
+         3.4.6. Contractors of the Copernicus Services and Union Institutional Users and of the
+
+               National Public Authority Users shall only use the Primary and Altered Products for
+               the purpose and duration of their engagement with the User's project or purpose.
+               Contractors shall return the Primary Product and/or Value-Added Product to the User,
+               and shall keep no copy thereof, upon completion of their engagement.
+
+    3.5. Responsibility of the User:
+         3.5.1. The User assumes full responsibility for their use of the Primary Products/ Altered
+               Products.
+         3.5.2. If the content or scope of the User's project changes after acceptance of the present
+               Terms and Conditions and no longer falls under the authorised purpose of use, then
+               the User must notify ESA of the change and stop using the data.
+
+    3.6. DISCOVERY Service
+          ESA provides as part of the CCM activity a "DISCOVERY Service" to the Public (in
+          general), which allows everyone to search for spatial datasets and services on the basis of
+          the Content of the corresponding Metadata and to display the Content of the Metadata.
+          The provision of Data DISCOVERY Service is authorized for all Users.
+3.7. VIEW Service
+    3.7.1. ESA provides as part of the CCM activity a "VIEW Service".
+    3.7.2. The VIEW Service User shall not
+         3.7.2.1. Access or use the Primary or Altered Products through any means other
+                 than those provided in the VIEW Service;
+         3.7.2.2. Use the Primary or Altered Products in a manner that gives the User or any
+                 other person access to mass downloads or bulk feeds of any Content allowing
+                 the reconstruction of Primary or Altered Products; or
+         3.7.2.3. Delete, obscure, or in any manner alter any warning notice (including but
+                 not limited to any copyright or other proprietary rights notice), or link that
+                 appears in the Products or the Content.
+
+3.8. DOWNLOAD Service
+    3.8.1. With the DOWNLOAD Service, the User is granted by the Agency a free of charge,
+          revocable, non-exclusive, non-transferable right to use Primary Products as follows.
+         3.8.1.1. to make an unlimited number of copies of the Primary Product as needed
+                 (archiving and backup purposes included);
+         3.8.1.2. to store on as many individual computers as needed, including internal
+                 computer network;
+         3.8.1.3. to alter or modify the Primary Product by invoking a computer application
+                 to produce Altered Products and Value Added Products
+         3.8.1.4. to post Metadata of the Primary Product or its Altered Products on an
+                 internet website;
+         3.8.1.5. to make hard copies;
+         3.8.1.6. to provide a VIEW Service to their own users using the Primary Products
+                 and Altered Products for non-commercial public services/ projects with the
+                 display of the following credit: "includes material "� CCME (year of
+                 acquisition), provided under COPERNICUS by the European Union and ESA,
+                 all rights reserved. For data/products distributed by CCMEs from third-party
+                 owned satellites, copyrights shall read as follows: "� (Owner of satellites)
+                 (year of acquisition), distributed by CCME, provided under COPERNICUS by
+                 the European Union and ESA, all rights reserved. The digital publications of
+                 Primary or Altered Products by the DOWNLOAD Service User shall not allow
+                 the download or reconstruction of datasets in whole or in a substantial part.
+         3.8.1.7. to publish or display Primary Products and/or Altered Products in printed
+                 or digital media and internet websites, [also as part of web-mapping,] for the
+                 purpose of public non-commercial information or services, research reporting,
+                 advertisement, with the display of the following credit: "includes material "�
+                 CCME (year of acquisition), provided under COPERNICUS by the European
+                 Union and ESA, all rights reserved. For data/products distributed by CCMEs
+                 from third-party owned satellites, copyrights shall read as follows: "� (Owner
+                 of satellites) (year of acquisition), distributed by CCME, provided under
+                 COPERNICUS by the European Union and ESA, all rights reserved. The digital
+                 publications of Primary or Altered Products by the DOWNLOAD Service User
+                 shall not allow the download or reconstruction of datasets in whole or in a
+                 substantial part.
+              3.8.1.8. to use the Primary Product or its Altered Products for internal or external
+                      demonstration purposes;
+
+              3.8.1.9. to re-distribute Primary Products and Altered Products to other parties
+                      involved in the project/activity who have accepted the present Terms and
+                      Conditions in the relevant online web portals. Redistribution to any other legal
+                      or natural person who has not accepted the present Terms and Conditions is
+                      hereby excluded. The User undertakes that the Primary Products provided by
+                      CCM data offer and the Altered Products derived by the User shall not be
+                      copied, transferred, re-distributed or otherwise made available to any entity
+                      other than the entities identified in this article 3.8.
+
+         3.8.2. The DOWNLOAD Service Users may license the Value Added Products under
+               their own terms and have the rights to provide access services to their Value Added
+               Products to their own users;
+
+         3.8.3. The DOWNLOAD Service User's rights include the rights of the VIEW Service as
+               well.
+
+         3.8.4. The DOWNLOAD Service User agrees to provide information on the identity of
+               the personnel accessing the downloaded Primary or Altered Products to any relevant
+               EU Member State or Copernicus Participating State authority if necessary for security
+               checks required by a CCME through ESA.
+
+         3.8.5. The DOWNLOAD Service User shall not do any of the following:
+              3.8.5.1. sell, license or in any manner distribute or make available the Primary and/
+                      or Altered Products if not covered by this Section 3.8;
+              3.8.5.2. do anything not expressly authorized under this Licence; and/ or
+              3.8.5.3. alter or remove any copyright notice or proprietary legend contained in or
+                      on the Primary Products/ Altered Products.
+
+4. Title and Intellectual Property Rights
+
+    4.1. Title to and right of ownership on the Primary Products and Altered Products shall remain
+          with the relevant CCME, and the User does not receive any such rights. The right of the
+          CCME to protect their Primary and/ or Altered Products against unlawful extraction or re-
+          use is recognised.
+
+    4.2. CCME's title to and right of ownership on the Primary and/ or Altered Products shall not
+          prevent recognition of Intellectual Property Rights (IPRs) in favour of the User in
+          accordance with the following rules:
+         4.2.1. The CCME shall retain title to and right of ownership on all Primary Products and
+               all subsequent copies thereof, regardless of the media, originating from its CCM. All
+               Altered Products inherit the right of ownership of the Primary Products used.
+               Existence and extent of CCME ownership and Intellectual Property Rights shall be
+               governed by the laws of the state where the CCME has its registered office in the
+               European Union or Copernicus Participating State.
+         4.2.2. User Intellectual Property Rights on their works performed on the Primary and
+               Altered Products shall be governed by the laws of the state where the User has its
+               registered office in the European Union or Copernicus Participating State.
+         4.2.3. The User shall mark all Primary Products and Altered Products, irrespective of the
+               form in which they are produced and notwithstanding its own copyrights, as follows:
+               "� CCME (year of acquisition), provided under COPERNICUS by the European
+               Union and ESA, all rights reserved.". For data/products distributed by CCMEs from
+               third-party owned satellites, copyrights shall read as follows: "� (Owner of satellites)
+               (year of acquisition), distributed by CCME, provided under COPERNICUS by the
+               European Union and ESA, all rights reserved".
+         4.2.4. With regard to Value Added Products, the following credits shall be used:
+               "produced using data � CCME (year of acquisition), provided under COPERNICUS
+               by the European Union and ESA." For data/products distributed by CCMEs from
+               third-party owned satellite(s), copyrights shall read as follows: "produced using data
+               � Owner of satellite(s)) (year of acquisition), distributed by CCME, provided under
+               COPERNICUS by the European Union and ESA".
+         4.2.5. Any publication resulting from work carried out using Primary Products/ Altered
+               Products shall contain the following sentence: "EO data provided under
+               COPERNICUS by the European Union and ESA."
+         4.2.6. The User will, upon request from ESA or the Union, provide the requesting entity
+               with copies of Altered Products and Value Added Products created by them and grant
+               to the requesting entity the right to use the Value Added Products solely for
+               Copernicus' own promotion and education purposes. Where Altered Products are
+               concerned, ESA and the Union will request such providing only in accordance with
+               the agreements between the CCME and ESA.
+
+5. Notices and Reports, Interfaces.
+    5.1. ESA shall be the formal interface between the User and the respective CCME.
+         Nevertheless, a direct technical interface may exist between a given CCME and the User
+         for data transfer.
+    5.2. The User shall inform ESA (or the technical interface) immediately in case of problems
+         with data reception or data quality deviating from the CCM data offer.
+    5.3. Upon request from ESA, the User shall make available information to ESA for the purpose
+         of ESA's reporting obligations towards the European Commission and the CCMEs. This
+         information shall include:
+         5.3.1. Copernicus Service project or EU Public Task status as relevant for the CCM
+               activity;
+         5.3.2. Contribution of space based Earth observation data to the Copernicus Service
+               project/ EU Public Task performed;
+         5.3.3. Suitability of Primary Products and associated services, adequacy to the Copernicus
+               Service project/ EU Public Tasks requirements;
+         5.3.4. Recommendations for CCM activity improvement (e.g. data products, mission
+               operations, etc.).
+    5.4. The User of the project will maintain and update a document listing, for use by ESA, the
+          entities having DOWNLOAD access to the Primary and/or Altered Products.
+    5.5. ESA is entitled to provide any report or other documentation regarding the use of the
+         Primary Products/ Altered Products to the CCME and the Union. Upon request from the
+         User, ESA shall guarantee confidentiality of reports and documentation provided by the
+         User, to the extent mutually agreed.
+
+6. Warranties, Liability, sole remedy.
+
+    6.1. ESA gives no undertaking as to the technical and legal adequacy or suitability of the
+         Products for the purpose required by the User or for the usage intended and shall not be
+         held liable for the consequences of its use. ESA makes no representation whatsoever in
+     respect of CCME or third-party rights to the Primary Products and shall not be held liable
+     for any damages incurred by the User due to the violation of any third-party rights. The
+     User shall indemnify and hold harmless ESA and the Union from any third-party claims
+     caused by the use of the Primary Products/ Altered Products by the User. In particular,
+     ESA or the Union makes no warranty or representation, express or implied, with respect
+     to the accuracy, completeness, or materiality of the Primary Products now, heretofore, or
+     hereafter made available. The User accepts the Primary Product "AS IS". Except as
+     expressly provided herein, no warranties or representations, express or implied, including
+     any warranty of quality, merchantability, fitness for a particular purpose or condition, are
+     given by or on behalf of ESA, and the User hereby waives all warranties, express or
+     implied, including, without limitation, any implied warranty of merchantability, fitness for
+     a particular purpose or condition, or conformity to samples.
+
+6.2. In the cases described in the above "Supply of CCM Data" section, the User shall have no
+     right whatsoever to claim for compensation or damage as a consequence of the decision
+     of ESA, the Union or the CCME to no longer provide the CCM data.
+
+6.3. Notwithstanding the fact that ESA/ CCME will do their utmost to deliver the Primary
+     Products according to the data offer, the User waives any claim against ESA, the Union
+     or CCME in the event of any damages directly or indirectly arising from malfunction or
+     interruption in the transmission of Primary Products for any reason whatsoever.
+
+6.4. Except as expressly provided herein, any claim in respect of damage caused to persons,
+     goods or property arising in connection with the performance of these Terms and
+     Conditions shall be settled in accordance with the law governing the Terms and Conditions
+     (see below, article 7.3), being however understood that the liability of ESA under these
+     Terms and Conditions shall be excluded except in case of wilful misconduct. ESA shall in
+     any event, on whatever legal basis, not be liable in any way for consequential, incidental
+     and/ or intangible damages such as loss of business, loss of production, operating losses,
+     missed deadlines, loss of data or information, loss of enjoyment of rights, interruption in
+     a service suffered by the User.
+
+6.5. The User must notify ESA within the 30-day warranty period of any defect. ESA's sole
+     obligation and the User's sole remedy under this limited warranty is that ESA shall use
+     reasonable efforts to repair or replace the defect Primary Product. This limited warranty is
+     void if any non-conformity has resulted from accident, abuse, misuse, misapplication, or
+     modification by someone other than ESA. The limited warranty is for the User only, and
+     is non-transferable.
+
+6.6. ESA cannot be considered to be failing to meet its obligations if its failure is due to an
+     occurrence of a Force Majeure. Force Majeure designates all the occurrences which are
+     beyond the reasonable control of ESA, of any nature whatsoever, and in particular all
+     breakdowns of CCME satellite/ instrument, natural catastrophes, bad weather, fires,
+     collective work disputes, strikes, sabotage, embargoes, interruptions in the transport or
+     means of communication, war, acts or regulations issued by government authorities
+     (including delays in the obtainment of authorizations or licences of any sort), or supra
+     national authorities like the UN, which may occur as from the date of the order and would
+     prevent its total or partial execution.
+    6.7. The provisions applicable to ESA under articles 6.1 to 6.6 shall be applicable to the
+         CCME, which shall be entitled to prevail itself of any provision relating to ESA limitations
+         or exclusions of liability and/ or warranty, with the exception of any third-party claims
+         with regard to infringement of third-party rights as well as those relative to Force Majeure.
+
+7. Miscellaneous.
+
+    7.1. Acceptance of Terms and Conditions.
+
+         User accepts and agrees to the present Terms and Conditions through e-electronic
+         acceptance of this document in the relevant online web portal.
+
+    7.2. Cost of Primary Products
+
+         7.2.1. The User receives the Primary Products and/ or the Services free of charge.
+         7.2.2. Cost of hardware and/or software required to receive or read Primary Products and/
+
+               or the Services and any other costs associated with the provision or use of the Services
+               shall be borne and/ or secured by the User.
+
+    7.3. Applicable Law and Arbitration
+         7.3.1. These Terms and Conditions shall be governed by French Law. All disputes shall
+               be referred to arbitration and will be judged in accordance with the Conciliation and
+               Arbitration rules of the International Chamber of Commerce in Paris, France. The
+               arbitration shall be conducted in English. The award of the arbitration will be final
+               and binding upon the parties.
+         7.3.2. If any provision of these Terms and Conditions is declared invalid or
+               unenforceable, the remaining provisions of the Terms and Conditions shall remain in
+               effect.
+
+    7.4. Duration and Termination
+          The present Terms and Conditions for data accessed shall run unlimited in time for the
+          Purpose of Use as defined in section 3. If the User breaches any provision of the Terms
+          and Conditions, the present Licence shall terminate automatically and with immediate
+          effect. Upon termination in case of breach of any provision of the Terms and Conditions,
+          the User shall destroy all the acquired Primary Products/ Altered Products and all copies
+          thereof and stop using the Service.
+                        Licence for the use of Copernicus DEM instances
+                        COP-DEM-GLO-30-R and COP-DEM-EEA-10-R
+
+The text of the Copernicus Data Access ESA � User licence is replaced with the following:
+
+ESA - User licence
+
+Licence entered into by and between the following Parties: The
+
+European Space Agency,
+(hereinafter referred to as ESA or the Agency)
+
+and
+
+User as defined in this end-user licence and authorised to use Copernicus DEM Products COP-DEM-EEA-10-R and COP- DEM- GLO-30-
+R, which are created from WorldDEMTM, from the EO Data Access Portfolio and/or to access one or more of the Services: VIEW or DOWNLOAD,
+
+(hereinafter referred to as the "Licensee" or "User")
+
+represented by its Legal Representative [see end of Licence]
+
+Whereas Copernicus, the Union Earth observation and monitoring programme, consists of a space component placed under the
+coordination of the Agency, an in situ component and a service component.
+Whereas Copernicus aims at cross-consistency in the use of Digital Elevation Models (DEM) at different resolutions for Copernicus
+data and information as well as geo-referenced data and information used and generated in the context of the European Union
+public tasks. The purpose is to ensure the use of a stable reference DEM in the broader Copernicus data ecosystem to facilitate
+data comparison and fusion.
+Whereas the Agency, wasith the Copernicus Space Component Data Access (CSC-DA) Project under the ESA � European Union Agreement
+on the Implementation of the Copernicus Programme including the Transfer of Ownership of Sentinels, dated 28 October 2014
+(`the Copernicus Agreement') coordinates access to space-based observation data and services in support of Copernicus Services and
+other usages by a number of other User categories.
+Whereas under the above mentioned Copernicus Agreement the EU shall benefit from all rights acquired by ESA associated to the
+activity of data access procurement for Copernicus.
+
+Whereas the User provides services requiring access to space-based Earth observation (EO) data.
+
+Whereas the parties wish to agree on the Terms and Conditions regarding the delivery and the use of the Copernicus DEM products
+COP-DEM-EEA-10-R and COP-DEM-GLO-30-R.
+
+NOW THEREFORE THE PARTIES AGREE AS FOLLOWS:
+
+Article 1. Definitions
+
+1.1.  `The Terms and Conditions' shall mean the present document defining the Terms and Conditions for access to and use of the products
+
+      COP-DEM-EEA-10-R and COP-DEM-GLO-30-R.
+
+1.2.  "DEM" (digital elevation model): is a general term for a grid-based digital representation for a topographic surface,
+
+      composed of elevations on the Earth.
+
+1.3.  `CSC-DA' shall mean the Copernicus Space Component Data Access as managed by ESA.
+
+1.4.  `Copernicus Data' means data provided by the Copernicus Sentinels, including their Metadata;
+
+1.5.  `Copernicus Sentinels' means the Copernicus dedicated satellites, spacecraft or spacecraft payloads for space-borne Earth
+
+      observation;
+
+1.6.  `Copernicus Information' means information generated by the Copernicus Services (category) following processing or modelling,
+
+      including their metadata;
+
+1.7.  `Copernicus third-party data and information' means spatial data and information licensed or made available for use by
+
+      Copernicus which originate from sources other than the Sentinels;
+
+1.8.  `Copernicus Services' mean value-added services of general and common interest to the Union and Member States, which are
+
+      financed by the Copernicus Programme and which transform Earth Observation data, in-situ data and other ancillary data into
+
+      processed, aggregated and interpreted information tailored to the needs of Copernicus users;
+1.9.     `Copernicus in-situ data' means observation data from ground-based, seaborne or airborne sensors, as well as reference and ancillary
+
+         data licensed or provided for use in Copernicus;
+
+1.10. `Usage Types/Services: DISCOVERY, VIEW, DOWNLOAD including ON-DEMAND PROCESSING' shall mean the possible
+             usage types as defined in Article 3 below.
+
+1.11.    `Point of Contact' shall mean the person identified as such in the Commission's authorisation for Copernicus Services or a single
+
+         point of contact for institutions, bodies, authorities, organisations or legal persons that sign the present Terms and Conditions as
+
+         a User.
+
+1.12. `EU Public Task' shall mean the development, implementation and monitoring of policies and related activities as defined
+             by the EU Treaties and secondary Union legislation.
+
+1.13. `User' shall mean the natural or legal person accepting these Terms and Conditions in order to obtain User rights to the COP-
+             DEM- EEA-10-R and COP-DEM-GLO-30-R.
+
+1.14. `User Category' shall mean the possible types of Users. The categories of Copernicus Users eligible for accessing data from
+             the Copernicus Space Component are defined and maintained by the European Commission (COM) in the Data Warehouse
+             requirements document [RD-2]. Seven categories for which the legally binding definitions are part of the ESA-User Licence have
+             been identified.
+
+1.14.1.  The following definitions of User Categories shall apply in the present Terms and Conditions:
+
+         `Operators of Copernicus Space Infrastructure or Copernicus Services' established under EU law: first established under
+         Regulation (EU) No 911/2010 and then under Regulation (EU) No 377/2014 establishing the Copernicus Programme and
+         repealing Regulation (EU) No 911/2010.
+
+1.14.2. `Operators of access or dissemination services for Copernicus data and information financed under the Copernicus programme
+             (e.g., DIAS)
+
+1.14.3.  `Providers of Copernicus third-party data and information including in-situ data.
+1.14.4.
+         `Institutions and bodies of the Union [Union_Inst] This
+1.14.5.  category includes:
+
+                           � The European Institutions set up under the EU Treaties;
+                           � Agencies and other Union Bodies set up under the EU Treaties;
+                           � Contractors of such entities.
+
+         `Participants to a research project financed under the Union research programmes � space [Union_Research_Projects_space]
+         This category includes any natural or legal person officially registered as participant of a project funded under the space themes of EU
+         research framework programmes. Participants to very limited activities closely linked to Copernicus like Copernicus Masters may be
+         eligible to this User Category on a case by case basis upon confirmation by the European Commission.
+
+         `Participants to a project financed under the Union research programmes � non space [Union- Research_Projects_non- space]
+
+         This category includes any natural or legal person officially registered as participant of a project funded under EU research
+         framework programmes outside the Space themes as well as funded under EU grant support programme.
+
+1.14.6. `Public Authority' [Public_Auth]
+
+         This category includes:
+
+                           � Any government or other public administration of States participating in the Copernicus Programme
+                                 including public advisory bodies, at national, regional or local level;
+
+                           � Any natural or legal person performing public administrative functions under national law, including
+                                 specific duties, activities or services in relation to an EU policy;
+
+                           � Any natural or legal person having public responsibilities or functions, or providing public services relating
+                                 to an EU policy under the control of a body or person falling within (1) or (2), such as a contractor of a
+                                 public authority;
+
+                           � Any research and academic organisation
+                           � Contractors of such entities.
+1.14.7. `International Organisations and NGOs' [INT_ORG_NGO] This
+
+         category includes:
+
+     �   Any international governmental organisation created by an international treaty which can be looked up in the UN online
+     �   database of treaties. Specialised agencies of the UN are included;
+1.14.8.  Any non-governmental organisation specialised in humanitarian development or environmental activities.
+
+1.15.    `Public [Public]'
+
+         This category includes any natural or legal person.
+
+         `Intellectual Property Rights (IPRs)' shall mean the rights resulting from the creation, use and exploitation of mental or creative
+         labour as defined through international Treaties and Conventions on Intellectual Property.
+
+1.16. `Spatial data' means any data with a direct or indirect reference to a specific location or geographical area (Directive 2007 /2/EC
+             of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)).
+
+1.17.    `Spatial dataset' means an identifiable collection of spatial data (Directive 2007/2/EC of 14 March 2007 establishing an
+
+         Infrastructurefor Spatial Information inthe European Community (INSPIRE)).
+
+1.18. `Metadata' shall mean information describing spatial datasets and spatial data services and making it possible to discover,
+             inventory and use them. In the case of EO spatial data, metadata can include a preview of the full data.
+
+1.19. `Content' shall mean any information (such as data files, written text, computer software, videos or other images) which the User
+             may have access to as part of, or through use of, the VIEW/DOWNLOAD services.
+
+1.20.    `Primary Products' mean the COP-DEM-EEA-10-R, COP-DEM-GLO-30-R being WorldDEMTM products derived from the TanDEM-
+1.21.    X Mission data produced by Airbus Defence and Space GmbH in a "Copernicus DEM" version consisting of either a Digital
+1.22.    Surface Model providing a horizontal sampling of approx. 30m and a worldwide/global coverage of all Earth landmasses ("GLO-30-
+1.23.    R") or a Digital Surface Model providing a horizontal sampling of approx.. and exact 10m and a coverage of all landmasses of
+         the European Environment Agency 39 (EEA39) member countries or regions ("EEA-10-R") provided by ESA to the User.
+1.24.
+         `Primary Product provider' means Airbus Defence and Space GmbH, Germany.
+
+         `Altered Products' shall mean products derived from Primary Products exposing enough information to allow retrieval of the
+         precise Primary Product (height values not obtained from another legitimate source) and do not contain a significant intellectual
+         or creative achievement made by the User. For the purpose of these Terms and Conditions, by express exception, a Digital Elevation
+         Model derived from the Primary Product and exhibiting the same set of characteristics as documented in the published
+         Copernicus DEM (Short) Description Document shall always be considered as Altered Product.
+
+         `Value Added Products' shall mean products derived from Primary Product or Altered Products which do not allow the
+
+         retrieval of the precise Primary Product (height values not obtained from another legitimate source) and therefore do not
+
+         allow the replication of the Primary Product as such and which contain a significant intellectual or creative achievement made
+
+         by the User. For the purpose  of these Terms and Conditions, by express exception, a Digital Elevation Model derived
+
+         from the Primary Product and exhibiting the same set of characteristics as documented in the published Copernicus DEM (Short)
+
+         Description Document shall not be considered as a Value Added Product.
+
+         `DISCOVERY Service': services allowing the User to search for spatial data sets and services on the basis of the content of
+         the corresponding Metadata and to display the content of the Metadata.
+
+1.25. `VIEW Service': services as defined in Article 3.4 allowing the User, as a minimum, to display, navigate, zoom in/out, pan or
+             overlay viewable spatial datasets and to display legend information and any relevant content of Metadata.
+
+1.26.    `DOWNLOAD Service': services as defined in Article 3.5 enabling the User to have full and direct access to the complete Primary
+         Products, including the right to DOWNLOAD them and to make copies of them.
+Article 2. Data Supply
+
+2.1.    ESA shall provide the amount and type of Primary Products or make available one or more of the Services
+
+        (DISCOVERY/VIEW/DOWNLOAD) to the User. The User is granted by the Agency a limited, free of charge, non-
+
+        exclusive, non-transferable Right for the Usage Type(s) for the EO Spatial Dataset at hand, according to the
+
+        provisions of Article 3 below.
+
+2.2.    ESA provides as part of the GSC-DA an INSPIRE compliant `DISCOVERY Service' to the General Public, which
+
+        allows everyone to search for spatial datasets and services on the basis of the Content of the corresponding Metadata
+
+        and to display the Content of the Metadata.
+
+Article 3. Data Use, Authorised and Prohibited Uses of the Primary
+Products
+
+3.1.    Authorised Usage types and datasets according to User Categories.
+
+        The User is, according to his User Category, authorised for the VIEW or DOWNLOAD Usage. The respective available
+
+        Usage type and datasets are indicated in these Terms and Conditions and at
+
+        https://spacedata.copernicus.eu/web/cscda/data-offer.
+
+3.2.    Purpose of Use
+
+3.2.1.  The `Institutions and Bodies of the EU', as well as the contractors of those entities may use (DOWNLOAD)
+        the Primary Products and Altered Products for activities whose purpose is within the EU Public Tasks.
+
+3.2.2.  `Operators of Copernicus Space Infrastructure and Copernicus Services', as well as the contractors of those entities
+        may use (DOWNLOAD) the Primary Products for activities whose purpose is within the EU Public Tasks or relate
+        to Copernicus, including testing and demonstration activities.
+
+3.2.3.  Operators of access or dissemination services (e.g., DIAS), providers of Copernicus third-party data and
+        information, including in-situ data, may use (DOWNLOAD) the Primary Products for the purpose of their
+        tasks in the Copernicus programme, including testing and demonstration activities.
+
+3.2.4.  Participants in a project financed under the Union research programmes or other EU grant support
+        programme may use (DOWNLOAD) the Primary Products and Altered Products for the purpose of their
+        project.
+
+3.2.5. Participants in a project financed by the `Operators of Copernicus Space Infrastructure or Copernicus Services'
+           may use (DOWNLOAD) the Primary Products and Altered Products for the purpose of their project.
+
+3.2.6.  Any natural or legal person (General Public) may trigger the use of the Primary Products to generate on-
+3.3.    demand Copernicus data and Copernicus information to download them or use them in the on-demand computing
+        environment without effectively having access to the values contained in the Primary Products themselves.
+
+        The User assumes full responsibility for the use of the Primary Products/Altered Products. The User shall,
+        at any time, observe the following conditions for use:
+
+                          � Use all Primary Products received exclusively for the purpose defined in this Article, except
+                                 where such datasets are currently available to any user without restrictions or licence fees.
+
+                          � Not assign any rights, obligations or interests herein without the prior written approval by
+                                 the Primary Product provider through ESA.
+
+3.4.    VIEW Service
+
+3.4.1.  With the VIEW Service the User shall be entitled as a minimum to display navigate zoom in and out, pan and overlay
+        EO Spatial Datasets and display legends information and any relevant content of Metadata.
+
+         The VIEW Services are opened to all categories of Users as defined in Article 1.14., except the General Public.
+
+3.4.2. The VIEW Service User shall not
+
+        � Access or use the Primary Products or Altered Products or any Content through any means other
+              than those provided in the VIEW Service;
+
+        � Use the Primary Products or Altered Products in a manner that gives the User or any other person
+              access to mass downloads or bulk feeds of any Content allowing the reconstruction the Primary
+              Products or Altered Products; or
+
+        � Delete, obscure, or in any manner alter any warning notice (including but not limited to any copyright
+              or other proprietary rights notice), or link that appears in the Primary Products or Altered Products
+              or the content.
+3.5.       DOWNLOAD Service.
+
+3.5.1.     With the DOWNLOAD Service, the User is granted by the Agency a free of charge, non-exclusive, non- transferable
+           right to use Primary Products and:
+
+3.5.1.1. to make an unlimited number of copies of the Primary Products as needed (archiving and backup purposes included);
+
+3.5.1.2.   to install on as many individual computers as needed, including internal and external computer networks where
+           the Primary Products or Altered Products are only made accessible for use to Download Service Users having
+           signed these terms and conditions and that are not accessible by the General Public;
+
+3.5.1.3. to alter or modify the Primary Products by invoking a computer application to produce Altered Products and Value
+             Added Products;
+
+3.5.1.4.   to post Metadata of the Primary Products or its Altered Products on an internet website compliant with INSPIRE
+           provided that the Metadata include the following credit: "includes material � Airbus Defence and Space GmbH (2014-
+           2018), provided under COPERNICUS by the European Union and ESA, all rights reserved" through DISCOVERY
+           Service for example;
+
+3.5.1.5. to make hard copies;
+
+3.5.1.6.   to publish or display Primary Products and Altered Products in printed or digital media and internet websites in
+           2D or 3D, also as part of web-mapping, for the purpose of advertising, research reporting or any other kind of public
+           non- commercial information or services, accessible to the General Public with the display of the following credit:
+
+           "� DLR e.V.  (2014-2018) and � Airbus Defence and Space GmbH  (year of
+
+           production) provided under COPERNICUS by the European Union and ESA; all rights
+
+           reserved";
+
+3.5.1.7. to use the Primary Products or its Altered Products for internal or external demonstration purposes accessible
+             to the General Public;
+
+3.5.1.8. to retain all Intellectual property rights associated with the User work developed on the basis of the Primary Product;
+
+3.5.1.9. to make his Value Added Products available to third party for use under the terms and conditions of the User's own
+             choice;
+
+3.5.1.10.  to integrate the Primary Products in a processing chain available on-line for on-demand processing by the
+           General Public. Where a User has the right to generate and provide Value-Adding products to his own users, he
+           also has the right using online infrastructure to provide these Value-Adding products generated on-demand
+           from his own users who nevertheless do not have access to the Primary Products but may trigger its use in a
+           processing chain;
+
+3.5.1.11. to re-distribute by any technical means (internet, web mapping, media, etc.) as long as the recipients are restricted
+             to the ones that have accepted these Terms and Conditions.
+
+3.5.2. The DOWNLOAD Service User's rights include the rights of the VIEW Service User as well (see Article 3.4 above).
+
+3.5.3.     The DOWNLOAD Service User agrees to provide information on the identity of the personnel accessing the Primary
+           Products or Altered Products to any relevant State authority if necessary for security checks required by the Primary
+           Product provider through ESA.
+
+3.5.4.     The DOWNLOAD Service User shall not do any of the following:
+                             � sell, license or in any manner distribute or make available the Primary Products/Altered
+                                   Products if not covered by Article 3.5.1 above
+                             � do anything not expressly authorized under Article 3.5.1 and 3.5.2 above and/or
+                             � alter or remove any copyright notice or proprietary legend contained in or on the
+                                   Primary Products/Altered Products.
+Article 4. Title and Intellectual Property Rights
+
+4.1.    The satellite data contained in the Primary Products/Altered Products are the property of the Deutsche Zentrum f�r Luft-
+
+        und Raumfahrt e. V. (DLR) and are protected in accordance with the copyright laws of Germany and applicable international
+
+        laws.
+
+        The Primary Products are produced by Airbus DS. They are the property of Airbus DS and are protected in accordance with the
+        copyright laws of Germany and applicable international laws. Title to and ownership of the Primary Products shall remain with
+        Airbus DS, and ESA or the User do not receive any such rights. The right of Airbus DS to protect their Primary Products against
+        unlawful extraction or re-use is recognised.
+
+4.2.    This Licence does not give the right to the use of Airbus DS trademarks or logos unless explicitly authorized by Airbus DS. Unless
+
+        otherwise communicated by Airbus DS the copyright statement applies to all Primary Products distributed by Airbus DS and any
+
+        Altered Products.
+
+4.3.    Airbus DS's title to and ownership and copyright in the Primary Products and/or Altered Product shall not prevent recognition
+
+        of copyright in favour of the USER in accordance with the following rules:
+
+4.3.1.  Airbus DS and its licensors shall retain title to, ownership and copyright of all Primary Products and all subsequent copies thereof,
+        regardless of the media. Existence and extent of Airbus DS and its licensors ownership and Intellectual Property Rights including
+        copyright shall be governed by the laws of the state where Airbus DS has its registered office.
+
+4.3.2.  The User shall be attributed all Intellectual Property Rights on his works performed on the Primary Products to derive
+        Altered Product and all Intellectual Property Rights on Value Added Products created by him.
+
+4.4.    The User shall mark all Primary Products and Altered Products when displayed in accordance with the Permitted Uses specified
+
+        in Article 3 and notwithstanding its own copyright by including the following credit conspicuously displayed and written in full:
+
+For Primary Products:
+
+"� DLR e.V.    ( 2014-2018) and � Airbus Defence and Space GmbH (year of production) provided
+
+under COPERNICUS by the European Union and ESA; all rights reserved."
+
+For Altered Products:
+
+"produced using products � DLR e.V. (2014-2018) and � Airbus Defence and Space GmbH (year of
+production) provided under COPERNICUS by the European Union and ESA, all rights reserved"
+
+4.5.    Any publication whatsoever resulting from work carried out using Primary Products/ Altered Products shall contain the following
+
+        sentence: "EO data provided under COPERNICUS by the European Union and ESA." In addition, acknowledgement of relevant
+
+        Primary Product provider shall be given as requested in Article 5.
+
+Article 5. Notices and Reports, Interfaces
+
+5.1.    ESA shall be the formal interface between the User and the respective Primary Product provider. Nevertheless, where a
+
+        more technical exchange must take place between the User and the Primary Product provider, ESA shall organise direct
+
+        interaction between the two entities at the appropriate level.
+
+5.2.    The User shall inform ESA immediately in case of problems with data reception or data quality deviating from the Primary
+
+        Products specification in the published Copernicus DEM (Short) Description Document.
+
+5.3.    The Users with DOWNLOAD rights shall make available information to ESA for the purpose of ESA's reporting obligations
+
+        towards the European Commission and the Primary Product provider. This information can include:
+
+               � Copernicus Service project or EU Public Task status as relevant for CSC-DA;
+
+               � Contribution of space based Earth observation data to the Copernicus Service project/EU Public
+
+                           Task performed;
+
+               � Suitability of Primary Products and delivery, adequacy to the Copernicus Service project/EU Public
+
+                           Tasks requirements;
+
+               � Recommendations for CSC-DA improvement (e.g. data products, mission operations, etc.).
+
+5.4.    The User or the respective responsible point of contact will maintain and update a document listing the entities involved in the
+
+        Copernicus Project/EU Public Task, i.e., beneficiaries, subcontractors, third parties and his registered users for use by ESA.
+5.5.    ESA is entitled to provide any report or other documentation regarding the use of the Primary Products/ Altered Products
+
+        to the Primary Product provider. Upon request from the User, ESA shall guarantee confidentiality of reports and documentation
+
+        provided by the User, to the extent mutually agreed.
+
+Article 6. Warranties, Liabilities, Sole Remedy
+
+6.1.    By allowing ESA to sublicense the Primary Products to the User, the Primary Product Provider contractually warrants to the User
+
+        that:
+
+6.1.1.  The Primary Products respond to the set of characteristics presented in the published Copernicus DEM (Short) Description Document
+        providing detailed description of the spatial/geographical characteristics of the product and their associated quantified
+        performances. The published Copernicus DEM (Short) Description Document can evolve to reflect the possible changes due to
+        corrective maintenance provided by Airbus DS. Any warranty claims have to be submitted to ESA, acting as focal point for Users.
+
+6.1.2.  The Primary Product Provider is authorized to grant the license for the rights to use the Primary Products to ESA including its
+        User.
+
+6.2.    ESA and the European Union give no undertaking as to the technical and legal adequacy or suitability of the Primary Products
+
+        for the purpose required by the User or for the usage intended and shall not be held liable for the consequences of its use. ESA
+
+        and the European Union make no representation and warranty whatsoever in respect of Primary Products provider or
+
+        third-party rights to the Primary Products and shall not be held liable for any damages incurred by the User due to the violation
+
+        of any third-party rights. The User shall indemnify and hold harmless ESA and the European Union from any third party
+
+        claims caused by the use of the Primary Products by the User. In particular, ESA and the European Union make no warranty
+
+        or representation, express or implied, with respect to the accuracy, completeness, or materiality of the Primary Products
+
+        and Altered Products now, hereto or hereafter made available. The User accepts the Primary Products "AS IS". Except as expressly
+
+        provided herein, no warranties or representations, express or implied, including any warranty of quality, merchantability, fitness
+
+        for a particular purpose or condition, are given by or on behalf of ESA and the European Union; and the User hereby waives all
+
+        warranties, express or implied, including, without limitation, any implied warranty of merchantability, fitness for a particular purpose
+
+        or condition, or conformity to samples.
+
+6.3.    Notwithstanding the fact that ESA/the European Union/the Primary Product provider will do their utmost to deliver the Primary
+
+        Products/Altered Products through the CSC-DA, the User waives any claim against ESA and/or the European Union and/or
+
+        Primary Product provider in the event of any damages directly or indirectly arising from malfunction or interruption in the
+
+        transmission of Primary Products/Altered Products for any reason whatsoever.
+
+6.4.    Except as expressly provided herein, any claim in respect of damage caused to persons, goods or property arising in connection
+
+        with the performance of these Terms and Conditions shall be settled in accordance with the law governing the Terms and Conditions
+
+        (see below, article 7.3), being however understood that the liability of ESA and the European Union under these Terms and
+
+        Conditions shall be excluded except in case of wilful misconduct. ESA shall in any event, on whatever legal basis, not be liable in
+
+        any way for consequential, incidental and/ or intangible damages such as loss of business, loss of production, operating losses, missed
+
+        deadlines, loss of data or information, loss of enjoyment of rights, interruption in a service suffered by the User.
+
+6.5.    The User must notify ESA any defect, but not later than 31 December 2021 (unless extended to a later date, which will be published
+
+        in due time). ESA's sole obligation and the User's sole remedy under this limited warranty is that ESA shall use reasonable efforts
+
+        to repair or replace the defect Primary Product. This limited warranty is void, if any of the non-conformity has resulted from
+
+        accident, abuse, misuse, misapplication or modification by someone other than ESA. The limited warranty is for the User only
+
+        and is non- transferable.
+
+6.6.    ESA cannot be considered to be failing to meet their obligations if their failure is due to an occurrence of a Force Majeure. Force
+
+        Majeure designates all the occurrences which are beyond the reasonable control of ESA, of any nature whatsoever, natural
+
+        catastrophes, bad weather, fires, collective work disputes, strikes, sabotage, embargoes, interruptions in the transport or
+
+        means of communication, war, acts or regulations issued by government authorities (including delays in the obtainment of
+
+        authorizations or Licences of any sort) or by the UN, which may occur as from the date of the order and would prevent its total
+
+        or partial execution.
+
+Article 7. Miscellaneous
+
+7.1.    Acceptance of Terms and Conditions.
+
+        User accepts and agrees to the present Terms and Conditions through signature of this document by its duly
+        appointed representative.
+7.2.    Cost of Primary Products
+7.2.1.
+7.2.2.  The User receives the Primary Products free of charge.
+
+7.3.    Cost of equipment to receive or read Primary Products and any other costs associated with the provision or use
+7.3.1.  will be bourn and/or secured by the User.
+
+7.3.2.  Applicable Law and Arbitration
+
+7.3.3.  These Terms and Conditions shall be governed by the law of the State in which the Primary Product provider
+        has its registered office.
+
+        If any provision of these Terms and Conditions is declared invalid or unenforceable, the remaining provisions of the
+        Terms and Conditions shall remain in effect.
+
+        Duration and Termination
+
+        The present Terms and Conditions shall run unlimited in time for the purpose of the use. If the User breaches any
+        provision of the Terms and Conditions, ESA or the Primary Product provider shall notify the breach to the User
+        and open a period of five working days for an exchange of information between the parties during which the User may
+        explain why he does not in his view breach the provision invoked by ESA or the Primary Product provider. If the
+        exchange of information yield no positive results, the author of the first notification requests the User to cease
+        breaching the contract as soon as possible and at least within 15 working days. If the breach did not cease upon
+        that period, the author of the first notification shall notify the User to cease immediately using the Primary
+        Product.
+
+        Where the Primary Products are used in the generation of Copernicus data and information, the parties involved and
+        the Primary Product provider seek to find a remedy to the breach that would not have a disproportionate effect on
+        the distribution of Copernicus data and Copernicus information to the Copernicus users with regard to the
+        breached provision of these Terms and Conditions.
+
+        The Termination of the contract itself shall be decided upon in legal Court. Upon termination, the User shall destroy
+        all Primary Products/ Altered Products and all copies thereof or stop using the Service. This Termination will
+        only affect the specific User party to this sub-licensing contract nor will it affect any Value Adding Product disseminated
+        to third parties prior to the Termination of this sublicensing contract.
+                                    Licence for COP-DEM-GLO-90-F Global 90m Full, Free & Open
+                                           Licence for the use of the Copernicus WorldDEMTM-901
+
+Preamble
+
+Copernicus is the European Union programme to observe and monitor the Earth. Copernicus is leveraging the strong experience of key
+European organisations to provide Earth observation data and value added information for environmental as well as civil security
+applications. For the space component, Copernicus relies on the expertise of ESA to deliver and operate, together with EUMETSAT, the
+space infrastructure, in particular the different Sentinel satellite missions dedicated to Copernicus. For the service component,
+Copernicus relies on the expertise in data analysis and modelling of ECMWF, JRC, the EEA, Mercator Oc�an, Frontex, EMSA, and the
+SatCen. The in situ component is shared between the different actors of the service component with the leading role of the EEA. The
+European Commission is responsible for the overall coordination of Copernicus.
+
+Copernicus data and information policy, regulated under European law2, ensures access on a full, open and free-of- charge basis
+as a rule with rare exceptions when needed to protect the security interest of the Union and its Member States as well as third
+party IPRs.
+
+Copernicus aims at cross-consistency in the use of Digital Elevation Models (DEM) at different resolutions for Copernicus data and
+information as well as geo-referenced data and information used and generated in the context of the European Union public tasks. The
+purpose is to ensure the use of a stable reference DEM in the broader Copernicus data ecosystem to facilitate data comparison and
+fusion.
+
+This licence concerns the use of the Copernicus WorldDEMTM-90 and for the reason stated above it is important to make available this
+Copernicus WorldDEMTM-90 to as many users as possible, Copernicus is therefore making it available on a free basis for the general
+public under the terms and conditions of this Licence. The higher resolutions, Copernicus WorldDEMTM-30 and WorldDEMTM-10 are
+subject of a separate licence and distribution to the general public of these higher resolution DEMs is expressly excluded from this
+Licence.
+
+Article 1. Acceptance
+
+The user must accept the terms and conditions of this licence to benefit from the rights of use granted in this licence.
+
+Article 2. Definitions
+
+The `licence' means the present document defining the terms and conditions for the use of the Copernicus WorldDEMTM- 90 by the
+general public;
+
+`DEM' (digital elevation model): is a general term for a grid-based digital representation for a topographic surface, composed of
+elevations on the Earth;
+
+`Copernicus WorldDEMTM-90' means the WorldDEMTM product derived from the TanDEM-X Mission data produced by Airbus
+Defence and Space GmbH in a "Copernicus DEM" version consisting of a Digital Surface Model providing a horizontal sampling of
+90m with a worldwide/global coverage of all Earth landmasses provided by the Licensor to the User;
+
+`Licensor' means the entity offering these terms and conditions for the use of the Copernicus WorldDEMTM-90 in the framework of
+the European Union Copernicus Programme;
+
+`Provider' means the Copernicus WorldDEMTM-90 provider, i.e. Airbus Defence and Space GmbH, Germany;
+
+`User' shall mean the natural or legal person accepting this licence in order to obtain User rights to the Copernicus
+WorldDEMTM-90 from Licensor;
+
+`Subsequent User' any user who did not receive the Copernicus WorldDEMTM-90 from the Licensor; `General
+
+Public' shall mean any natural or legal person;
+
+`Intellectual Property Rights (IPRs)' shall mean the rights resulting from the creation, use and exploitation of mental or creative
+labour as defined through international Treaties and Conventions on Intellectual Property.
+
+1 Copernicus is a trade mark owned by the European Union, WorldDEMTM is a trade mark owned by Airbus Defence and Space GmbH.
+2 (Copernicus) Regulation (EU) No 377/2014 and Commission Delegated Regulation (EU) No 1159/2013.
+Article 3. Scope
+
+This licence governs the use of the Copernicus WorldDEMTM-90 when made available to the users by the Licensor. They do not confer
+to the users a right to request the availability of the Copernicus WorldDEMTM-90.
+
+The rights granted under this Licence are worldwide and without limitation in time.
+
+Article 4. Right of Use
+
+The Licensor grants to the User the following non-exclusive rights of use regarding the Copernicus WorldDEMTM-90:
+
+(a)  reproduction;
+
+(b)  distribution;
+
+(c)  communication to the General Public;
+
+(d)  adaptation, modification and combination with other data andinformation.
+
+Article 5. Financial Conditions
+
+The use rights granted under this licence are free of charge to the User.
+
+Article 6. User Obligations
+
+(a)  When communicating to the General Public or distributing the Copernicus WorldDEMTM-90, the User shall inform the
+
+     General Public of the source by using the followingnotice:
+
+                  � DLR e.V. 2010-2014 and � Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS
+                  by the European Union and ESA; all rights reserved.
+
+(b)  Where the Copernicus WorldDEMTM-90 data have been adapted or modified, the User shall provide the following notice:
+
+                  "produced using Copernicus WorldDEMTM-90 � DLR e.V. 2010-2014 and � Airbus Defence and Space GmbH
+                  2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved".
+
+(c)  Users exercising the right of distribution or communication to the General Public of the Copernicus WorldDEMTM-90, modified
+
+     or not, must ensure that the Subsequent Users understand that neither the Licensor nor any other legal entities in charge of the
+
+     Copernicus programme or the delivery of Copernicus data and information under the Copernicus programme may be held
+
+     liable with regard to any aspect of the Copernicus WorldDEMTM-90. The following sentence or its translation in any language
+
+     shall be added by such Users in a licence or any legal warning or notice covering their distribution or communication to the
+
+     General Public of the Copernicus WorldDEMTM-90: "The organisations in charge of the Copernicus programme by law or by
+
+     delegation do not incur any liability for any use of the Copernicus WorldDEMTM-90".
+
+(d)  User shall make sure not to convey the impression to the General Public that the user's activities are officially endorsed by the
+
+     Provider, the Licensor or any other legal entities in charge of the Copernicus programme or the delivery of Copernicus data and
+
+     information under the Copernicus programme.
+
+(e)  Where the user grants to any Subsequent User the rights to distribute or communicate to the General Public the Copernicus
+
+     WorldDEMTM-90, modified or not, he shall ensure that its Subsequent Users are bound by the above obligations.
+
+Article 7. Warranty and Liability
+
+The Copernicus WorldDEMTM-90 is made available to the Users 'as is'. The User uses it under its own responsibility. Neither the
+Licensor nor any other legal entities in charge of the Copernicus programme or the delivery of Copernicus data and information under
+the Copernicus programme nor the Provider may be held liable for any type of damages resulting from the use of the Copernicus
+WorldDEMTM-90. The User will protect the Licensor and these legal entities and the Provider against any liability claim resulting from
+its use of the Copernicus WorldDEMTM-90.
+
+Article 8. Technical specifications
+
+The technical specifications of the Copernicus WorldDEMTM-90 is documented by the Provider and the Licensor indicates to
+the Users how these technical specifications are made available to them.
+Article 9. IPRs and Related Rights
+
+The Intellectual Property Rights (IPRs) and related rights attached to the Copernicus WorldDEMTM-90 does not belong to Copernicus,
+the Licensor was granted the right to sublicense the use of the Copernicus WorldDEMTM-90 by the Provider. The Provider has not
+relinquished the IPR and related rights it or its licensors holds on the Copernicus WorldDEMTM-90 and the User is not receiving any
+IPR titles on the Copernicus WorldDEMTM-90 through this Licence.
+
+This Licence does not confer any right to the use of the Provider's trademarks or logos unless explicitly authorized by the Provider. The
+use of the trade mark WorldDEMTM is authorised when used in the context of these terms and conditions and referring to Copernicus
+WorldDEMTM-90.
+
+The use of the Copernicus trademark is authorised under the terms and conditions set out in the trademark licence available on
+the copernicus.eu website.
+
+Neither the Licensor nor the Provider will claim any IPRs recognised under International treaties or under the European Union law as
+obtained by the User through his own work while exercising the use rights granted in this licence.
+
+Article 9. Termination
+
+If the User breaches any of the obligations arising from this Licence, the Licensor may terminate it with the immediate result of the
+User losing all the rights granted under this Licence.
+                    Licence for Copernicus DEM instance COP-DEM-GLO-30-F Global 30m Full, Free & Open
+
+                                                Licence for the use of the Copernicus WorldDEM-301
+
+Preamble
+
+Copernicus is the European Union programme to observe and monitor the Earth. Copernicus is leveraging the strong experience of
+key European organisations to provide Earth observation data and value added information for environmental as well as civil security
+applications. For the space component, Copernicus relies on the expertise of ESA to deliver and operate, together with EUMETSAT,
+the space infrastructure, in particular the different Sentinel satellite missions dedicated to Copernicus. For the service component,
+Copernicus relies on the expertise in data analysis and modelling of ECMWF, JRC, the EEA, Mercator Oc�an, Frontex, EMSA, and the
+SatCen. The in situ component is shared between the different actors of the service component with the leading role of the EEA. The
+European Commission is responsible for the overall coordination of Copernicus.
+
+Copernicus data and information policy, regulated under European law2, ensures access on a full, open and free-of-charge basis as a
+rule with rare exceptions when needed to protect the security interest of the Union and its Member States as well as third party IPRs.
+
+Copernicus aims at cross-consistency in the use of Digital Elevation Models (DEM) at different resolutions for Copernicus data and
+information as well as geo-referenced data and information used and generated in the context of the European Union public tasks. The
+purpose is to ensure the use of a stable reference DEM in the broader Copernicus data ecosystem to facilitate data comparison and
+fusion.
+
+This licence concerns the use of the Copernicus WorldDEM-30 and for the reason stated above it is important to make available this
+Copernicus WorldDEM-30 to as many users as possible, Copernicus is therefore making it available on a free basis for the general
+public under the terms and conditions of this Licence. The higher resolution, Copernicus WorldDEM-10 is subject of a separate licence
+and distribution to the general public of these higher resolution DEMs is expressly excluded from this Licence.
+
+Article 1. Acceptance
+
+The user must accept the terms and conditions of this licence to benefit from the rights of use granted in this licence.
+
+Article 2. Definitions
+
+The `licence' means the present document defining the terms and conditions for the use of the Copernicus WorldDEM-30 by the
+general public;
+
+`DEM' (digital elevation model): is a general term for a grid-based digital representation for a topographic surface, composed of
+elevations on the Earth;
+
+`Copernicus WorldDEM-30' means the WorldDEM product derived from the TanDEM-X Mission data produced by Airbus Defence
+and Space GmbH in a "Copernicus DEM" version consisting of a Digital Surface Model providing a horizontal sampling of 30m with a
+worldwide/global coverage of all Earth landmasses provided by the Licensor to the User;
+
+`Licensor' means the entity offering these terms and conditions for the use of the Copernicus WorldDEM-30 in the framework of the
+European Union Copernicus Programme;
+
+`Provider' means the Copernicus WorldDEM-30 provider, i.e. Airbus Defence and Space GmbH, Germany;
+
+`User' shall mean the natural or legal person accepting this licence in order to obtain User rights to the Copernicus WorldDEM-30
+from Licensor;
+
+`Subsequent User' any user who did not receive the Copernicus WorldDEM-30 from the Licensor;
+
+`General Public' shall mean any natural or legal person;
+
+`Intellectual Property Rights (IPRs)' shall mean the rights resulting from the creation, use and exploitation of mental or creative labour
+as defined through international Treaties and Conventions on Intellectual Property.
+
+1 Copernicus is a trade mark owned by the European Union, WorldDEM is a trade mark owned by Airbus Defence and Space GmbH.
+2 (Copernicus) Regulation (EU) No 377/2014 and Commission Delegated Regulation (EU) No 1159/2013.
+Article 3. Scope
+
+This licence governs the use of the Copernicus WorldDEM-30 when made available to the users by the Licensor. They do not confer to
+the users a right to request the availability of the Copernicus WorldDEM-30.
+
+The rights granted under this Licence are worldwide and without limitation in time.
+
+Article 4. Right of Use
+
+The Licensor grants to the User the following non-exclusive rights of use regarding the Copernicus WorldDEM-30:
+
+(a) reproduction;
+
+(b) distribution;
+
+(c) communication to the General Public;
+
+(d) adaptation, modification and combination with other data and information.
+
+Article 5. Financial Conditions
+
+The use rights granted under this licence are free of charge to the User.
+
+Article 6. User Obligations
+
+(a) When communicating to the General Public or distributing the Copernicus WorldDEM-30, the User shall inform the General Public
+of the source by using the following notice:
+
+� DLR e.V. 2010-2014 and � Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and
+ESA; all rights reserved.
+
+(b) Where the Copernicus WorldDEM-30 data have been adapted or modified, the User shall provide the following notice:
+
+"produced using Copernicus WorldDEM-30 � DLR e.V. 2010-2014 and � Airbus Defence and Space GmbH 2014-2018 provided under
+COPERNICUS by the European Union and ESA; all rights reserved".
+
+(c) Users exercising the right of distribution or communication to the General Public of the Copernicus WorldDEM-30, modified or
+not, must ensure that the Subsequent Users understand that neither the Licensor nor any other legal entities in charge of the Copernicus
+programme or the delivery of Copernicus data and information under the Copernicus programme may be held liable with regard to any
+aspect of the Copernicus WorldDEM-30. The following sentence or its translation in any language shall be added by such Users in a
+licence or any legal warning or notice covering their distribution or communication to the General Public of the Copernicus WorldDEM-
+30: "The organisations in charge of the Copernicus programme by law or by delegation do not incur any liability for any use of the
+Copernicus WorldDEM-30".
+
+(d) User shall make sure not to convey the impression to the General Public that the user's activities are officially endorsed by the
+Provider, the Licensor or any other legal entities in charge of the Copernicus programme or the delivery of Copernicus data and
+information under the Copernicus programme.
+
+(e) Where the user grants to any Subsequent User the rights to distribute or communicate to the General Public the Copernicus
+WorldDEM-30, modified or not, he shall ensure that its Subsequent Users are bound by the above obligations.
+
+Article 7. Warranty and Liability
+
+The Copernicus WorldDEM-30 is made available to the Users 'as is'. The User uses it under its own responsibility. Neither the
+Licensor nor any other legal entities in charge of the Copernicus programme or the delivery of Copernicus data and information under
+the Copernicus programme nor the Provider may be held liable for any type of damages resulting from the use of the Copernicus
+WorldDEM-30. The User will protect the Licensor and these legal entities and the Provider against any liability claim resulting from
+its use of the Copernicus WorldDEM-30.
+
+Article 8. Technical specifications
+
+The technical specifications of the Copernicus WorldDEM-30 is documented by the Provider and the Licensor indicates to the Users
+how these technical specifications are made available to them.
+Article 9. IPRs and Related Rights
+
+The Intellectual Property Rights (IPRs) and related rights attached to the Copernicus WorldDEM-30 does not belong to Copernicus,
+the Licensor was granted the right to sublicense the use of the Copernicus WorldDEM-30 by the Provider. The Provider has not
+relinquished the IPR and related rights it or its licensors holds on the Copernicus WorldDEMTM-30 and the User is not receiving any
+IPR titles on the Copernicus WorldDEM-30 through this Licence.
+
+This Licence does not confer any right to the use of the Provider's trademarks or logos unless explicitly authorized by the Provider. The
+use of the trade mark WorldDEM is authorised when used in the context of these terms and conditions and referring to Copernicus
+WorldDEM-30.
+
+The use of the Copernicus trademark is authorised under the terms and conditions set out in the trademark licence available on the
+copernicus.eu website.
+
+Neither the Licensor nor the Provider will claim any IPRs recognised under International treaties or under the European Union law as
+obtained by the User through his own work while exercising the use rights granted in this licence.
+
+Article 9. Termination
+
+If the User breaches any of the obligations arising from this Licence, the Licensor may terminate it with the immediate result of the
+User losing all the rights granted under this Licence.
+

@@ -1,0 +1,140 @@
+{
+  "site": "rm03_piedemonte_oriente",
+  "source": "pleiades",
+  "referencia": {
+    "titulo": "Survey of the San Ramon Fault, Santiago, Chile with 2016 Pleiades imagery",
+    "doi": "10.5069/G9CC0XWZ",
+    "opentopography_id": "OTDS.022021.32719.1",
+    "epoca": "2016",
+    "sensor": "Pleiades tri-stereo 0,5 m",
+    "licencia": "CC BY 4.0 con la nota del portal: 'this data is not permitted for commercial use' (uso no comercial: solo validacion interna, nunca en entregables)"
+  },
+  "vertical_nube": "ellipsoidal",
+  "datum_comparacion": "EGM2008",
+  "estado": "ok",
+  "evidencia_datum": {
+    "mediana_nube_menos_glo30_m": 27.12306788060573,
+    "ondulacion_egm2008_m": 28.03698179797633,
+    "residual_si_elipsoidal_m": -0.9139139173705999,
+    "residual_si_ortometrica_m": 27.12306788060573,
+    "veredicto": "elipsoidal"
+  },
+  "res_referencia_m": 5.0,
+  "glo30": {
+    "convencion": "sesgo = DEM evaluado - referencia (DSM contra DSM); pendiente de Horn en grados",
+    "res_referencia_m": 5.0,
+    "res_dem_m": 30.0,
+    "context_m": 1500.0,
+    "agregacion": "media de celdas de 5 m por pixel de 30 m (>= 50% validas)",
+    "context": {
+      "n": 10092,
+      "bias_m": 0.8090376871341919,
+      "mae_m": 1.302879469609519,
+      "rmse_m": 1.6890087639525153,
+      "nmad_m": 1.232170228678357,
+      "p90_abs_m": 2.5760243879045674,
+      "mediana_m": 0.890812973749064,
+      "slope": {
+        "n": 9019,
+        "mae_deg": 0.8081175672306222,
+        "bias_deg": -0.0962997230143892,
+        "rmse_deg": 1.16450208419835
+      },
+      "nativo": {
+        "n": 339896,
+        "bias_m": 0.8119195409321321,
+        "mae_m": 2.0408758930710262,
+        "rmse_m": 2.7767252172551418,
+        "nmad_m": 1.8963235839843748,
+        "p90_abs_m": 3.878631591796875,
+        "mediana_m": 1.16876220703125,
+        "res_m": 5.0,
+        "slope": {
+          "n": 229749,
+          "mae_deg": 7.077022463456115,
+          "bias_deg": -5.534588051613119,
+          "rmse_deg": 10.436849814445926
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.2036686089500708,
+      "pixeles_dem_ventana": 10609,
+      "cobertura_ref": 0.951267791497785,
+      "by_slope_class": {
+        "<5": {
+          "n": 339,
+          "bias_m": 0.10957015032771514,
+          "mae_m": 0.9970274209897595,
+          "rmse_m": 1.4699872498566209,
+          "nmad_m": 0.9782855916940201,
+          "p90_abs_m": 2.262684696320548,
+          "mediana_m": 0.19832187228735165
+        },
+        "5-15": {
+          "n": 5229,
+          "bias_m": 0.6075663305804724,
+          "mae_m": 1.0434321186274775,
+          "rmse_m": 1.3361420250106943,
+          "nmad_m": 1.0362201575384324,
+          "p90_abs_m": 2.0923820726799476,
+          "mediana_m": 0.6574079725477304
+        },
+        "15-30": {
+          "n": 2035,
+          "bias_m": 1.017440281283685,
+          "mae_m": 1.4800274970760494,
+          "rmse_m": 1.8327863249612928,
+          "nmad_m": 1.18051635091446,
+          "p90_abs_m": 2.6614577731838387,
+          "mediana_m": 1.223264806410839
+        },
+        ">30": {
+          "n": 1416,
+          "bias_m": 1.5956873109231724,
+          "mae_m": 1.8254974701040245,
+          "rmse_m": 2.139209183180969,
+          "nmad_m": 1.1164587231075633,
+          "p90_abs_m": 3.247060974402416,
+          "mediana_m": 1.7012138245597725
+        }
+      }
+    },
+    "lote": {
+      "n": 9,
+      "bias_m": 1.0003552767818746,
+      "mae_m": 1.0003552767818746,
+      "rmse_m": 1.3066500764180706,
+      "nmad_m": 0.4761578832842983,
+      "p90_abs_m": 1.9448085784912112,
+      "mediana_m": 0.6735182542067832,
+      "slope": {
+        "n": 9,
+        "mae_deg": 1.0886155563005098,
+        "bias_deg": -1.043660141638991,
+        "rmse_deg": 1.3004925073865037
+      },
+      "nativo": {
+        "n": 367,
+        "bias_m": 0.9019652322462534,
+        "mae_m": 2.2291808583106265,
+        "rmse_m": 2.9461350372351363,
+        "nmad_m": 2.170781945800781,
+        "p90_abs_m": 4.463720703125,
+        "mediana_m": 1.16265869140625,
+        "res_m": 5.0,
+        "slope": {
+          "n": 215,
+          "mae_deg": 8.713755772577965,
+          "bias_deg": -7.266715179425252,
+          "rmse_deg": 12.222903303812304
+        }
+      },
+      "detalle_perdido_30m_rmse_m": 2.6339353407004373
+    },
+    "lote_n_pixeles": 9
+  },
+  "png_glo30": "AUDITORIA\\diff_rm03_piedemonte_oriente_pleiades_glo30.png",
+  "aw3d30_meta": {
+    "estado": "no_disponible",
+    "razon": "OpenTopography devolvio HTTP 401: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><error>Error: API maximum rate limit reached. (50 API calls/24hrs)</error>"
+  }
+}
